@@ -2,10 +2,11 @@ package at.or.wolfram.mate.familytree;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
+
+import javax.net.ssl.HttpsURLConnection;
 
 import org.apache.log4j.Logger;
 import org.json.simple.JSONArray;
@@ -34,7 +35,7 @@ public class OpenStreetMapUtils {
     private String getRequest(String url) throws Exception {
 
         final URL obj = new URL(url);
-        final HttpURLConnection con = (HttpURLConnection) obj.openConnection();
+        final HttpsURLConnection con = (HttpsURLConnection) obj.openConnection();
 
         con.setRequestMethod("GET");
 
@@ -63,7 +64,7 @@ public class OpenStreetMapUtils {
         query = new StringBuffer();
         res = new HashMap<String, Double>();
 
-        query.append("http://nominatim.openstreetmap.org/search?q=");
+        query.append("https://nominatim.openstreetmap.org/search?q=");
 
         if (split.length == 0) {
             return null;
