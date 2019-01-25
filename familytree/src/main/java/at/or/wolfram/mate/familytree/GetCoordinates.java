@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class GetCoordinates {
 
-    static String address = "The White House, Washington DC";
+    static String address = "Vásárosszentgál";
 
     public static void main(String[] args) {
         Map<String, Double> coords;

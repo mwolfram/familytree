@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 
 import org.apache.commons.io.FileUtils;
 
@@ -29,14 +30,36 @@ public class FamilyTree {
 	public static void main(String[] args) throws MalformedURLException, IOException {
 		generatePins();
 //		crawl();
+//		fixMissingLocations();
+	}
+	
+	private static void fixMissingLocations() throws JsonParseException, JsonMappingException, IOException {
+		String jsonData = FileUtils.readFileToString(new File("dict.json"), Charset.forName("UTF-8"));
+		LocationDictionary allPins = Mapper.parseJson(jsonData, LocationDictionary.class);
+		for(Entry<String, LatLon> entry : allPins.getLocationToLatLon().entrySet()) {
+			if (entry.getValue() == null) {
+				System.out.println(entry.getKey());
+				Map<String, Double> coords = OpenStreetMapUtils.getInstance().getCoordinates(entry.getKey());
+				System.out.println(coords);
+				System.out.println(coords.get("lat"));
+				System.out.println(coords.get("lon"));
+				allPins.getLocationToLatLon().put(entry.getKey(), new LatLon(coords.get("lat"), coords.get("lon")));
+			}
+		}
+		
+		FileUtils.write(new File("dict.json"), Mapper.writeJson(allPins), Charset.forName("UTF-8"));
+		
 	}
 	
 	private static void generatePins() throws JsonParseException, JsonMappingException, IOException {
 		String jsonData = FileUtils.readFileToString(new File("dict.json"), Charset.forName("UTF-8"));
 		LocationDictionary allPins = Mapper.parseJson(jsonData, LocationDictionary.class);
+		
 		for (LatLon loc : allPins.getLocationToLatLon().values()) {
 			if (loc == null) continue;
+			if (loc.getLatitutde() == null || loc.getLongitude() == null) continue;
 			System.out.println("L.marker(["+loc.getLatitutde()+", "+loc.getLongitude()+"]).addTo(mymap);");
+			FileUtils.writeStringToFile(new File("pins.txt"), "L.marker(["+loc.getLatitutde()+", "+loc.getLongitude()+"]).addTo(mymap);" + System.lineSeparator(), Charset.forName("UTF-8"), true);
 		}
 	}
 	
@@ -88,7 +111,7 @@ public class FamilyTree {
 	}
 	
 	private static boolean isPlaceOfBirthRow(Element tr) {
-		return isSpecificRow(tr, "Született");
+		return isSpecificRow(tr, "Szï¿½letett");
 	}
 	
 	private static boolean isPlaceOfDeathRow(Element tr) {

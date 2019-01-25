@@ -1,28 +1,73 @@
 {
 	"locationToLatLon": {
-		"Buda / Tabán": null,
-		"Bécs - Oberdöbling": null,
-		"Magyaróvár": null,
-		"Vásárosszentgál": null,
+		"Buda / Tabán": {
+			"latitutde": 48.7143188,
+			"longitude": 17.6313285534305
+		},
+		"Bécs - Oberdöbling": {
+			"latitutde": 48.2402512,
+			"longitude": 16.343354
+		},
+		"Magyaróvár": {
+			"latitutde": 47.8731793,
+			"longitude": 17.2722342
+		},
+		"Vásárosszentgál": {
+			"latitutde": null,
+			"longitude": null
+		},
 		"Karcag": {
 			"latitutde": 47.314846,
 			"longitude": 20.9232519
 		},
-		"Szatmárnémeti": null,
-		"Péteri": null,
-		"Ercsi": null,
-		"Mainz,Hessen, Németország": null,
+		"Szatmárnémeti": {
+			"latitutde": 47.7945819,
+			"longitude": 22.8797292
+		},
+		"Péteri": {
+			"latitutde": 47.3880659,
+			"longitude": 19.4107817
+		},
+		"Ercsi": {
+			"latitutde": 47.2519697,
+			"longitude": 18.8983773
+		},
+		"Mainz,Hessen, Németország": {
+			"latitutde": 50.0083449,
+			"longitude": 8.2844378
+		},
 		"Budapest VIII.": {
 			"latitutde": -36.7837643,
 			"longitude": -73.1052456
 		},
-		"Pálosnagymezô": null,
-		"Lébénymiklós": null,
-		"Föveny": null,
-		"Szigetszentmiklós": null,
-		"Gálosfa": null,
-		"Magyarszovát": null,
-		"Törökország": null,
+		"Pálosnagymezô": {
+			"latitutde": 48.53943,
+			"longitude": 18.567207
+		},
+		"Lébénymiklós": {
+			"latitutde": null,
+			"longitude": null
+		},
+		"Föveny": {
+			"latitutde": 46.1094662,
+			"longitude": 18.060708
+		},
+		"Szigetszentmiklós": {
+			"latitutde": 47.345765,
+			"longitude": 19.0409037
+		},
+		"Gálosfa": {
+			"latitutde": 46.2561956,
+			"longitude": 17.8855267
+		},
+		"Magyarszovát": {
+			"latitutde": 46.7720689,
+			"longitude": 23.9686333
+		},
+		"Törökország": {
+			"latitutde": 38.9597594,
+			"longitude": 34.9249653
+		},
 		"-": {
 			"latitutde": null,
 			"longitude": null
@@ -31,8 +76,14 @@
 			"latitutde": 47.4983815,
 			"longitude": 19.0404707
 		},
-		"Mosonmagyaróvár": null,
-		"Békásmegyer": null,
+		"Mosonmagyaróvár": {
+			"latitutde": 47.8731793,
+			"longitude": 17.2722342
+		},
+		"Békásmegyer": {
+			"latitutde": 47.5994131,
+			"longitude": 19.054996
+		},
 		"Tiszasalamon": {
 			"latitutde": 48.433651,
 			"longitude": 22.1632747
@@ -41,15 +92,30 @@
 			"latitutde": null,
 			"longitude": null
 		},
-		"Törökszentmiklós-Pusztatenyô": null,
-		"Csíksomlyó": null,
+		"Törökszentmiklós-Pusztatenyô": {
+			"latitutde": null,
+			"longitude": null
+		},
+		"Csíksomlyó": {
+			"latitutde": 46.3783639,
+			"longitude": 25.8217892
+		},
 		"Esztergom": {
 			"latitutde": 47.7856977,
 			"longitude": 18.7403349
 		},
-		"Szentpéter": null,
-		"Tiszatenyõ ??": null,
-		"Veszprém": null,
+		"Szentpéter": {
+			"latitutde": 47.8464683,
+			"longitude": 18.2628926
+		},
+		"Tiszatenyõ ??": {
+			"latitutde": 47.1359865,
+			"longitude": 20.3797581
+		},
+		"Veszprém": {
+			"latitutde": 47.0916334,
+			"longitude": 17.9116007
+		},
 		"Ajka": {
 			"latitutde": 47.1056579,
 			"longitude": 17.5587276
@@ -66,7 +132,10 @@
 			"latitutde": 47.2042482,
 			"longitude": 20.9967301
 		},
-		"Felsõbánya": null,
+		"Felsõbánya": {
+			"latitutde": 47.6615913,
+			"longitude": 23.6922094
+		},
 		"FL, USA": {
 			"latitutde": 27.7567667,
 			"longitude": -81.4639835
@@ -95,10 +164,22 @@
 			"latitutde": 48.181568,
 			"longitude": 22.903061
 		},
-		"Técsõ": null,
-		"Veszprém (?)": null,
-		"Zsámbék": null,
-		"Alsószûcs": null,
+		"Técsõ": {
+			"latitutde": 48.01752315,
+			"longitude": 23.5757783661401
+		},
+		"Veszprém (?)": {
+			"latitutde": 47.0916334,
+			"longitude": 17.9116007
+		},
+		"Zsámbék": {
+			"latitutde": 47.5483115,
+			"longitude": 18.7174344
+		},
+		"Alsószûcs": {
+			"latitutde": 48.9579902,
+			"longitude": 18.0330936
+		},
 		"Miskolc": {
 			"latitutde": 48.1031517,
 			"longitude": 20.7902158
@@ -107,45 +188,78 @@
 			"latitutde": 39.7837304,
 			"longitude": -100.4458825
 		},
-		"Újrónafõ": null,
+		"Újrónafõ": {
+			"latitutde": 47.8107082,
+			"longitude": 17.2019677
+		},
 		"Schardenberg": {
 			"latitutde": 48.5195852,
 			"longitude": 13.4974316
 		},
-		"Diószegh": null,
+		"Diószegh": {
+			"latitutde": null,
+			"longitude": null
+		},
 		"Acsalag": {
 			"latitutde": 47.6752768,
 			"longitude": 17.1988877
 		},
-		"Pápa": null,
-		"Börcs (Gyõr m.)": null,
+		"Pápa": {
+			"latitutde": 47.3261087,
+			"longitude": 17.4705293
+		},
+		"Börcs (Gyõr m.)": {
+			"latitutde": 47.6850359,
+			"longitude": 17.5007155
+		},
 		"Aknaszlatina": {
 			"latitutde": 47.9470202,
 			"longitude": 23.8747013
 		},
-		"Kôvárhosszúfalu": null,
+		"Kôvárhosszúfalu": {
+			"latitutde": 47.5711038,
+			"longitude": 23.4281496
+		},
 		"Freiwaldau": {
 			"latitutde": 50.2296385,
 			"longitude": 17.2046012
 		},
-		"Kaposvár": null,
+		"Kaposvár": {
+			"latitutde": 46.3564692,
+			"longitude": 17.7886886
+		},
 		"Budapest (Kispest)": {
 			"latitutde": 47.4484411,
 			"longitude": 19.1465176
 		},
-		"Szigetszentmárton": null,
+		"Szigetszentmárton": {
+			"latitutde": 47.2286092,
+			"longitude": 18.9576052
+		},
 		"Hercegfalva": {
 			"latitutde": null,
 			"longitude": null
 		},
-		"Nagyberény": null,
+		"Nagyberény": {
+			"latitutde": 46.7982528,
+			"longitude": 18.1639971
+		},
 		"Szombathely": {
 			"latitutde": 47.2291184,
 			"longitude": 16.6187625
 		},
-		"Hajdúnánás": null,
-		"Lengyeltóti": null,
-		"Szakmár / Keserûtelek": null,
+		"Hajdúnánás": {
+			"latitutde": 47.8452241,
+			"longitude": 21.4279002
+		},
+		"Lengyeltóti": {
+			"latitutde": 46.667132,
+			"longitude": 17.6412975
+		},
+		"Szakmár / Keserûtelek": {
+			"latitutde": null,
+			"longitude": null
+		},
 		"Arnfels": {
 			"latitutde": 46.676506,
 			"longitude": 15.401302
@@ -158,8 +272,14 @@
 			"latitutde": 46.9163658,
 			"longitude": 18.9716536
 		},
-		"Vámospércs": null,
-		"Komárom": null,
+		"Vámospércs": {
+			"latitutde": 47.5267293,
+			"longitude": 21.8987164
+		},
+		"Komárom": {
+			"latitutde": 47.7417349,
+			"longitude": 18.1218256
+		},
 		"Szolnok": {
 			"latitutde": 47.1754555,
 			"longitude": 20.1946818
@@ -188,19 +308,46 @@
 			"latitutde": 46.671352,
 			"longitude": 15.4209552
 		},
-		"Úri": null,
-		"Kis-Kólcs": null,
-		"Tótvázsony": null,
+		"Úri": {
+			"latitutde": 47.4135085,
+			"longitude": 19.5238494
+		},
+		"Kis-Kólcs": {
+			"latitutde": null,
+			"longitude": null
+		},
+		"Tótvázsony": {
+			"latitutde": 47.0083012,
+			"longitude": 17.7874287
+		},
 		"Adony": {
 			"latitutde": 47.1208993,
 			"longitude": 18.8631074
 		},
-		"Rüdern": null,
-		"Szilasbalhás": null,
-		"Állampuszta": null,
-		"Szatmár-Németi": null,
-		"Jászkarajenô": null,
-		"Óbuda": null,
+		"Rüdern": {
+			"latitutde": 49.3961027,
+			"longitude": 10.6605791
+		},
+		"Szilasbalhás": {
+			"latitutde": null,
+			"longitude": null
+		},
+		"Állampuszta": {
+			"latitutde": 46.7190667,
+			"longitude": 19.0704416
+		},
+		"Szatmár-Németi": {
+			"latitutde": 47.8005657,
+			"longitude": 22.874753397349
+		},
+		"Jászkarajenô": {
+			"latitutde": 47.0537807,
+			"longitude": 20.0683316
+		},
+		"Óbuda": {
+			"latitutde": 47.5385916,
+			"longitude": 19.0395611
+		},
 		"Kuncsorba": {
 			"latitutde": 47.1282678,
 			"longitude": 20.5552834
@@ -209,53 +356,134 @@
 			"latitutde": 45.8958985,
 			"longitude": 14.0718907
 		},
-		"Szilágypér": null,
-		"Gölle": null,
-		"Bécs": null,
-		"Törökszentmiklós": null,
-		"Hajmáskér": null,
-		"Makó": null,
-		"Mezôtúr": null,
-		"Schloßberg": null,
-		"Kál-Kápolna környékén": null,
-		"Konstantinápoly": null,
-		"Pálóc": null,
-		"Vámos": null,
-		"Szatmár": null,
+		"Szilágypér": {
+			"latitutde": 47.4600425,
+			"longitude": 22.3715921
+		},
+		"Gölle": {
+			"latitutde": 46.4412291,
+			"longitude": 18.0135054
+		},
+		"Bécs": {
+			"latitutde": 48.2083537,
+			"longitude": 16.3725042
+		},
+		"Törökszentmiklós": {
+			"latitutde": 47.1793568,
+			"longitude": 20.409153
+		},
+		"Hajmáskér": {
+			"latitutde": 47.1444695,
+			"longitude": 18.0142678
+		},
+		"Makó": {
+			"latitutde": 46.2150438,
+			"longitude": 20.4751022
+		},
+		"Mezôtúr": {
+			"latitutde": 47.0004724,
+			"longitude": 20.6299513
+		},
+		"Schloßberg": {
+			"latitutde": 53.9399158,
+			"longitude": 13.4101561
+		},
+		"Kál-Kápolna környékén": {
+			"latitutde": null,
+			"longitude": null
+		},
+		"Konstantinápoly": {
+			"latitutde": null,
+			"longitude": null
+		},
+		"Pálóc": {
+			"latitutde": 43.9343773,
+			"longitude": 17.5634732
+		},
+		"Vámos": {
+			"latitutde": 35.4075119,
+			"longitude": 24.1981207
+		},
+		"Szatmár": {
+			"latitutde": 48.0297821,
+			"longitude": 22.0040108
+		},
 		"Mikola": {
 			"latitutde": 47.0079887,
 			"longitude": 23.9417943
 		},
-		"München": null,
+		"München": {
+			"latitutde": 48.1371079,
+			"longitude": 11.5753822
+		},
 		"Neumarkt": {
 			"latitutde": 46.3169161,
 			"longitude": 11.2725698
 		},
-		"Felsõturcsek": null,
-		"Vasvár": null,
+		"Felsõturcsek": {
+			"latitutde": null,
+			"longitude": null
+		},
+		"Vasvár": {
+			"latitutde": 47.0490649,
+			"longitude": 16.7998821
+		},
 		"Mittergreidt": {
 			"latitutde": null,
 			"longitude": null
 		},
-		"Hercegfalva(Mezõfalva)": null,
-		"Jóka": null,
-		"Nemesvámos": null,
-		"Tósokberénd": null,
+		"Hercegfalva(Mezõfalva)": {
+			"latitutde": null,
+			"longitude": null
+		},
+		"Jóka": {
+			"latitutde": 48.145206,
+			"longitude": 17.5068773
+		},
+		"Nemesvámos": {
+			"latitutde": 47.0548638,
+			"longitude": 17.8718258
+		},
+		"Tósokberénd": {
+			"latitutde": 47.1008254,
+			"longitude": 17.5243142
+		},
 		"Kolberg": {
 			"latitutde": 54.1759614,
 			"longitude": 15.5764209
 		},
-		"Tápióság": null,
+		"Tápióság": {
+			"latitutde": 47.3992437,
+			"longitude": 19.6303259
+		},
 		"Moson": {
 			"latitutde": 47.8594524,
 			"longitude": 17.27057
 		},
-		"Mátészalka": null,
-		"Lökösháza": null,
-		"Jászjákóhalma": null,
-		"Nagybánya": null,
-		"Budapest/Óbuda": null,
-		"Pécs": null,
+		"Mátészalka": {
+			"latitutde": 47.9539113,
+			"longitude": 22.3208477
+		},
+		"Lökösháza": {
+			"latitutde": 46.429761,
+			"longitude": 21.2307202
+		},
+		"Jászjákóhalma": {
+			"latitutde": 47.5219388,
+			"longitude": 19.9891136
+		},
+		"Nagybánya": {
+			"latitutde": 47.6565584,
+			"longitude": 23.5719843
+		},
+		"Budapest/Óbuda": {
+			"latitutde": 47.5385916,
+			"longitude": 19.0395611
+		},
+		"Pécs": {
+			"latitutde": 46.0763222,
+			"longitude": 18.2280746
+		},
 		"Wolfsberg": {
 			"latitutde": 52.4205588,
 			"longitude": 10.7861682
@@ -264,7 +492,10 @@
 			"latitutde": null,
 			"longitude": null
 		},
-		"<A HREF=\"com00520.htm\">Zágráb</A>": null,
+		"<A HREF=\"com00520.htm\">Zágráb</A>": {
+			"latitutde": null,
+			"longitude": null
+		},
 		"Thesszaloniki": {
 			"latitutde": null,
 			"longitude": null
@@ -277,9 +508,18 @@
 			"latitutde": 47.424317,
 			"longitude": 19.0692138186022
 		},
-		"Szentkirályszabadja": null,
-		"Börcs": null,
-		"Felsõvisó": null,
+		"Szentkirályszabadja": {
+			"latitutde": 47.0565157,
+			"longitude": 17.9705319
+		},
+		"Börcs": {
+			"latitutde": 47.6850359,
+			"longitude": 17.5007155
+		},
+		"Felsõvisó": {
+			"latitutde": 47.7099597,
+			"longitude": 24.4311547
+		},
 		"Tompojevci": {
 			"latitutde": 45.2342366,
 			"longitude": 19.0915559

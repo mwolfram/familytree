@@ -1,31 +1,28 @@
 {
 	"locationToLatLon": {
-		"Buda / Tab·n": null,
-		"BÈcs - Oberdˆbling": null,
-		"MagyarÛv·r": null,
-		"V·s·rosszentg·l": null,
+		"Buda / Tab√°n": null,
+		"B√©cs - Oberd√∂bling": null,
+		"Magyar√≥v√°r": null,
+		"V√°s√°rosszentg√°l": null,
 		"Karcag": {
 			"latitutde": 47.314846,
 			"longitude": 20.9232519
 		},
-		"Szatm·rnÈmeti": null,
-		"PÈteri": null,
-		"Ercsi": {
-			"latitutde": 47.2519697,
-			"longitude": 18.8983773
-		},
-		"Mainz,Hessen, NÈmetorsz·g": null,
+		"Szatm√°rn√©meti": null,
+		"P√©teri": null,
+		"Ercsi": null,
+		"Mainz,Hessen, N√©metorsz√°g": null,
 		"Budapest VIII.": {
 			"latitutde": -36.7837643,
 			"longitude": -73.1052456
 		},
-		"P·losnagymezÙ": null,
-		"LÈbÈnymiklÛs": null,
-		"Fˆveny": null,
-		"SzigetszentmiklÛs": null,
-		"G·losfa": null,
-		"Magyarszov·t": null,
-		"Tˆrˆkorsz·g": null,
+		"P√°losnagymez√¥": null,
+		"L√©b√©nymikl√≥s": null,
+		"F√∂veny": null,
+		"Szigetszentmikl√≥s": null,
+		"G√°losfa": null,
+		"Magyarszov√°t": null,
+		"T√∂r√∂korsz√°g": null,
 		"-": {
 			"latitutde": null,
 			"longitude": null
@@ -34,33 +31,25 @@
 			"latitutde": 47.4983815,
 			"longitude": 19.0404707
 		},
-		"MosonmagyarÛv·r": null,
-		"BÈk·smegyer": null,
-		"St. Johann im Saggautal/Leibnitz": {
-			"latitutde": 46.7021679,
-			"longitude": 15.4001519
-		},
+		"Mosonmagyar√≥v√°r": null,
+		"B√©k√°smegyer": null,
 		"Tiszasalamon": {
 			"latitutde": 48.433651,
 			"longitude": 22.1632747
-		},
-		"Wien": {
-			"latitutde": 48.2083537,
-			"longitude": 16.3725042
 		},
 		"Kis-Kolcs": {
 			"latitutde": null,
 			"longitude": null
 		},
-		"TˆrˆkszentmiklÛs-PusztatenyÙ": null,
-		"CsÌksomlyÛ": null,
+		"T√∂r√∂kszentmikl√≥s-Pusztateny√¥": null,
+		"Cs√≠ksomly√≥": null,
 		"Esztergom": {
 			"latitutde": 47.7856977,
 			"longitude": 18.7403349
 		},
-		"SzentpÈter": null,
-		"Tiszatenyı ??": null,
-		"VeszprÈm": null,
+		"Szentp√©ter": null,
+		"Tiszateny√µ ??": null,
+		"Veszpr√©m": null,
 		"Ajka": {
 			"latitutde": 47.1056579,
 			"longitude": 17.5587276
@@ -77,7 +66,7 @@
 			"latitutde": 47.2042482,
 			"longitude": 20.9967301
 		},
-		"Felsıb·nya": null,
+		"Fels√µb√°nya": null,
 		"FL, USA": {
 			"latitutde": 27.7567667,
 			"longitude": -81.4639835
@@ -98,11 +87,6 @@
 			"latitutde": 43.220133,
 			"longitude": 22.4120497931248
 		},
-		"Pozsonyp¸spˆki": null,
-		"Cikolasziget": {
-			"latitutde": 47.9343312,
-			"longitude": 17.3744568
-		},
 		"Bocska": {
 			"latitutde": 46.5527888,
 			"longitude": 16.9161006
@@ -111,10 +95,10 @@
 			"latitutde": 48.181568,
 			"longitude": 22.903061
 		},
-		"TÈcsı": null,
-		"VeszprÈm (?)": null,
-		"Zs·mbÈk": null,
-		"AlsÛsz˚cs": null,
+		"T√©cs√µ": null,
+		"Veszpr√©m (?)": null,
+		"Zs√°mb√©k": null,
+		"Als√≥sz√ªcs": null,
 		"Miskolc": {
 			"latitutde": 48.1031517,
 			"longitude": 20.7902158
@@ -123,45 +107,45 @@
 			"latitutde": 39.7837304,
 			"longitude": -100.4458825
 		},
-		"⁄jrÛnafı": null,
+		"√öjr√≥naf√µ": null,
 		"Schardenberg": {
 			"latitutde": 48.5195852,
 			"longitude": 13.4974316
 		},
-		"DiÛszegh": null,
+		"Di√≥szegh": null,
 		"Acsalag": {
 			"latitutde": 47.6752768,
 			"longitude": 17.1988877
 		},
-		"P·pa": null,
-		"Bˆrcs (Gyır m.)": null,
+		"P√°pa": null,
+		"B√∂rcs (Gy√µr m.)": null,
 		"Aknaszlatina": {
 			"latitutde": 47.9470202,
 			"longitude": 23.8747013
 		},
-		"KÙv·rhossz˙falu": null,
+		"K√¥v√°rhossz√∫falu": null,
 		"Freiwaldau": {
 			"latitutde": 50.2296385,
 			"longitude": 17.2046012
 		},
-		"Kaposv·r": null,
+		"Kaposv√°r": null,
 		"Budapest (Kispest)": {
 			"latitutde": 47.4484411,
 			"longitude": 19.1465176
 		},
-		"Szigetszentm·rton": null,
+		"Szigetszentm√°rton": null,
 		"Hercegfalva": {
 			"latitutde": null,
 			"longitude": null
 		},
-		"NagyberÈny": null,
+		"Nagyber√©ny": null,
 		"Szombathely": {
 			"latitutde": 47.2291184,
 			"longitude": 16.6187625
 		},
-		"Hajd˙n·n·s": null,
-		"LengyeltÛti": null,
-		"Szakm·r / Keser˚telek": null,
+		"Hajd√∫n√°n√°s": null,
+		"Lengyelt√≥ti": null,
+		"Szakm√°r / Keser√ªtelek": null,
 		"Arnfels": {
 			"latitutde": 46.676506,
 			"longitude": 15.401302
@@ -174,8 +158,8 @@
 			"latitutde": 46.9163658,
 			"longitude": 18.9716536
 		},
-		"V·mospÈrcs": null,
-		"Kom·rom": null,
+		"V√°mosp√©rcs": null,
+		"Kom√°rom": null,
 		"Szolnok": {
 			"latitutde": 47.1754555,
 			"longitude": 20.1946818
@@ -184,13 +168,13 @@
 			"latitutde": 46.1649111,
 			"longitude": 24.3511266
 		},
-		"Altruppersdorf": {
-			"latitutde": 48.69263245,
-			"longitude": 16.550044314613
-		},
 		"Dunapataj": {
 			"latitutde": 46.6442755,
 			"longitude": 18.9990105
+		},
+		"Altruppersdorf": {
+			"latitutde": 48.69263245,
+			"longitude": 16.550044314613
 		},
 		"Leutschach": {
 			"latitutde": 46.9209622,
@@ -204,19 +188,19 @@
 			"latitutde": 46.671352,
 			"longitude": 15.4209552
 		},
-		"⁄ri": null,
-		"Kis-KÛlcs": null,
-		"TÛtv·zsony": null,
+		"√öri": null,
+		"Kis-K√≥lcs": null,
+		"T√≥tv√°zsony": null,
 		"Adony": {
 			"latitutde": 47.1208993,
 			"longitude": 18.8631074
 		},
-		"R¸dern": null,
-		"¡llampuszta": null,
-		"Szatm·r-NÈmeti": null,
-		"J·szkarajenÙ": null,
-		"Graz": null,
-		"”buda": null,
+		"R√ºdern": null,
+		"Szilasbalh√°s": null,
+		"√Ållampuszta": null,
+		"Szatm√°r-N√©meti": null,
+		"J√°szkarajen√¥": null,
+		"√ìbuda": null,
 		"Kuncsorba": {
 			"latitutde": 47.1282678,
 			"longitude": 20.5552834
@@ -225,53 +209,53 @@
 			"latitutde": 45.8958985,
 			"longitude": 14.0718907
 		},
-		"Szil·gypÈr": null,
-		"Gˆlle": null,
-		"BÈcs": null,
-		"TˆrˆkszentmiklÛs": null,
-		"Hajm·skÈr": null,
-		"MakÛ": null,
-		"MezÙt˙r": null,
-		"Schloﬂberg": null,
-		"K·l-K·polna kˆrnyÈkÈn": null,
-		"Konstantin·poly": null,
-		"P·lÛc": null,
-		"V·mos": null,
-		"Szatm·r": null,
+		"Szil√°gyp√©r": null,
+		"G√∂lle": null,
+		"B√©cs": null,
+		"T√∂r√∂kszentmikl√≥s": null,
+		"Hajm√°sk√©r": null,
+		"Mak√≥": null,
+		"Mez√¥t√∫r": null,
+		"Schlo√überg": null,
+		"K√°l-K√°polna k√∂rny√©k√©n": null,
+		"Konstantin√°poly": null,
+		"P√°l√≥c": null,
+		"V√°mos": null,
+		"Szatm√°r": null,
 		"Mikola": {
 			"latitutde": 47.0079887,
 			"longitude": 23.9417943
 		},
-		"M¸nchen": null,
+		"M√ºnchen": null,
 		"Neumarkt": {
 			"latitutde": 46.3169161,
 			"longitude": 11.2725698
 		},
-		"Felsıturcsek": null,
-		"Vasv·r": null,
+		"Fels√µturcsek": null,
+		"Vasv√°r": null,
 		"Mittergreidt": {
 			"latitutde": null,
 			"longitude": null
 		},
-		"Hercegfalva(Mezıfalva)": null,
-		"JÛka": null,
-		"Nemesv·mos": null,
-		"TÛsokberÈnd": null,
+		"Hercegfalva(Mez√µfalva)": null,
+		"J√≥ka": null,
+		"Nemesv√°mos": null,
+		"T√≥sokber√©nd": null,
 		"Kolberg": {
 			"latitutde": 54.1759614,
 			"longitude": 15.5764209
 		},
-		"T·piÛs·g": null,
+		"T√°pi√≥s√°g": null,
 		"Moson": {
 			"latitutde": 47.8594524,
 			"longitude": 17.27057
 		},
-		"M·tÈszalka": null,
-		"Lˆkˆsh·za": null,
-		"J·szj·kÛhalma": null,
-		"Nagyb·nya": null,
-		"Budapest/”buda": null,
-		"PÈcs": null,
+		"M√°t√©szalka": null,
+		"L√∂k√∂sh√°za": null,
+		"J√°szj√°k√≥halma": null,
+		"Nagyb√°nya": null,
+		"Budapest/√ìbuda": null,
+		"P√©cs": null,
 		"Wolfsberg": {
 			"latitutde": 52.4205588,
 			"longitude": 10.7861682
@@ -280,14 +264,10 @@
 			"latitutde": null,
 			"longitude": null
 		},
-		"<A HREF=\"com00520.htm\">Z·gr·b</A>": null,
+		"<A HREF=\"com00520.htm\">Z√°gr√°b</A>": null,
 		"Thesszaloniki": {
 			"latitutde": null,
 			"longitude": null
-		},
-		"Kassel": {
-			"latitutde": 51.3076867,
-			"longitude": 9.4624705
 		},
 		"Don-kanyar": {
 			"latitutde": 47.2235442,
@@ -297,9 +277,9 @@
 			"latitutde": 47.424317,
 			"longitude": 19.0692138186022
 		},
-		"Szentkir·lyszabadja": null,
-		"Bˆrcs": null,
-		"FelsıvisÛ": null,
+		"Szentkir√°lyszabadja": null,
+		"B√∂rcs": null,
+		"Fels√µvis√≥": null,
 		"Tompojevci": {
 			"latitutde": 45.2342366,
 			"longitude": 19.0915559
