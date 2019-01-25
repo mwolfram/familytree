@@ -1,0 +1,10124 @@
+{
+	"persons": [
+		{
+			"name": "ÁBRAHÁM Imre",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1932"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1986"
+			}
+		},
+		{
+			"name": "ÁBRAHÁM Imre ifj.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ÁBRAHÁM Sándor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ABRUDEAN Constantin",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ABRUGYÁN Demeter",
+			"birth": {
+				"location": "Nagybánya",
+				"latitude": null,
+				"longitude": null,
+				"time": "1854-01-26"
+			},
+			"death": null
+		},
+		{
+			"name": "ABRUGYÁN Demeter id.",
+			"birth": {
+				"location": "Nagybánya",
+				"latitude": null,
+				"longitude": null,
+				"time": "1826-10-01"
+			},
+			"death": null
+		},
+		{
+			"name": "ÁGOSTON József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ÁGOSTON József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ÁGOSTON Klára",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ÁGOSTON Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ALBERT József",
+			"birth": {
+				"location": "Szilágypér",
+				"latitude": null,
+				"longitude": null,
+				"time": "1885-09-16"
+			},
+			"death": null
+		},
+		{
+			"name": "ALBERT József id.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ALBERT Piroska",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1911"
+			},
+			"death": {
+				"location": "Hajmáskér",
+				"latitude": null,
+				"longitude": null,
+				"time": "1986"
+			}
+		},
+		{
+			"name": "AMENT Teréz",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1860"
+			},
+			"death": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1911-01-23"
+			}
+		},
+		{
+			"name": "ANDRÁSI ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ANDRÁSI Katalin",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1918"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1986-12-17"
+			}
+		},
+		{
+			"name": "ANTAL Anna",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1903"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1988"
+			}
+		},
+		{
+			"name": "ANTAL Balázs",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ANTAL Margit Éva",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ANTAL Rozália",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ANTALNÉ Erzsébet",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ARATÓ Erzsébet",
+			"birth": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1919-07-24"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1983-02-16"
+			}
+		},
+		{
+			"name": "ARATÓ Sándor",
+			"birth": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1894-11-27"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1953-05-16"
+			}
+		},
+		{
+			"name": "ÁROK ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ÁROK Ágnes",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ÁROK Anna",
+			"birth": {
+				"location": "Bocska",
+				"latitude": 46.5527888,
+				"longitude": 16.9161006,
+				"time": "-"
+			},
+			"death": null
+		},
+		{
+			"name": "ÁROK Erzsébet",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ÁROK István",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ÁROK János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ÁROK Teréz",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ÁROK Vera",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ÁRVAI BÉLA",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ÁRVAI Etelka",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1920-10-24"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1996-09-27"
+			}
+		},
+		{
+			"name": "ÁRVAI Péter",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ASZTALOS Ágnes",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BAGI Anikó",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BAILEY G. Russel",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BAJUSZ Emil",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BAJUSZ Krisztina",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BAJUSZ Tibor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BAKONYI Gergô István",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BAKONYI István",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BAKONYI Linda Judit",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BAKOS Erzsébet",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1872-09"
+			},
+			"death": null
+		},
+		{
+			"name": "BAKOS István",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1876-10"
+			},
+			"death": null
+		},
+		{
+			"name": "BAKOS János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BAKOS Mária",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1905-11-10"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1979-10-23"
+			}
+		},
+		{
+			"name": "BAKOS Mária (2)",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1931"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1967"
+			}
+		},
+		{
+			"name": "BAKOS Rozália",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1883-04"
+			},
+			"death": null
+		},
+		{
+			"name": "BAKOS Rozália",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1907"
+			},
+			"death": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1993"
+			}
+		},
+		{
+			"name": "BAKOS Sándor (2)",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1910"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1989"
+			}
+		},
+		{
+			"name": "BAKOS Sándor id.",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1879-04"
+			},
+			"death": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1949-06-01"
+			}
+		},
+		{
+			"name": "BAKOS Sándor ifj.",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1930"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1988"
+			}
+		},
+		{
+			"name": "BAKOS Terézia",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1915"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1978"
+			}
+		},
+		{
+			"name": "BAKOSNÉ ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALÁZS ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALÁZS Ferenc",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALÁZS Margit",
+			"birth": {
+				"location": "Magyarszerdahely",
+				"latitude": 46.5554057,
+				"longitude": 16.937305,
+				"time": "1905"
+			},
+			"death": {
+				"location": "Magyarszerdahely",
+				"latitude": 46.5554057,
+				"longitude": 16.937305,
+				"time": "1981"
+			}
+		},
+		{
+			"name": "BALÁZS Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALÁZS Mihály",
+			"birth": {
+				"location": "Magyarszerdahely",
+				"latitude": 46.5554057,
+				"longitude": 16.937305,
+				"time": "1908"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1966"
+			}
+		},
+		{
+			"name": "BALÁZS Mihály id.",
+			"birth": {
+				"location": "Magyarszerdahely",
+				"latitude": 46.5554057,
+				"longitude": 16.937305,
+				"time": "1878"
+			},
+			"death": {
+				"location": "Magyarszerdahely",
+				"latitude": 46.5554057,
+				"longitude": 16.937305,
+				"time": "1943"
+			}
+		},
+		{
+			"name": "BALÁZS Zsuzsa",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÁLINT ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÁLINT Erzsébet",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÁLINT Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALLA Csilla",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALLA Éva",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALLAY Balázs",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALLAY Boglárka",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALLAY Boldizsár",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALLAY István",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALLAY Réka",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALLAY Zsolt",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALLAYNÉ TURBUCZ Mária Zsuzsanna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALOG Ilona",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALOG János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALOGH Ádám",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALOGH András",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALOGH András",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALOGH Bence",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALOGH Csenge",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALOGH Enikô",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALOGH György",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALOGH György",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALOGH Gyula",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BALOGH Gyula ifj.",
+			"birth": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1945"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1946"
+			}
+		},
+		{
+			"name": "BALOGH Magdolna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÁNFAI Imre",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÁNFAI Imréné (Magdolna)",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÁNFAI Ivett",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÁNFAI Tímea",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BANKUS Erika",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BANKUS János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BANKUS Jánosné",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÁNYAI ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÁNYAI Csaba",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÁNYAI Gyöngyi",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BARABÁS Eszter",
+			"birth": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1985-10-30"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "2002-01-06"
+			}
+		},
+		{
+			"name": "BARABÁS Irén",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BARABÁS István",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BARABÁS József",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1913-08-10"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "2002-12-06"
+			}
+		},
+		{
+			"name": "BARABÁS Judit",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BARCZA Lujza",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1870"
+			},
+			"death": null
+		},
+		{
+			"name": "BÁRTFAI József",
+			"birth": {
+				"location": "Kál-Kápolna környékén",
+				"latitude": null,
+				"longitude": null,
+				"time": "1914-02-08"
+			},
+			"death": {
+				"location": "Állampuszta",
+				"latitude": null,
+				"longitude": null,
+				"time": "1953-05-03"
+			}
+		},
+		{
+			"name": "BÁRTFAI Mária Gyöngyi",
+			"birth": {
+				"location": "Makó",
+				"latitude": null,
+				"longitude": null,
+				"time": "1944-05-23"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "2011"
+			}
+		},
+		{
+			"name": "BARTÓK István",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BARTÓK Katalin",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BARZSÓ Mária",
+			"birth": null,
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1928-04-23"
+			}
+		},
+		{
+			"name": "BATÓ Júlianna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BAUER Ferenc",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BELEJ Anna",
+			"birth": {
+				"location": "Tiszasalamon",
+				"latitude": 48.433651,
+				"longitude": 22.1632747,
+				"time": "1926-06-12"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1993-12-28"
+			}
+		},
+		{
+			"name": "BELEJ Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BELEJ Mihály",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BELEJ Mihály",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BELEZNAY Bodza",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BELEZNAY Endre",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÉRCZES Ágnes",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÉRCZES Andrea",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÉRCZES Erzsébet",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÉRCZES Imre",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÉRCZES Luca",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÉRCZES Péter",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÉRCZES Rezsõ",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1913-07-19"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "2001"
+			}
+		},
+		{
+			"name": "BÉRCZI Erzsébet",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BERNHARD Dóra",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BERTA Ágnes",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BERTALAN Árpád",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BERTALAN Boróka",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BERTALAN Csaba",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BERTALAN György",
+			"birth": {
+				"location": "Mosonmagyaróvár",
+				"latitude": null,
+				"longitude": null,
+				"time": "1958-10-11"
+			},
+			"death": {
+				"location": "Mosonmagyaróvár",
+				"latitude": null,
+				"longitude": null,
+				"time": "2001-07-11"
+			}
+		},
+		{
+			"name": "BERTALAN György ifj.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BERTALAN Imre",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BERTALAN József",
+			"birth": {
+				"location": "Lébénymiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1902"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1979-12-27"
+			}
+		},
+		{
+			"name": "BERTALAN Károly",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BERTALAN Károly id.",
+			"birth": {
+				"location": "Mosonmagyaróvár",
+				"latitude": null,
+				"longitude": null,
+				"time": "1927-11-03"
+			},
+			"death": {
+				"location": "Mosonmagyaróvár",
+				"latitude": null,
+				"longitude": null,
+				"time": "2007-08-10"
+			}
+		},
+		{
+			"name": "BERTALAN Péter",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BERTALAN Vanda",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BERTÓK András Tamás",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BERTÓK Béla dr",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BERTÓK Bence",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BERTÓK Péter",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BETSKERÉKI Sára",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BIACSI Bettina",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BIACSI József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BILUSKA Anna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BILUSKA Erzsébet",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BILUSKA Ferenc",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1894"
+			},
+			"death": {
+				"location": "<A HREF=\"com00520.htm\">Zágráb</A>",
+				"latitude": null,
+				"longitude": null,
+				"time": "1915-08-05"
+			}
+		},
+		{
+			"name": "BILUSKA György",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BILUSKA György",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1806-07-20"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1860-11-07"
+			}
+		},
+		{
+			"name": "BILUSKA György",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1858"
+			},
+			"death": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1913-08-07"
+			}
+		},
+		{
+			"name": "BILUSKA Helén",
+			"birth": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1860"
+			},
+			"death": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1920-02-03"
+			}
+		},
+		{
+			"name": "BILUSKA János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BILUSKA József",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1837-08-11"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1883-10-24"
+			}
+		},
+		{
+			"name": "BILUSKA Teréz",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BILUSKA Terézia",
+			"birth": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1865-05-20"
+			},
+			"death": {
+				"location": "Szigetszentmárton",
+				"latitude": null,
+				"longitude": null,
+				"time": "1944"
+			}
+		},
+		{
+			"name": "BINDER Zsuzsanna",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1782"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1854-12-19"
+			}
+		},
+		{
+			"name": "BIRKÁS Júlianna",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1860"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1913-11-04"
+			}
+		},
+		{
+			"name": "BÍRÓ István",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1906"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1963"
+			}
+		},
+		{
+			"name": "BLAHA Lujza",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1927"
+			},
+			"death": null
+		},
+		{
+			"name": "BOD Károly",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BOD Sára",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BODNER Hanna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BODÓ Anikó",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BODÓ Sándor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BOGDÁN Anna",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1809"
+			},
+			"death": {
+				"location": "Kis-Kólcs",
+				"latitude": null,
+				"longitude": null,
+				"time": "1888-12-26"
+			}
+		},
+		{
+			"name": "BOGDÁN Sándor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BOGNÁR Ambrus",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BOGNÁR Emma",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BOGNÁR László",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BOGNÁR Vilma",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1898-02-06"
+			},
+			"death": null
+		},
+		{
+			"name": "BÖHM Benjamin",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÖHM István",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÖHM István ifj.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÖHM Melinda",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÖHM Tünde Katalin",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÖHM-SZATMÁRI Edgár",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÖLÉNYI Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BOMJIKAS Panascheva",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BORUZS Ferenc",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BORUZS Ferenc ifj.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BORUZS Szilvia",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BORZI Sára",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÔSZ Martina",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÔSZ Martina",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÖSZÖRMÉNYI Emôke",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BÓTA Viktória",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BOZSIK Éva",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BOZSIK Frigyes",
+			"birth": {
+				"location": "Budapest (Kispest)",
+				"latitude": 47.4484411,
+				"longitude": 19.1465176,
+				"time": "1927-08-20"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1996"
+			}
+		},
+		{
+			"name": "BOZSIK Frigyes ifj.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BOZSIK László",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BOZSIK Margit",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BRAUER Joseph",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BRAUER Katharina",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BRUGNARA Alessia",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BRUGNARA Camille",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BRUGNARA Carlo",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BRÜKNER Anna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BRÜNNER Hermina",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BRUNNER Magdolna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BUCHLER Rosa",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BUCHMANN Alajos",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BUCHMANN Anton",
+			"birth": null,
+			"death": {
+				"location": "Freiwaldau",
+				"latitude": 50.2296385,
+				"longitude": 17.2046012,
+				"time": "1889"
+			}
+		},
+		{
+			"name": "BUCHMANN János",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1846"
+			},
+			"death": null
+		},
+		{
+			"name": "BUCHMANN Mária",
+			"birth": {
+				"location": "Javornik",
+				"latitude": 45.8958985,
+				"longitude": 14.0718907,
+				"time": "1896-03-19"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1980-10-06"
+			}
+		},
+		{
+			"name": "BUCHMANN Marianna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BUGLEDITS Éva",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BUGLEDITS József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BUKOVA Erzsébet",
+			"birth": {
+				"location": "Felsõbánya",
+				"latitude": null,
+				"longitude": null,
+				"time": "1827-11-14"
+			},
+			"death": null
+		},
+		{
+			"name": "BUKOVA János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BUKTA Erzsébet",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BUKTA Ilona",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BUKTA János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BUKTA József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BUKTA Magdolna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BUKTA Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BUKTA Pál",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BUKTA Pál ifj.",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1931"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1941"
+			}
+		},
+		{
+			"name": "BUNYEVÁCZ ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BUNYEVÁCZ Viktor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BURJÁN Teréz",
+			"birth": {
+				"location": "Jóka",
+				"latitude": null,
+				"longitude": null,
+				"time": "-"
+			},
+			"death": null
+		},
+		{
+			"name": "BUROLIN N.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "BUSI Rozália",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "CHRISTENSEN Jesper",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "CHRISTENSEN-SZABÓ Frida",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "CHRISTENSEN-SZABÓ Teo",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "CSÁK Erzsébet",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1888-09-24"
+			},
+			"death": null
+		},
+		{
+			"name": "CSÁK József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "CSÁNYI Edit",
+			"birth": {
+				"location": "Acsalag",
+				"latitude": 47.6752768,
+				"longitude": 17.1988877,
+				"time": "1927-06-20"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "2010-12-02"
+			}
+		},
+		{
+			"name": "CSÁNYI Gergely",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "CSÁNYI Laura",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "CSARKACSOGLU Triantafilia",
+			"birth": {
+				"location": "Törökország",
+				"latitude": null,
+				"longitude": null,
+				"time": "-"
+			},
+			"death": {
+				"location": "Thesszaloniki",
+				"latitude": null,
+				"longitude": null,
+				"time": "198?"
+			}
+		},
+		{
+			"name": "CSEH Júlianna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "CSELÉNYI Ferenc",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1913-10-03"
+			},
+			"death": null
+		},
+		{
+			"name": "CSER Ferenc",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "CSERNY Dezsô",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "CSICSAI Borbála",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "CSICSAI Dániel",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "CSICSAI Ferenc",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "CSICSAI Lilla Ágnes",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "CSICSÁK Anna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "CSIKY Andrea",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "CSINDERICS Ibolya dr.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "CSORBA Borbála",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "CSORBA László",
+			"birth": null,
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1912-05-20"
+			}
+		},
+		{
+			"name": "CSORBA Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "CSORBA Regina",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "CSÓTI István",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "CZUTH Etelka",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DANI János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DANI Péter",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DANI Zsuzsánna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DÁVID János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DÁVID Júlia",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DEÁK Júlianna",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1901"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "kb  1975"
+			}
+		},
+		{
+			"name": "DEBRECZENI Áron",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DEBRECZENI Barnabás",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DEBRECZENI Dávid",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DEBRECZENI Péter",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DÉCSE Bálint",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DÉCSE Berta",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DÉCSE Etelka",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DÉCSE Ferenc",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DÉCSE Ignácz",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1836"
+			},
+			"death": {
+				"location": "Kis-Kolcs",
+				"latitude": null,
+				"longitude": null,
+				"time": "1907-12-19"
+			}
+		},
+		{
+			"name": "DÉCSE Ilona",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DÉCSE Imre",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DÉCSE Imre",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DÉCSE Júlia",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DÉCSE Károly",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DÉCSE Károly",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DÉCSE Károly",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1831"
+			},
+			"death": {
+				"location": "Szatmár-Németi",
+				"latitude": null,
+				"longitude": null,
+				"time": "1915-12-24"
+			}
+		},
+		{
+			"name": "DÉCSE Károly dr.",
+			"birth": null,
+			"death": {
+				"location": "Mátészalka",
+				"latitude": null,
+				"longitude": null,
+				"time": "1941-01-02"
+			}
+		},
+		{
+			"name": "DÉCSE László",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DÉCSE László",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1864"
+			},
+			"death": {
+				"location": "Kôvárhosszúfalu",
+				"latitude": null,
+				"longitude": null,
+				"time": "1942-10-20"
+			}
+		},
+		{
+			"name": "DÉCSE Margit",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DÉCSE Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DEL PIERO Valentina Anais",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DIÓSSZILÁGYI Ernesztin",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DIÓSSZILÁGYI Gertrúd",
+			"birth": {
+				"location": "Makó",
+				"latitude": null,
+				"longitude": null,
+				"time": "1923"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "2012"
+			}
+		},
+		{
+			"name": "DIÓSSZILÁGYI József dr.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DIÓSSZILÁGYI József ifj. dr.",
+			"birth": null,
+			"death": {
+				"location": "USA",
+				"latitude": 39.7837304,
+				"longitude": -100.4458825,
+				"time": "-"
+			}
+		},
+		{
+			"name": "DIÓSSZILÁGYINÉ ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DOBOS ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DOBOS Andrea",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DOBOS Júlianna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DOBOS Mónika",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DOBRUCKY Victor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DÓCZI Dominika",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DÓCZI Ferenc",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DÓCZI Gréta",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DÓCZI Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DOMBI József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DOMBI Zsuzsanna",
+			"birth": {
+				"location": "Hajdúnánás",
+				"latitude": null,
+				"longitude": null,
+				"time": "1826-04-22"
+			},
+			"death": null
+		},
+		{
+			"name": "DÖMÖTÖR (1)",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DÖMÖTÖR (2)",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DÖMÖTÖR Károly",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DONCA Adriám",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DONCA Andrea",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DONCA Claudia",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DONCA Stefán",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DONCA Zita",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DONCÁNÉ Krisztina",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "DÖRFLINGER Terézia",
+			"birth": {
+				"location": "Békásmegyer",
+				"latitude": null,
+				"longitude": null,
+				"time": "1816-02-17"
+			},
+			"death": null
+		},
+		{
+			"name": "EGYED Ferenc",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1877"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1941"
+			}
+		},
+		{
+			"name": "EMENET Julianna",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1793"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1872"
+			}
+		},
+		{
+			"name": "FÁBIÁN Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FARAGÓ Erzsébet",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FARAGÓ Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FARKAS Amália",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1843"
+			},
+			"death": {
+				"location": "Mikola",
+				"latitude": 47.0079887,
+				"longitude": 23.9417943,
+				"time": "1898-08-18"
+			}
+		},
+		{
+			"name": "FARKAS Angyal",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FARKAS Edit",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FARKAS Gyula",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FARKAS László",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FARKAS Mária Júlianna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FARKAS Mátyás",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FARKAS Sarolta",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FAZEKAS Erzsébet",
+			"birth": {
+				"location": "Feketepatak",
+				"latitude": 48.181568,
+				"longitude": 22.903061,
+				"time": "-"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "Kb. 1897"
+			}
+		},
+		{
+			"name": "FEJES Imre",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1828"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1891"
+			}
+		},
+		{
+			"name": "FEKETE Henriett",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FEKETE József Dr.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FEKETE Nóra",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FEKETE Ottilia",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FEKETE Tibor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FIALLAI Ilona",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FILE Zsuzsa",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FODOR Ágnes",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1864-04-23"
+			},
+			"death": null
+		},
+		{
+			"name": "FODOR Anna",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1848-11-12"
+			},
+			"death": null
+		},
+		{
+			"name": "FODOR Béla",
+			"birth": {
+				"location": "Tótvázsony",
+				"latitude": null,
+				"longitude": null,
+				"time": "1861-08-12"
+			},
+			"death": {
+				"location": "Tótvázsony",
+				"latitude": null,
+				"longitude": null,
+				"time": "1933-06-16"
+			}
+		},
+		{
+			"name": "FODOR Béla",
+			"birth": {
+				"location": "Tótvázsony",
+				"latitude": null,
+				"longitude": null,
+				"time": "1892-10-22"
+			},
+			"death": null
+		},
+		{
+			"name": "FODOR Géza",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1853"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1901-01-19"
+			}
+		},
+		{
+			"name": "FODOR Imre",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FODOR Imre",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1846-04-12"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1929-04-03"
+			}
+		},
+		{
+			"name": "FODOR Kálmán",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FODOR Kálmán",
+			"birth": {
+				"location": "Tótvázsony",
+				"latitude": null,
+				"longitude": null,
+				"time": "1887-08-06"
+			},
+			"death": {
+				"location": "Veszprém",
+				"latitude": null,
+				"longitude": null,
+				"time": "1941-04-10"
+			}
+		},
+		{
+			"name": "FODOR Karolina",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1850-11-17"
+			},
+			"death": null
+		},
+		{
+			"name": "FODOR Mária",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1843-09-08"
+			},
+			"death": null
+		},
+		{
+			"name": "FODOR Mária",
+			"birth": {
+				"location": "Tótvázsony",
+				"latitude": null,
+				"longitude": null,
+				"time": "1889-09-09"
+			},
+			"death": {
+				"location": "Veszprém",
+				"latitude": null,
+				"longitude": null,
+				"time": "1981"
+			}
+		},
+		{
+			"name": "FODOR Matild",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FODOR Vilma",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1920-07-01"
+			},
+			"death": null
+		},
+		{
+			"name": "FOGAS ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FOGAS Zita",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FORST Ferenc",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1942"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1973"
+			}
+		},
+		{
+			"name": "FORST Ferenc dr",
+			"birth": null,
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1955"
+			}
+		},
+		{
+			"name": "FRÜHWALD Ella",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FRÜHWALD József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FRÜHWALD Kató",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FÜLÖP ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FÜLÖP Csilla",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FÜLÖP Mihály",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FÜLÖP Szilvia",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FÜRCHT Mátyás",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "FÜRCHT Teréz",
+			"birth": {
+				"location": "Csepel",
+				"latitude": 47.424317,
+				"longitude": 19.0692138186022,
+				"time": "1870-01-03"
+			},
+			"death": null
+		},
+		{
+			"name": "FÜTTY Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GALASCHEK Adalbert",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1831"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1876-02-06"
+			}
+		},
+		{
+			"name": "GALASCHEK Irma",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GÁLL Gábor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GALLÓ Attila",
+			"birth": null,
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "2003-02-21"
+			}
+		},
+		{
+			"name": "GALLÓ Gábor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GALLÓ Katalin Glória",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GARAMI Kálmán",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GARAMI Kálmán ifj.",
+			"birth": null,
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1914"
+			}
+		},
+		{
+			"name": "GEISLER Josef",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GEISLER Theresia",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1908-07-08"
+			},
+			"death": null
+		},
+		{
+			"name": "GELENCSÉR Imre",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1895"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1969"
+			}
+		},
+		{
+			"name": "GELENCSÉR Terézia",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1916"
+			},
+			"death": null
+		},
+		{
+			"name": "GERGELY Erzsébet",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GERGELYI László",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GERLEIN Mihály",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GERNER Erich",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1937-03-02"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "2005-04"
+			}
+		},
+		{
+			"name": "GERNER Erich Anton",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GERNER Erna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GERNER Gaby",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GERNER Lisa Maria",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GERNER Magdalena",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GERÕCS Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GESCHEIDTER Magdolna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GLASER Magdolna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GLÖDER Anna Maria",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GÖBÖLÖS János",
+			"birth": {
+				"location": "Dunavecse",
+				"latitude": 46.9163658,
+				"longitude": 18.9716536,
+				"time": "1823-10-25"
+			},
+			"death": null
+		},
+		{
+			"name": "GÖBÖLÖS János id.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GÖBÖLÖS Róza",
+			"birth": {
+				"location": "Nagybánya",
+				"latitude": null,
+				"longitude": null,
+				"time": "1858-10-12"
+			},
+			"death": null
+		},
+		{
+			"name": "GÖNCZI Ildikó",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GÖNCZI Zoltán",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GÖNCZI Zoltán Gyula",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GONZÁLES PORRAS Andrés",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GÖRCS Erzsébet",
+			"birth": {
+				"location": "Jóka",
+				"latitude": null,
+				"longitude": null,
+				"time": "-"
+			},
+			"death": null
+		},
+		{
+			"name": "GÖTZ Blanka",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GÖTZ Dávid",
+			"birth": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1996-07-26"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1996-07-28"
+			}
+		},
+		{
+			"name": "GÖTZ Nándor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Ádám",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1773-02-26"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Anna",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1770-03-18"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Anna",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1888-12-25"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Barbara",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1734-01-03"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Borbála",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1839-01-03"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1915-12-16"
+			}
+		},
+		{
+			"name": "GRÁBLER Borbála",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1876-12-03"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Casparus",
+			"birth": {
+				"location": "Zsámbék",
+				"latitude": null,
+				"longitude": null,
+				"time": "1738"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER C-NÉ Anna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Erzsébet",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1854-08-13"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Erzsébet",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1908-06-08"
+			},
+			"death": {
+				"location": "Nemesvámos",
+				"latitude": null,
+				"longitude": null,
+				"time": "1988-09-22"
+			}
+		},
+		{
+			"name": "GRÁBLER Etelka",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1886-12-12"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Éva",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1773-02-26"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Félix",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1891-07-12"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER F-NÉ Anna Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Franciscus",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GRÁBLER György",
+			"birth": {
+				"location": "Békásmegyer",
+				"latitude": null,
+				"longitude": null,
+				"time": "1851-04-19"
+			},
+			"death": {
+				"location": "Óbuda",
+				"latitude": null,
+				"longitude": null,
+				"time": "1923-10-28"
+			}
+		},
+		{
+			"name": "GRÁBLER Jakab",
+			"birth": {
+				"location": "Békásmegyer",
+				"latitude": null,
+				"longitude": null,
+				"time": "1778-07-23"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Jakab",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1818-04-27"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER János",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1732-06-07"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER János",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1843-06-13"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER János Jakab",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1727-07-15"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER József",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1821-01-20"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Katalin",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1840-11-12"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1901-03-25"
+			}
+		},
+		{
+			"name": "GRÁBLER Lajos",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1881-07-31"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Lôrincz",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1848-11-19"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Mária",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1844-08-11"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Mária",
+			"birth": {
+				"location": "Tótvázsony",
+				"latitude": null,
+				"longitude": null,
+				"time": "1911-11-21"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Mária Anna",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1736-03-09"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Márton",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1837-12-05"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1900-02-10"
+			}
+		},
+		{
+			"name": "GRÁBLER Matild",
+			"birth": {
+				"location": "Óbuda",
+				"latitude": null,
+				"longitude": null,
+				"time": "1885-03-18"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Matild",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1907-03-17"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1983-07-23"
+			}
+		},
+		{
+			"name": "GRÁBLER Mátyás",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1776-11-03"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Nicolaus",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1801-12-06"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Rozina",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1774-03-07"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Rudolf Sándor (Rezsô)",
+			"birth": {
+				"location": "Budapest/Óbuda",
+				"latitude": null,
+				"longitude": null,
+				"time": "1883-02-04"
+			},
+			"death": {
+				"location": "Veszprém",
+				"latitude": null,
+				"longitude": null,
+				"time": "1946-08-10"
+			}
+		},
+		{
+			"name": "GRÁBLER Sebestyén",
+			"birth": {
+				"location": "Békásmegyer",
+				"latitude": null,
+				"longitude": null,
+				"time": "1815-12-18"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Terézia",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1805-11-29"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Terézia",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1850-01-07"
+			},
+			"death": null
+		},
+		{
+			"name": "GRÁBLER Terézia",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1852-08-08"
+			},
+			"death": null
+		},
+		{
+			"name": "GREDLER Viktoria",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GREINER Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GRILLY Charles B.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GRILLY Charles Zoltan",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1913-12-25"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1991-03-09"
+			}
+		},
+		{
+			"name": "GRILLY George Edward",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1917-02-17"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1988-02-24"
+			}
+		},
+		{
+			"name": "GRÖBER Mária",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1903-03-08"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1950"
+			}
+		},
+		{
+			"name": "GRÓSZ Júlianna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GRUBER Anna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GRUBER Eleonóra",
+			"birth": {
+				"location": "Técsõ",
+				"latitude": null,
+				"longitude": null,
+				"time": "1820-04-13"
+			},
+			"death": null
+		},
+		{
+			"name": "GRUBER Erzsébet",
+			"birth": {
+				"location": "Técsõ",
+				"latitude": null,
+				"longitude": null,
+				"time": "1824-05-14"
+			},
+			"death": null
+		},
+		{
+			"name": "GRUBER József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GRUBER Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GSCHAIDER Anna Maria",
+			"birth": {
+				"location": "Schardenberg",
+				"latitude": 48.5195852,
+				"longitude": 13.4974316,
+				"time": "1805"
+			},
+			"death": null
+		},
+		{
+			"name": "GSCHAIDER Johann",
+			"birth": {
+				"location": "Schardenberg",
+				"latitude": 48.5195852,
+				"longitude": 13.4974316,
+				"time": "1812"
+			},
+			"death": null
+		},
+		{
+			"name": "GSCHAIDER Josef",
+			"birth": {
+				"location": "Schardenberg",
+				"latitude": 48.5195852,
+				"longitude": 13.4974316,
+				"time": "1780-08-03"
+			},
+			"death": null
+		},
+		{
+			"name": "GSCHAIDER Joseph",
+			"birth": {
+				"location": "Schardenberg",
+				"latitude": 48.5195852,
+				"longitude": 13.4974316,
+				"time": "1806"
+			},
+			"death": null
+		},
+		{
+			"name": "GSCHAIDER Josephus Gotthard",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GSCHAIDER Magdalena",
+			"birth": {
+				"location": "Schardenberg",
+				"latitude": 48.5195852,
+				"longitude": 13.4974316,
+				"time": "1819-01-15"
+			},
+			"death": null
+		},
+		{
+			"name": "GSCHAIDER Maria",
+			"birth": {
+				"location": "Schardenberg",
+				"latitude": 48.5195852,
+				"longitude": 13.4974316,
+				"time": "1781-12-09"
+			},
+			"death": null
+		},
+		{
+			"name": "GSCHAIDER Maria Anna",
+			"birth": {
+				"location": "Schardenberg",
+				"latitude": 48.5195852,
+				"longitude": 13.4974316,
+				"time": "1808"
+			},
+			"death": null
+		},
+		{
+			"name": "GSCHAIDER Michael",
+			"birth": {
+				"location": "Schardenberg",
+				"latitude": 48.5195852,
+				"longitude": 13.4974316,
+				"time": "1783-09-26"
+			},
+			"death": null
+		},
+		{
+			"name": "GSCHAIDER Sebastian",
+			"birth": {
+				"location": "Schardenberg",
+				"latitude": 48.5195852,
+				"longitude": 13.4974316,
+				"time": "1816"
+			},
+			"death": null
+		},
+		{
+			"name": "GSCHAIDER-NÉ Magdalena",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GUBICZA Ferenc",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GUBICZA Ferenc",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1936"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1937"
+			}
+		},
+		{
+			"name": "GUBICZA Gabriella",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GUBICZA Hajnalka",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GUBICZA Iván",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GÜNDEL Károly",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GUNGL Irma",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GYALAI Eszter",
+			"birth": {
+				"location": "Nagybánya",
+				"latitude": null,
+				"longitude": null,
+				"time": "1822-11-01"
+			},
+			"death": null
+		},
+		{
+			"name": "GYALAI Sámuel",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GYNES Anna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "GYNES Ewald",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HÁBEL Irma",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HÁBER József",
+			"birth": {
+				"location": "Buda / Tabán",
+				"latitude": null,
+				"longitude": null,
+				"time": "1892-07-16"
+			},
+			"death": null
+		},
+		{
+			"name": "HÁDA ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HÁDA László",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HADADY Gedeon",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HAJDU István",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HAJDÚ Júlianna",
+			"birth": {
+				"location": "Szatmárnémeti",
+				"latitude": null,
+				"longitude": null,
+				"time": "1843-10-15"
+			},
+			"death": null
+		},
+		{
+			"name": "HAJDÚ Katalin",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "Kb. 1880"
+			},
+			"death": {
+				"location": "Tompojevci",
+				"latitude": 45.2342366,
+				"longitude": 19.0915559,
+				"time": "Kb. 1973"
+			}
+		},
+		{
+			"name": "HALÁSZ Zsolt",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HAMMER Alojzia",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HAMMER Antal",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HAMMER Ilona",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HAMMER János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HAMMER József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HAMMER László",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HAMMER Teréz",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1833"
+			},
+			"death": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1909-05-04"
+			}
+		},
+		{
+			"name": "HANNIG ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HANNIG Alajos",
+			"birth": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1866"
+			},
+			"death": {
+				"location": "Veszprém (?)",
+				"latitude": null,
+				"longitude": null,
+				"time": "-"
+			}
+		},
+		{
+			"name": "HANNIG Amália Kazimira",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HANNIG András",
+			"birth": {
+				"location": "Hercegfalva(Mezõfalva)",
+				"latitude": null,
+				"longitude": null,
+				"time": "1829-06-11"
+			},
+			"death": {
+				"location": "Tósokberénd",
+				"latitude": null,
+				"longitude": null,
+				"time": "1903-08-26"
+			}
+		},
+		{
+			"name": "HANNIG András id.",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1791"
+			},
+			"death": {
+				"location": "Hercegfalva",
+				"latitude": null,
+				"longitude": null,
+				"time": "1865"
+			}
+		},
+		{
+			"name": "HANNIG Anita",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HANNIG Anna",
+			"birth": {
+				"location": "Hercegfalva",
+				"latitude": null,
+				"longitude": null,
+				"time": "1833"
+			},
+			"death": null
+		},
+		{
+			"name": "HANNIG Anna",
+			"birth": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1874"
+			},
+			"death": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1874"
+			}
+		},
+		{
+			"name": "HANNIG Anna",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1895-04-04"
+			},
+			"death": null
+		},
+		{
+			"name": "HANNIG Antal",
+			"birth": {
+				"location": "Hercegfalva",
+				"latitude": null,
+				"longitude": null,
+				"time": "1821"
+			},
+			"death": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1895"
+			}
+		},
+		{
+			"name": "HANNIG Antal",
+			"birth": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1861"
+			},
+			"death": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1861"
+			}
+		},
+		{
+			"name": "HANNIG Antal",
+			"birth": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1871"
+			},
+			"death": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1872"
+			}
+		},
+		{
+			"name": "HANNIG Antónia",
+			"birth": {
+				"location": "Tósokberénd",
+				"latitude": null,
+				"longitude": null,
+				"time": "1856"
+			},
+			"death": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1857"
+			}
+		},
+		{
+			"name": "HANNIG Aranka",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HANNIG Aranka",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HANNIG Béla",
+			"birth": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1880"
+			},
+			"death": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1880"
+			}
+		},
+		{
+			"name": "HANNIG Csaba",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HANNIG Csaba",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HANNIG Dezsô",
+			"birth": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1869"
+			},
+			"death": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1869"
+			}
+		},
+		{
+			"name": "HANNIG Edit",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HANNIG Elek",
+			"birth": {
+				"location": "Hercegfalva",
+				"latitude": null,
+				"longitude": null,
+				"time": "1832"
+			},
+			"death": {
+				"location": "Hercegfalva",
+				"latitude": null,
+				"longitude": null,
+				"time": "1832"
+			}
+		},
+		{
+			"name": "HANNIG Elek",
+			"birth": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1875"
+			},
+			"death": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1875"
+			}
+		},
+		{
+			"name": "HANNIG Elemér",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1893"
+			},
+			"death": null
+		},
+		{
+			"name": "HANNIG Endre",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HANNIG Endre",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1863"
+			},
+			"death": {
+				"location": "Vámos",
+				"latitude": null,
+				"longitude": null,
+				"time": "1910"
+			}
+		},
+		{
+			"name": "HANNIG Erzsébet",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HANNIG Ferdinánd",
+			"birth": {
+				"location": "Hercegfalva",
+				"latitude": null,
+				"longitude": null,
+				"time": "1831"
+			},
+			"death": null
+		},
+		{
+			"name": "HANNIG Ferenc",
+			"birth": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1859"
+			},
+			"death": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1891"
+			}
+		},
+		{
+			"name": "HANNIG Ferenc (1)",
+			"birth": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1858"
+			},
+			"death": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1858"
+			}
+		},
+		{
+			"name": "HANNIG Gabriella",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HANNIG Gyula",
+			"birth": {
+				"location": "Tósokberénd",
+				"latitude": null,
+				"longitude": null,
+				"time": "1853"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1906"
+			}
+		},
+		{
+			"name": "HANNIG Gyula",
+			"birth": {
+				"location": "Komárom",
+				"latitude": null,
+				"longitude": null,
+				"time": "1895"
+			},
+			"death": null
+		},
+		{
+			"name": "HANNIG Gyula",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1930"
+			},
+			"death": null
+		},
+		{
+			"name": "HANNIG Ignác",
+			"birth": {
+				"location": "Hercegfalva",
+				"latitude": null,
+				"longitude": null,
+				"time": "1825-06-10"
+			},
+			"death": null
+		},
+		{
+			"name": "HANNIG Ilona",
+			"birth": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1867"
+			},
+			"death": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1869"
+			}
+		},
+		{
+			"name": "HANNIG Imre",
+			"birth": {
+				"location": "Hercegfalva",
+				"latitude": null,
+				"longitude": null,
+				"time": "1823"
+			},
+			"death": null
+		},
+		{
+			"name": "HANNIG Irén",
+			"birth": {
+				"location": "Ercsi",
+				"latitude": 47.2519697,
+				"longitude": 18.8983773,
+				"time": "1921-02-06"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1997-07-27"
+			}
+		},
+		{
+			"name": "HANNIG István",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HANNIG István",
+			"birth": {
+				"location": "Tósokberénd",
+				"latitude": null,
+				"longitude": null,
+				"time": "1873"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1939-01-17"
+			}
+		},
+		{
+			"name": "HANNIG István",
+			"birth": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1876"
+			},
+			"death": null
+		},
+		{
+			"name": "HANNIG István",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1880-12-22"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1957"
+			}
+		},
+		{
+			"name": "HANNIG István",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1888"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1888"
+			}
+		},
+		{
+			"name": "HANNIG István",
+			"birth": {
+				"location": "Ercsi",
+				"latitude": 47.2519697,
+				"longitude": 18.8983773,
+				"time": "1907-08"
+			},
+			"death": null
+		},
+		{
+			"name": "HANNIG István",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1929-01-31"
+			},
+			"death": null
+		},
+		{
+			"name": "HANNIG István",
+			"birth": {
+				"location": "Ajka",
+				"latitude": 47.1056579,
+				"longitude": 17.5587276,
+				"time": "1986"
+			},
+			"death": {
+				"location": "Ajka",
+				"latitude": 47.1056579,
+				"longitude": 17.5587276,
+				"time": "1986"
+			}
+		},
+		{
+			"name": "HANNIG István id.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HANNIG János",
+			"birth": {
+				"location": "Hercegfalva",
+				"latitude": null,
+				"longitude": null,
+				"time": "1827"
+			},
+			"death": null
+		},
+		{
+			"name": "HANNIG János",
+			"birth": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1865"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1917"
+			}
+		},
+		{
+			"name": "HANNIG Jenõ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HANNIG Johanna",
+			"birth": {
+				"location": "Hercegfalva",
+				"latitude": null,
+				"longitude": null,
+				"time": "1835"
+			},
+			"death": {
+				"location": "Hercegfalva",
+				"latitude": null,
+				"longitude": null,
+				"time": "1835"
+			}
+		},
+		{
+			"name": "HANNIG Johanna",
+			"birth": {
+				"location": "Hercegfalva",
+				"latitude": null,
+				"longitude": null,
+				"time": "1836"
+			},
+			"death": null
+		},
+		{
+			"name": "HANNIG Jozefa",
+			"birth": {
+				"location": "Hercegfalva",
+				"latitude": null,
+				"longitude": null,
+				"time": "1820"
+			},
+			"death": null
+		},
+		{
+			"name": "HANNIG Júlianna",
+			"birth": {
+				"location": "Hercegfalva",
+				"latitude": null,
+				"longitude": null,
+				"time": "1844"
+			},
+			"death": null
+		},
+		{
+			"name": "HANNIG Kálmán",
+			"birth": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1872"
+			},
+			"death": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1872"
+			}
+		},
+		{
+			"name": "HANNIG Karolina",
+			"birth": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1857"
+			},
+			"death": {
+				"location": "Pápa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1859"
+			}
+		},
+		{
+			"name": "HANNIG Károly",
+			"birth": {
+				"location": "Tósokberénd",
+				"latitude": null,
+				"longitude": null,
+				"time": "1850"
+			},
+			"death": {
+				"location": "Tósokberénd",
+				"latitude": null,
+				"longitude": null,
+				"time": "1851"
+			}
+		},
+		{
+			"name": "HANNIG Károly",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1897-03-11"
+			},
+			"death": {
+				"location": "Tósokberénd",
+				"latitude": null,
+				"longitude": null,
+				"time": "1977"
+			}
+		},
+		{
+			"name": "HANNIG Károly id.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "HANNIG Károly ifj.",
+			"birth": {
+				"location": "Tósokberénd",
+				"latitude": null,
+				"longitude": null,
+				"time": "1924-11-04"
+			},
+			"death": {
+				"location": "Tósokberénd",
+				"latitude": null,
+				"longitude": null,
+				"time": "2003"
+			}
+		},
+		{
+			"name": "HANNIG Klára",
+			"birth": {
+				"location": "Ercsi",
+				"latitude": null,
+				"longitude": null,
+				"time": "1918-10-13"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "2006"
+			}
+		},
+		{
+			"name": "JACZKOVCS Katalin",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1861-12-05"
+			},
+			"death": null
+		},
+		{
+			"name": "JACZKOVCS Sándor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JAKAB László",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JAKAB Márton",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JAKAB Zsombor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JÁKLI Bálint",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JÁKLI Dániel",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JÁKLI Eszter",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JÁKLI György",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JAKÓ Antal",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JAKÓ Erzsébet",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JAKÓ Károly",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JAKÓ László",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JANITS Déva András",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JANITS László",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JANITS László dr",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JÁRÓ ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JÁRÓ Ibolya",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JÁRÓ József",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1936"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1997"
+			}
+		},
+		{
+			"name": "JÁRÓ Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JÁRÓ Mária",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1904"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1986"
+			}
+		},
+		{
+			"name": "JÁRÓ Sándor",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1906"
+			},
+			"death": null
+		},
+		{
+			"name": "JÁRÓ Szilvia",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JÁRÓNÉ Lívia",
+			"birth": null,
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1914"
+			}
+		},
+		{
+			"name": "JÁRÓNÉ Rozália",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JÁVORKA Etelka",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1933-05-01"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "2011-04-20"
+			}
+		},
+		{
+			"name": "JOÓ Zsuzsanna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JOZIPOVICS Etelka",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1892"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1960"
+			}
+		},
+		{
+			"name": "JÓZSA Éva",
+			"birth": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1953-04-04"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "2007-12-24"
+			}
+		},
+		{
+			"name": "JÓZSA Imre",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JUHÁSZ Bálint",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JUHÁSZ Bálint ifj.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JUHÁSZ István",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JUHÁSZ Jolán",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "JUHÁSZ Katalin",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÁDÁR János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÁDÁR János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KAGUN Anna",
+			"birth": {
+				"location": "Schloßberg",
+				"latitude": null,
+				"longitude": null,
+				"time": "1817-07-13"
+			},
+			"death": null
+		},
+		{
+			"name": "KAGUN Nikolaus",
+			"birth": {
+				"location": "Schloßberg",
+				"latitude": null,
+				"longitude": null,
+				"time": "1777-12-06"
+			},
+			"death": null
+		},
+		{
+			"name": "KAGUN Simon",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KAINER Katharina",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÁLMÁN Ida",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KALMÁR Sára",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KALÓ Katalin",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÁMÁN Dorina",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÁMÁN Fruzsina",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÁMÁN József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÁMÁN Józsefné",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÁMÁN Judit",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÁMÁN Tamás",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KARDOS ",
+			"birth": null,
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1884-04"
+			}
+		},
+		{
+			"name": "KARDOS Etelka",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1896"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1984"
+			}
+		},
+		{
+			"name": "KARDOS Ferenc",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1859-11-18"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1929-03-17"
+			}
+		},
+		{
+			"name": "KARDOS Ferenc",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1891"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1977"
+			}
+		},
+		{
+			"name": "KARDOS Ilona",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1861-01-09"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1933-07-15"
+			}
+		},
+		{
+			"name": "KARDOS István",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1898"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1968"
+			}
+		},
+		{
+			"name": "KARDOS József",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1867-03-10"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1945-02"
+			}
+		},
+		{
+			"name": "KARDOS Mária",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1869-12-22"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1947-11-18"
+			}
+		},
+		{
+			"name": "KARDOS Sándor",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1858-08-25"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1925-12-20"
+			}
+		},
+		{
+			"name": "KARDOS Zsuzsanna",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1890"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1982"
+			}
+		},
+		{
+			"name": "KARDOSS András Mihály",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KARDOSS Ferencz",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1830"
+			},
+			"death": {
+				"location": "Pálosnagymezô",
+				"latitude": null,
+				"longitude": null,
+				"time": "1906-12-08"
+			}
+		},
+		{
+			"name": "KARDOSS Ferenczné",
+			"birth": null,
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1884-05-04"
+			}
+		},
+		{
+			"name": "KARDOSS Fruzsina dr.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KARDOSS László Endre",
+			"birth": {
+				"location": "Szigetszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1926-04-27"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "2003-10-13"
+			}
+		},
+		{
+			"name": "KARDOSS László Endre dr.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KARDOSS László Sándor",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1893-05-09"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1987"
+			}
+		},
+		{
+			"name": "KÁROLYI ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÁROLYI Gábor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KARSAI Éva",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KARSAI Róbert",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KARSAI Zamira",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÉKESI Attila",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÉKESI István",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KELLER Júlianna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KENDRA Anna Antónia",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KEREKES András",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KEREKES Balázs",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KEREKES Csaba",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KERKÁPOLY Gyula",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KERN János",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1843"
+			},
+			"death": null
+		},
+		{
+			"name": "KESERÛ Elek",
+			"birth": {
+				"location": "Nagyberény",
+				"latitude": null,
+				"longitude": null,
+				"time": "-"
+			},
+			"death": {
+				"location": "Veszprém",
+				"latitude": null,
+				"longitude": null,
+				"time": "-"
+			}
+		},
+		{
+			"name": "KESERÛ Erzsébet",
+			"birth": {
+				"location": "Veszprém",
+				"latitude": null,
+				"longitude": null,
+				"time": "1888"
+			},
+			"death": null
+		},
+		{
+			"name": "KESERÛ György",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KESERÛ Ilona",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KESERÛ László",
+			"birth": {
+				"location": "Vasvár",
+				"latitude": null,
+				"longitude": null,
+				"time": "1922"
+			},
+			"death": {
+				"location": "Veszprém",
+				"latitude": null,
+				"longitude": null,
+				"time": "1927"
+			}
+		},
+		{
+			"name": "KESERÛ Miklós",
+			"birth": {
+				"location": "Veszprém",
+				"latitude": null,
+				"longitude": null,
+				"time": "1886"
+			},
+			"death": {
+				"location": "Vasvár",
+				"latitude": null,
+				"longitude": null,
+				"time": "1945"
+			}
+		},
+		{
+			"name": "KESRERÛ ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KESSERÛ ",
+			"birth": {
+				"location": "Vasvár",
+				"latitude": null,
+				"longitude": null,
+				"time": "1925"
+			},
+			"death": null
+		},
+		{
+			"name": "KESSERÛ Ilona",
+			"birth": {
+				"location": "Vasvár",
+				"latitude": null,
+				"longitude": null,
+				"time": "1928"
+			},
+			"death": {
+				"location": "Szombathely",
+				"latitude": 47.2291184,
+				"longitude": 16.6187625,
+				"time": "1988"
+			}
+		},
+		{
+			"name": "KESSERÛ Mária",
+			"birth": {
+				"location": "Vasvár",
+				"latitude": null,
+				"longitude": null,
+				"time": "1932"
+			},
+			"death": {
+				"location": "Szombathely",
+				"latitude": 47.2291184,
+				"longitude": 16.6187625,
+				"time": "1988"
+			}
+		},
+		{
+			"name": "KESSERÛ Miklós",
+			"birth": {
+				"location": "Vasvár",
+				"latitude": null,
+				"longitude": null,
+				"time": "1926"
+			},
+			"death": {
+				"location": "Vasvár",
+				"latitude": null,
+				"longitude": null,
+				"time": "1926"
+			}
+		},
+		{
+			"name": "KICZENKO Alexej dr.",
+			"birth": {
+				"location": "Aknaszlatina",
+				"latitude": 47.9470202,
+				"longitude": 23.8747013,
+				"time": "1927"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "2015-06-18"
+			}
+		},
+		{
+			"name": "KICZENKO Anna Krisztina",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KICZENKO Gábor Sándor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KICZENKO Katalin",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KICZENKO Lukrécia",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KICZENKO Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KICZENKÓ Nóra Viktória",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KICZENKO Sándor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KIRÁLY János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KISS Ábel",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KISS András",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KISS Anna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KISS Anna",
+			"birth": {
+				"location": "Moson",
+				"latitude": 47.8594524,
+				"longitude": 17.27057,
+				"time": "1873"
+			},
+			"death": {
+				"location": "Magyaróvár",
+				"latitude": null,
+				"longitude": null,
+				"time": "1949"
+			}
+		},
+		{
+			"name": "KISS Aranka",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KISS Árpád dr.",
+			"birth": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "okt 1925"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1998"
+			}
+		},
+		{
+			"name": "KISS Bálint",
+			"birth": {
+				"location": "Vásárosszentgál",
+				"latitude": null,
+				"longitude": null,
+				"time": "1885"
+			},
+			"death": {
+				"location": "Pécs",
+				"latitude": null,
+				"longitude": null,
+				"time": "1963"
+			}
+		},
+		{
+			"name": "KISS Ferenc",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KISS Ferenc",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KISS Gabriella",
+			"birth": {
+				"location": "Lökösháza",
+				"latitude": null,
+				"longitude": null,
+				"time": "1926-12"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "2012-01-15"
+			}
+		},
+		{
+			"name": "KISS Irénke",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KISS István",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KISS István ifj.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KISS János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KISS Lajos",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KISS László",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KISS Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KISS Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KISS Máté",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KISS Mihály",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KISS Mincsi",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KISS Piroska",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KISS Rozália",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KISS Sándor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KISS Sándor",
+			"birth": {
+				"location": "Magyarszovát",
+				"latitude": null,
+				"longitude": null,
+				"time": "1891"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1970"
+			}
+		},
+		{
+			"name": "KISS Sándor id.",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1910"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1975"
+			}
+		},
+		{
+			"name": "KISS Szilvia",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KLEMM ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KLEMM Alojzia",
+			"birth": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1878"
+			},
+			"death": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1943-05-11"
+			}
+		},
+		{
+			"name": "KLEMM Erzsébet",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KLEMM Franciska",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KMECZKÓ Katalin",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOCSIS Zoltán",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOGER Gabi",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOINIG Maria",
+			"birth": {
+				"location": "Tinaberg",
+				"latitude": 34.68132695,
+				"longitude": 10.6831941319743,
+				"time": "1790-01-31"
+			},
+			"death": null
+		},
+		{
+			"name": "KOINIG Matthias",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOMLÓS László",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOMLÓS Mónika",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KONDOR Sándor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KONTOS Ilona",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1922"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "2002"
+			}
+		},
+		{
+			"name": "KONTOS József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KORMÁNY Márta",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖRMENDI András",
+			"birth": {
+				"location": "Szolnok",
+				"latitude": 47.1754555,
+				"longitude": 20.1946818,
+				"time": "1950-07-09"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1998-05-23"
+			}
+		},
+		{
+			"name": "KÖRMENDI Anita",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖRMENDI József",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1926-05-22"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "2002-09-16"
+			}
+		},
+		{
+			"name": "KÖRMENDI Judit",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖRMENDI Márta Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖRMENDI Sándor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖRMENDI Szilvia",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖRMENDI Virág",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖRMENDI Zita",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖRMENDI Zsófia",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖRMENDI Zsófia Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖRMENDY Éva",
+			"birth": null,
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "kb  1997"
+			}
+		},
+		{
+			"name": "KÖRMENDY István",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖRMENDY István id.",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1901"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1959"
+			}
+		},
+		{
+			"name": "KÖRMENDY István ifj.",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1924"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1966"
+			}
+		},
+		{
+			"name": "KÖRMENDY János",
+			"birth": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1926-04"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1993"
+			}
+		},
+		{
+			"name": "KÖRMENDY József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖRMÖNDI András",
+			"birth": {
+				"location": "Tiszatenyõ ??",
+				"latitude": null,
+				"longitude": null,
+				"time": "1921"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1997"
+			}
+		},
+		{
+			"name": "KÖRMÖNDI András id.",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1871-05-31"
+			},
+			"death": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1962"
+			}
+		},
+		{
+			"name": "KÖRMÖNDI András ifj.",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1896"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1976"
+			}
+		},
+		{
+			"name": "KÖRMÖNDI Bálint",
+			"birth": {
+				"location": "Törökszentmiklós-Pusztatenyô",
+				"latitude": null,
+				"longitude": null,
+				"time": "1915-02"
+			},
+			"death": {
+				"location": "Törökszentmiklós-Pusztatenyô",
+				"latitude": null,
+				"longitude": null,
+				"time": "1915-08-12"
+			}
+		},
+		{
+			"name": "KÖRMÖNDI Bálint (1)",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1898"
+			},
+			"death": null
+		},
+		{
+			"name": "KÖRMÖNDI Bálint (2)",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1917"
+			},
+			"death": {
+				"location": "Don-kanyar",
+				"latitude": 47.2235442,
+				"longitude": 18.5792008343404,
+				"time": "1943-01-13"
+			}
+		},
+		{
+			"name": "KÖRMÖNDI Bálint ifj.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖRMÖNDI Erzsébet",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1919-09-01"
+			},
+			"death": {
+				"location": "Gyula",
+				"latitude": 46.6438656,
+				"longitude": 21.2747575,
+				"time": "2003-03"
+			}
+		},
+		{
+			"name": "KÖRMÖNDI Eszter",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "-"
+			},
+			"death": null
+		},
+		{
+			"name": "KÖRMÖNDI Gizella",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1932"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1997"
+			}
+		},
+		{
+			"name": "KÖRMÖNDI Ilona",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1902"
+			},
+			"death": null
+		},
+		{
+			"name": "KÖRMÖNDI István id.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖRMÖNDI János",
+			"birth": {
+				"location": "Mezôtúr",
+				"latitude": null,
+				"longitude": null,
+				"time": "1896-07-22"
+			},
+			"death": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1899-03-30"
+			}
+		},
+		{
+			"name": "KÖRMÖNDI János (1)",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1839"
+			},
+			"death": null
+		},
+		{
+			"name": "KÖRMÖNDI János (2)",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1920"
+			},
+			"death": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1938"
+			}
+		},
+		{
+			"name": "KÖRMÖNDI János (3)",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1940"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1985"
+			}
+		},
+		{
+			"name": "KÖRMÖNDI János (4)",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1921"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1989"
+			}
+		},
+		{
+			"name": "KÖRMÖNDI János (5)",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖRMÖNDI János id.",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1859"
+			},
+			"death": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1923-11-25"
+			}
+		},
+		{
+			"name": "KÖRMÖNDI János ifj.",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1892"
+			},
+			"death": null
+		},
+		{
+			"name": "KÖRMÖNDI József",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1900-02-09"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1977-03-19"
+			}
+		},
+		{
+			"name": "KÖRMÖNDI József (1)",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1875"
+			},
+			"death": null
+		},
+		{
+			"name": "KÖRMÖNDI Júlianna",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "-"
+			},
+			"death": null
+		},
+		{
+			"name": "KÖRMÖNDI Júlianna (1)",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖRMÖNDI Lajos",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖRMÖNDI Mária",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1910"
+			},
+			"death": {
+				"location": "Kuncsorba",
+				"latitude": 47.1282678,
+				"longitude": 20.5552834,
+				"time": "1978"
+			}
+		},
+		{
+			"name": "KÖRMÖNDI Sándor (1)",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1865"
+			},
+			"death": null
+		},
+		{
+			"name": "KÖRMÖNDI Sándor (2)",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "-"
+			},
+			"death": null
+		},
+		{
+			"name": "KÖRMÖNDI Tamás",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖRMÖNDI Terézia",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖRMÖNDI Zsófia",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1867"
+			},
+			"death": null
+		},
+		{
+			"name": "KÖRMÖNDI Zsuzsanna",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1869"
+			},
+			"death": null
+		},
+		{
+			"name": "KORMOS János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KORMOS János ifj.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KORMOS Katalin",
+			"birth": null,
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1976"
+			}
+		},
+		{
+			"name": "KORMOS Magdolna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KORSÓS Ágnes",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KORSÓS Ilona",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KORSÓS Júlia",
+			"birth": {
+				"location": "Szakmár / Keserûtelek",
+				"latitude": null,
+				"longitude": null,
+				"time": "1895-06-13"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1964"
+			}
+		},
+		{
+			"name": "KORSÓS Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KORSÓS Sándor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖTZ Auguszta",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1857-11"
+			},
+			"death": {
+				"location": "Szentkirályszabadja",
+				"latitude": null,
+				"longitude": null,
+				"time": "1942-05-29"
+			}
+		},
+		{
+			"name": "KÖTZ György János",
+			"birth": {
+				"location": "Mainz,Hessen, Németország",
+				"latitude": null,
+				"longitude": null,
+				"time": "1824"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1900-04-26"
+			}
+		},
+		{
+			"name": "KÖTZ Johann",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖTZ Leonhard",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1854"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1896-09-09"
+			}
+		},
+		{
+			"name": "KOVÁCS ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁCS András",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁCS Attila",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁCS Carson",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁCS Ditta Nikoletta",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁCS E. Bálint",
+			"birth": {
+				"location": "München",
+				"latitude": null,
+				"longitude": null,
+				"time": "1952-09-04"
+			},
+			"death": {
+				"location": "FL, USA",
+				"latitude": 27.7567667,
+				"longitude": -81.4639835,
+				"time": "2010-11-05"
+			}
+		},
+		{
+			"name": "KOVÁCS Enikõ Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁCS Erzsébet",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁCS Erzsébet",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁCS Eszter",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁCS Gábor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁCS István",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁCS János",
+			"birth": {
+				"location": "Börcs (Gyõr m.)",
+				"latitude": null,
+				"longitude": null,
+				"time": "kb  1880"
+			},
+			"death": {
+				"location": "Mosonmagyaróvár",
+				"latitude": null,
+				"longitude": null,
+				"time": "1942"
+			}
+		},
+		{
+			"name": "KOVÁCS János id.",
+			"birth": {
+				"location": "Börcs",
+				"latitude": null,
+				"longitude": null,
+				"time": "-"
+			},
+			"death": null
+		},
+		{
+			"name": "KOVÁCS János ifj.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁCS József Dr.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁCS Júlianna",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1899-03-29"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1949-02-20"
+			}
+		},
+		{
+			"name": "KOVÁCS K. Zoltán",
+			"birth": {
+				"location": "Magyaróvár",
+				"latitude": null,
+				"longitude": null,
+				"time": "1924-03-27"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "2008-03-05"
+			}
+		},
+		{
+			"name": "KOVÁCS Kitti Lívia",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁCS László",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁCS Mária dr.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁCS Melinda",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁCS Réka",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁCS Sándor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁCS Sándor ifj.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁCS Tibor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁCS Travis",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁCS Zoltán László",
+			"birth": {
+				"location": "München",
+				"latitude": null,
+				"longitude": null,
+				"time": "1954-03-01"
+			},
+			"death": {
+				"location": "Neumarkt",
+				"latitude": 46.3169161,
+				"longitude": 11.2725698,
+				"time": "2000-05-06"
+			}
+		},
+		{
+			"name": "KOVÁCS Zsolt",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁTS Attila",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁTS Balázs",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁTS Bence",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁTS Boróka",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁTS Botond",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁTS Imre",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1930"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1997"
+			}
+		},
+		{
+			"name": "KOVÁTS Imre ifj.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁTS Zoltán",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KOVÁTS Zoltán",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖVÉR Klára",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖVI András",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖVI András",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖVI Arthur Bálint",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖVI Arthur Gyula István Ferenc",
+			"birth": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1900-07-08"
+			},
+			"death": null
+		},
+		{
+			"name": "KÖVI Balázs Dániel",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖVI Emília",
+			"birth": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1901-12-16"
+			},
+			"death": {
+				"location": "Veszprém",
+				"latitude": null,
+				"longitude": null,
+				"time": "1982"
+			}
+		},
+		{
+			"name": "KÖVI Endre",
+			"birth": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1904-08-11"
+			},
+			"death": {
+				"location": "Hajmáskér",
+				"latitude": null,
+				"longitude": null,
+				"time": "1990"
+			}
+		},
+		{
+			"name": "KÖVI Ernõ",
+			"birth": {
+				"location": "Szeged",
+				"latitude": 46.2546312,
+				"longitude": 20.1486016,
+				"time": "1864-02-02"
+			},
+			"death": {
+				"location": "Budapest VIII.",
+				"latitude": -36.7837643,
+				"longitude": -73.1052456,
+				"time": "1941-03-15"
+			}
+		},
+		{
+			"name": "KÖVI Gábor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖVI Gyöngyi",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1944"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1945"
+			}
+		},
+		{
+			"name": "KÖVI Karsa",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖVI Kolos",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖVI Miklós",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖVI Réka",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖVI Szabolcs",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KÖVI Vilma Terézia Auguszta",
+			"birth": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1899-04-06"
+			},
+			"death": {
+				"location": "Gölle",
+				"latitude": null,
+				"longitude": null,
+				"time": "1938-03-08"
+			}
+		},
+		{
+			"name": "KOZMA Péter",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KRASZNAI Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KRENKÓ József",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1905"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1973"
+			}
+		},
+		{
+			"name": "KRIPOLSZKI István",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KRIPOLSZKY Magdolna",
+			"birth": {
+				"location": "Föveny",
+				"latitude": null,
+				"longitude": null,
+				"time": "1850-08-20"
+			},
+			"death": null
+		},
+		{
+			"name": "KRIZSÁN Zsuzsanna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KRÖLL Andreas",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KRÖLL Regina",
+			"birth": {
+				"location": "Maltschach",
+				"latitude": 46.671352,
+				"longitude": 15.4209552,
+				"time": "1790-11-03"
+			},
+			"death": null
+		},
+		{
+			"name": "KRONBAUER Anna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KROPF Ferenc",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KRÜGER Aladár dr.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KRÜGER Aladár dr. ifj.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KRÜGER Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KUN Ágnes",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KUN Imre",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KUNDERMANN Ferenc",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KUNDERMANN Rita",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KURNEL Erzsébet",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KUTUS Béla",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KUTUS Béla",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KUTUS Bence",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KUTUS Edvin",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KUTUS Erik",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KUTUS Fanni",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KUTUS Györgyi",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KUTUS Imre",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "KVINIKIN Margareta",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LACZÓ Károly",
+			"birth": null,
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1970-02"
+			}
+		},
+		{
+			"name": "LACZÓ Margit",
+			"birth": {
+				"location": "Jászjákóhalma",
+				"latitude": null,
+				"longitude": null,
+				"time": "1930-08-09"
+			},
+			"death": {
+				"location": "Kaposvár",
+				"latitude": null,
+				"longitude": null,
+				"time": "1993-05-30"
+			}
+		},
+		{
+			"name": "LAJOS Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LAJTRIK Alexandra",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LAJTRIK György",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LAKATOS Antal",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LAKATOS Attila",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LAKATOS Csaba",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LAKATOS Katalin",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LAKATOS Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LAMOS Ádám",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LAMOS Ágnes",
+			"birth": {
+				"location": "Jóka",
+				"latitude": null,
+				"longitude": null,
+				"time": "1904-09-14"
+			},
+			"death": null
+		},
+		{
+			"name": "LÁNG Dániel",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LÁNG Kázmér(?)",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LÁNG Róbert",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LÁNG Sándor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LÁNG Viktória",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LANG?ROF Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LANGL Michael",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LANGL Theresia",
+			"birth": {
+				"location": "Mittergreidt",
+				"latitude": null,
+				"longitude": null,
+				"time": "1772-04-16"
+			},
+			"death": null
+		},
+		{
+			"name": "LASKÓ Anna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LÁSZLÓ András",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LÁSZLÓ Erzsébet",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LÁSZLÓ Ilona",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LÁSZLÓ János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LÁSZLÓ János ifj.",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1928"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1988"
+			}
+		},
+		{
+			"name": "LÁSZLÓ József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LÁSZLÓ Sándor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LAURINGER Melánia Anna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LAURÓ Borbála",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1793"
+			},
+			"death": {
+				"location": "Esztergom",
+				"latitude": 47.7856977,
+				"longitude": 18.7403349,
+				"time": "1871-11-24"
+			}
+		},
+		{
+			"name": "LÁZÁR Zsuzsanna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LÉDERER Hermina",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LEE Lydia",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LEGATH Hans",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LEGATH Johann",
+			"birth": {
+				"location": "Arnfels",
+				"latitude": 46.676506,
+				"longitude": 15.401302,
+				"time": "1804-08-21"
+			},
+			"death": null
+		},
+		{
+			"name": "LEGATH Josef",
+			"birth": {
+				"location": "Kolberg",
+				"latitude": 54.1759614,
+				"longitude": 15.5764209,
+				"time": "1781-02-24"
+			},
+			"death": null
+		},
+		{
+			"name": "LEGATH Regina",
+			"birth": {
+				"location": "Maltschach",
+				"latitude": 46.671352,
+				"longitude": 15.4209552,
+				"time": "1830-05-15"
+			},
+			"death": null
+		},
+		{
+			"name": "LEITNER Magdolna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LÉNÁRT Imre",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LÉNÁRT Mariann",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LENNERT Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LESTYÁN ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LESTYÁN Andrea",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LESTYÁN Pál",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LESTYI Éva",
+			"birth": {
+				"location": "Tápióság",
+				"latitude": null,
+				"longitude": null,
+				"time": "-"
+			},
+			"death": null
+		},
+		{
+			"name": "LIBOR Mária",
+			"birth": null,
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "2014-08-22"
+			}
+		},
+		{
+			"name": "LINDENHAND Károly",
+			"birth": {
+				"location": "Moson",
+				"latitude": 47.8594524,
+				"longitude": 17.27057,
+				"time": "-"
+			},
+			"death": null
+		},
+		{
+			"name": "LINDENHAND Mária",
+			"birth": {
+				"location": "Moson",
+				"latitude": 47.8594524,
+				"longitude": 17.27057,
+				"time": "1888-09-29"
+			},
+			"death": {
+				"location": "Mosonmagyaróvár",
+				"latitude": null,
+				"longitude": null,
+				"time": "1946-11"
+			}
+		},
+		{
+			"name": "LINDENHAND Nándor",
+			"birth": {
+				"location": "Bécs",
+				"latitude": null,
+				"longitude": null,
+				"time": "-"
+			},
+			"death": {
+				"location": "Moson",
+				"latitude": 47.8594524,
+				"longitude": 17.27057,
+				"time": "-"
+			}
+		},
+		{
+			"name": "LINDENHAND Pál",
+			"birth": {
+				"location": "Moson",
+				"latitude": 47.8594524,
+				"longitude": 17.27057,
+				"time": "-"
+			},
+			"death": null
+		},
+		{
+			"name": "LINDENHAND Péter",
+			"birth": {
+				"location": "Moson",
+				"latitude": 47.8594524,
+				"longitude": 17.27057,
+				"time": "-"
+			},
+			"death": null
+		},
+		{
+			"name": "LIPPAI Erika Mónika",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LIPPAI Ferenc",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LIPPAI Ferenc ifj.",
+			"birth": null,
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1988 elôtt"
+			}
+		},
+		{
+			"name": "LIPPAI György",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LIPPAI Miklós",
+			"birth": null,
+			"death": {
+				"location": "Ada (Szerbia)",
+				"latitude": 43.220133,
+				"longitude": 22.4120497931248,
+				"time": "2008-03-08"
+			}
+		},
+		{
+			"name": "LIPTÁK Erzsébet",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LISZTNER Éva",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1800"
+			},
+			"death": {
+				"location": "Hercegfalva",
+				"latitude": null,
+				"longitude": null,
+				"time": "1869"
+			}
+		},
+		{
+			"name": "LÓLÉ Julianna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LUKÁCS Éva",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "LUKÁCS Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MAGYAR Edit",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MAGYAR Mihály",
+			"birth": {
+				"location": "Karcag",
+				"latitude": 47.314846,
+				"longitude": 20.9232519,
+				"time": "1908"
+			},
+			"death": {
+				"location": "Karcag",
+				"latitude": 47.314846,
+				"longitude": 20.9232519,
+				"time": "1978"
+			}
+		},
+		{
+			"name": "MÁHLER Ádám",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MAHLER Gyula",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MAHLER József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MAHLER József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MAIER ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MAIER Clara",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MAKÓ Dezsõ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MALIN Barbara",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MARCZIN Anna",
+			"birth": {
+				"location": "Magyarszerdahely",
+				"latitude": 46.5554057,
+				"longitude": 16.937305,
+				"time": "1887"
+			},
+			"death": {
+				"location": "Magyarszerdahely",
+				"latitude": 46.5554057,
+				"longitude": 16.937305,
+				"time": "1939"
+			}
+		},
+		{
+			"name": "MARCZIN Edina",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MARCZIN Gergô",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MARCZIN György",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1925"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1978"
+			}
+		},
+		{
+			"name": "MARCZIN György ifj.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MARCZIN István",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1862"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1907"
+			}
+		},
+		{
+			"name": "MARCZIN László",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1957"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1978"
+			}
+		},
+		{
+			"name": "MARCZINNÉ GERENCSÉR Ilona",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MARTHY Zoltán",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MÁRTON ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MÁRTON Pál",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MARTZ József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MATUSIK Zita",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MAVRIDISZ Andreasz",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MAVRIDISZ Fédra",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MAVRIDISZ Nikosz Alekszandrosz",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MAVRIDISZ Szerafim",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MAVRIDISZ Szerafim",
+			"birth": {
+				"location": "Törökország",
+				"latitude": null,
+				"longitude": null,
+				"time": "Kb. 1880"
+			},
+			"death": {
+				"location": "Szimandra",
+				"latitude": null,
+				"longitude": null,
+				"time": "1965"
+			}
+		},
+		{
+			"name": "MAVRIDISZ Vaszilisz",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MAVRIDISZ Vaszilisz",
+			"birth": {
+				"location": "Konstantinápoly",
+				"latitude": null,
+				"longitude": null,
+				"time": "1916"
+			},
+			"death": {
+				"location": "Miskolc",
+				"latitude": 48.1031517,
+				"longitude": 20.7902158,
+				"time": "1965-11-27"
+			}
+		},
+		{
+			"name": "MAVRIDOU Szofia",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MAXA Ilona",
+			"birth": {
+				"location": "Técsõ",
+				"latitude": null,
+				"longitude": null,
+				"time": "1866-10-23"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1947"
+			}
+		},
+		{
+			"name": "MAXA János",
+			"birth": {
+				"location": "Felsõvisó",
+				"latitude": null,
+				"longitude": null,
+				"time": "1831-05-13"
+			},
+			"death": null
+		},
+		{
+			"name": "MAXA József",
+			"birth": {
+				"location": "Felsõvisó",
+				"latitude": null,
+				"longitude": null,
+				"time": "-"
+			},
+			"death": null
+		},
+		{
+			"name": "MÁZÁS Teréz",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MEDVED Erzsébet",
+			"birth": {
+				"location": "Felsõturcsek",
+				"latitude": null,
+				"longitude": null,
+				"time": "1799-07-29"
+			},
+			"death": null
+		},
+		{
+			"name": "MEDVED Johann",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MEDVEDNÉ Maria",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MEÉSZ János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MEÉSZ Klára",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MEIDLINGER Ilona",
+			"birth": {
+				"location": "Magyaróvár",
+				"latitude": null,
+				"longitude": null,
+				"time": "1931-05-01"
+			},
+			"death": {
+				"location": "Mosonmagyaróvár",
+				"latitude": null,
+				"longitude": null,
+				"time": "2018-10-04"
+			}
+		},
+		{
+			"name": "MEIDLINGER Mátyás",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MEIDLINGER Mihály",
+			"birth": {
+				"location": "Szentpéter",
+				"latitude": null,
+				"longitude": null,
+				"time": "1901-09-29"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1980-07-15"
+			}
+		},
+		{
+			"name": "MEIDLINGER Mihály id.",
+			"birth": {
+				"location": "Szentpéter",
+				"latitude": null,
+				"longitude": null,
+				"time": "1867"
+			},
+			"death": {
+				"location": "Magyaróvár",
+				"latitude": null,
+				"longitude": null,
+				"time": "1953"
+			}
+		},
+		{
+			"name": "MEIDLINGER Róza",
+			"birth": null,
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1946-07-08"
+			}
+		},
+		{
+			"name": "MENKÓ Ágnes",
+			"birth": {
+				"location": "Úri",
+				"latitude": null,
+				"longitude": null,
+				"time": "1870-01-23"
+			},
+			"death": null
+		},
+		{
+			"name": "MENKÓ István",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MERÉNYI Gyula",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MERÉNYI Gyula",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MERÉNYI László",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MÉSZÁROS ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MÉSZÁROS Anna",
+			"birth": {
+				"location": "Pálóc",
+				"latitude": null,
+				"longitude": null,
+				"time": "-"
+			},
+			"death": {
+				"location": "Szatmár",
+				"latitude": null,
+				"longitude": null,
+				"time": "-"
+			}
+		},
+		{
+			"name": "MÉSZÁROS Dezsõ",
+			"birth": null,
+			"death": {
+				"location": "Bécs",
+				"latitude": null,
+				"longitude": null,
+				"time": "-"
+			}
+		},
+		{
+			"name": "MÉSZÁROS Jolán",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MÉSZÁROS Piri",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MEZEI ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MEZEI Gábor Dr",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MEZÕ Ferenc",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MEZÕ Ferenc",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MEZÕ Sándor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MIHÁLYFI Pál",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1890"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1978"
+			}
+		},
+		{
+			"name": "MIKLÓS ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MIKLÓS Ferenc",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MIKLÓS Ferenc ifj.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MIKLÓS Gabriella",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MIKLÓS ifj.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MIKLÓS István",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MIKLÓS József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MIKLÓS József id.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MIKLÓS Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MIKLÓS Tamás",
+			"birth": null,
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1999-02"
+			}
+		},
+		{
+			"name": "MIKLÓS Viktor",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1932"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "2011-06-13"
+			}
+		},
+		{
+			"name": "MIKLÓS Viktor ifj.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MILLEI Éva",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MILLER Helén",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1835"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1918"
+			}
+		},
+		{
+			"name": "MISKOLCZI Barnabás",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MISKOLCZI Gréta",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MISKOLCZI István",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MOHÁCSI József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MOHÁCSI Zoé",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MONORI Ákos",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MONORI Bálint Gusztáv",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MONORI Gábor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MONORI Gusztáv",
+			"birth": {
+				"location": "Alsószûcs",
+				"latitude": null,
+				"longitude": null,
+				"time": "1888-04-19"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1979"
+			}
+		},
+		{
+			"name": "MONORI György",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MONORI István",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1921"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1921"
+			}
+		},
+		{
+			"name": "MONORI Ivett",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MONORI János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MONORI János",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1922"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1922"
+			}
+		},
+		{
+			"name": "MONORI János",
+			"birth": {
+				"location": "Dunapataj",
+				"latitude": 46.6442755,
+				"longitude": 18.9990105,
+				"time": "1925-01-29"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "2015-06-09"
+			}
+		},
+		{
+			"name": "MONORI Johanna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MONORI Kira",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MONORI Kristóf Gábor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MONORI Krisztina Barbara",
+			"birth": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1979-12-28"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1983-07-06"
+			}
+		},
+		{
+			"name": "MONORI László",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1929-10-25"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "2013-03-14"
+			}
+		},
+		{
+			"name": "MONORI Péter",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MONORI Vivien",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MONORI-MEZÔ Marina",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MONORI-MEZÕ Renáta",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MONOSTORI Gábor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MONOSTORI István",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MONOSTORI József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MONOSTORI Zsuzsa",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MONOSTORINÉ Éva",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MORCSÁNYI Krisztina",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MÓRICZ Anna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MOSZT M",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MUKA János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MÜLLER János",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1828"
+			},
+			"death": null
+		},
+		{
+			"name": "MÜLLER Terézia",
+			"birth": {
+				"location": "Adony",
+				"latitude": 47.1208993,
+				"longitude": 18.8631074,
+				"time": "1851-04-10"
+			},
+			"death": null
+		},
+		{
+			"name": "MURAI ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MURAI ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "MURAI József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NÁGL ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NÁGL Gizella",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NAGY ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NAGY Ambrus",
+			"birth": {
+				"location": "Hajdúnánás",
+				"latitude": null,
+				"longitude": null,
+				"time": "1863-05-30"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1916"
+			}
+		},
+		{
+			"name": "NAGY Anna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NAGY Attila",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NAGY Gábor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NAGY Gábor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NAGY Gábor",
+			"birth": {
+				"location": "Hajdúnánás",
+				"latitude": null,
+				"longitude": null,
+				"time": "1827-12-14"
+			},
+			"death": null
+		},
+		{
+			"name": "NAGY Gabriella",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1947"
+			},
+			"death": {
+				"location": "Mosonmagyaróvár",
+				"latitude": null,
+				"longitude": null,
+				"time": "2000-05-29"
+			}
+		},
+		{
+			"name": "NAGY Ilona",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NAGY Imre",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NAGY János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NAGY Júlianna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NAGY Júlianna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NAGY Katalin",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NAGY Mária",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1922-05-30"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1997"
+			}
+		},
+		{
+			"name": "NAGY Miklós",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NAGY Nóra Krisztina dr.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NAGY Rozina",
+			"birth": {
+				"location": "Gálosfa",
+				"latitude": null,
+				"longitude": null,
+				"time": "1836"
+			},
+			"death": {
+				"location": "Veszprém",
+				"latitude": null,
+				"longitude": null,
+				"time": "1896-02-18"
+			}
+		},
+		{
+			"name": "NAGY Vilma",
+			"birth": {
+				"location": "Vámospércs",
+				"latitude": null,
+				"longitude": null,
+				"time": "1896-06-22"
+			},
+			"death": {
+				"location": "Lengyeltóti",
+				"latitude": null,
+				"longitude": null,
+				"time": "1989-11-17"
+			}
+		},
+		{
+			"name": "NAGY Zsófia",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NAZTASE Constanca",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NEIDHART Werner",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1928-11-14"
+			},
+			"death": {
+				"location": "Wolfsberg",
+				"latitude": 52.4205588,
+				"longitude": 10.7861682,
+				"time": "2014-12-23"
+			}
+		},
+		{
+			"name": "NÉMETH Anna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NÉMETH Antal",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NÉMETH Theodóra",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NEUMANN Anna Maria",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1718"
+			},
+			"death": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1786-09-14"
+			}
+		},
+		{
+			"name": "NEUMANN Anna Maria",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1758-07"
+			},
+			"death": null
+		},
+		{
+			"name": "NEUMANN Eva Maria",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1763-03-23"
+			},
+			"death": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1829-06-10"
+			}
+		},
+		{
+			"name": "NEUMANN Jacob",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1687"
+			},
+			"death": null
+		},
+		{
+			"name": "NEUMANN Jacob",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1755-07-16"
+			},
+			"death": null
+		},
+		{
+			"name": "NEUMANN Johann",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1719"
+			},
+			"death": null
+		},
+		{
+			"name": "NEUMANN Leopold",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NEUMANN Maria",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1718-08-09"
+			},
+			"death": null
+		},
+		{
+			"name": "NEUMANN-NÉ Elisabeth",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NEUMANN-NÉ Susanna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NGUYEN Thi Khanh Dung",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NIEDERKIRCHNER Anton",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1878-05"
+			},
+			"death": null
+		},
+		{
+			"name": "NIEDERKIRCHNER Béla",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NIEDERKIRCHNER Ferenc",
+			"birth": {
+				"location": "Csepel",
+				"latitude": 47.424317,
+				"longitude": 19.0692138186022,
+				"time": "1884-02-10"
+			},
+			"death": null
+		},
+		{
+			"name": "NIEDERKIRCHNER Genovéva",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1894-01"
+			},
+			"death": null
+		},
+		{
+			"name": "NIEDERKIRCHNER János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NIEDERKIRCHNER János",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1869-11"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1910-11-13"
+			}
+		},
+		{
+			"name": "NIEDERKIRCHNER Mária",
+			"birth": {
+				"location": "Csepel",
+				"latitude": 47.424317,
+				"longitude": 19.0692138186022,
+				"time": "1868-05-24"
+			},
+			"death": null
+		},
+		{
+			"name": "NIEDERKIRCHNER Mária",
+			"birth": {
+				"location": "Csepel",
+				"latitude": 47.424317,
+				"longitude": 19.0692138186022,
+				"time": "1895-12-02"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1956"
+			}
+		},
+		{
+			"name": "NIEDERKIRCHNER Menyhért",
+			"birth": {
+				"location": "Csepel",
+				"latitude": 47.424317,
+				"longitude": 19.0692138186022,
+				"time": "1866-08-08"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1938"
+			}
+		},
+		{
+			"name": "NIEDERKIRCHNER Pál",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1895-06"
+			},
+			"death": null
+		},
+		{
+			"name": "NIEDERKIRCHNER Teréz",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1892"
+			},
+			"death": null
+		},
+		{
+			"name": "NIEDERKIRCHNER Terézia",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NIEDERMAYER Adam",
+			"birth": null,
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1885-11-10"
+			}
+		},
+		{
+			"name": "NIEDERMAYER Ágota",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1927"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1936"
+			}
+		},
+		{
+			"name": "NIEDERMAYER Alojza",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NIEDERMAYER Barbara",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1816"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1870"
+			}
+		},
+		{
+			"name": "NIEDERMAYER Borbála",
+			"birth": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1872-01"
+			},
+			"death": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1925-03-01"
+			}
+		},
+		{
+			"name": "NIEDERMAYER Borbála",
+			"birth": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1883-12-03"
+			},
+			"death": {
+				"location": "Mátészalka",
+				"latitude": null,
+				"longitude": null,
+				"time": "1940-07-12"
+			}
+		},
+		{
+			"name": "NIEDERMAYER Erzsébet",
+			"birth": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1888-11-11"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1987"
+			}
+		},
+		{
+			"name": "NIEDERMAYER Ferenc",
+			"birth": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1860-12-28"
+			},
+			"death": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1922-08-02"
+			}
+		},
+		{
+			"name": "NIEDERMAYER Ferenc ifj.",
+			"birth": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "-"
+			},
+			"death": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "-"
+			}
+		},
+		{
+			"name": "NIEDERMAYER Friderika",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NIEDERMAYER György",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NIEDERMAYER György",
+			"birth": null,
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1887-04-04"
+			}
+		},
+		{
+			"name": "NIEDERMAYER György",
+			"birth": {
+				"location": "Rüdern",
+				"latitude": null,
+				"longitude": null,
+				"time": "1670"
+			},
+			"death": null
+		},
+		{
+			"name": "NIEDERMAYER György",
+			"birth": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1798-03-10"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1886-06-04"
+			}
+		},
+		{
+			"name": "NIEDERMAYER Ignatz",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1753"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1794"
+			}
+		},
+		{
+			"name": "NIEDERMAYER Ilona",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NIEDERMAYER János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NIEDERMAYER János",
+			"birth": {
+				"location": "Gerolzhofen",
+				"latitude": 49.9003568,
+				"longitude": 10.3487749,
+				"time": "1703"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1783-11-22"
+			}
+		},
+		{
+			"name": "NIEDERMAYER József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NIEDERMAYER József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NIEDERMAYER József",
+			"birth": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1756-03-08"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1822-11-28"
+			}
+		},
+		{
+			"name": "NIEDERMAYER József",
+			"birth": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1827-07-25"
+			},
+			"death": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1912-12-01"
+			}
+		},
+		{
+			"name": "NIEDERMAYER József",
+			"birth": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1858"
+			},
+			"death": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1929-11-25"
+			}
+		},
+		{
+			"name": "NIEDERMAYER József",
+			"birth": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1886-08-12"
+			},
+			"death": {
+				"location": "Szajol",
+				"latitude": 47.1764886,
+				"longitude": 20.2996108,
+				"time": "1920-01-31"
+			}
+		},
+		{
+			"name": "NIEDERMAYER Magdolna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NIEDERMAYER Mihály",
+			"birth": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1891-06-08"
+			},
+			"death": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1907-07-18"
+			}
+		},
+		{
+			"name": "NIEDERMAYER Rozália",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NIEDERMAYER Stephan",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1789"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1835"
+			}
+		},
+		{
+			"name": "NIEDERMAYER Szidónia",
+			"birth": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1885-08-27"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1885-10-15"
+			}
+		},
+		{
+			"name": "NIEDERMAYER Szidonia Anna",
+			"birth": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1896-05-01"
+			},
+			"death": {
+				"location": "Szeged",
+				"latitude": 46.2546312,
+				"longitude": 20.1486016,
+				"time": "1939-07-24"
+			}
+		},
+		{
+			"name": "NIEDERMAYER Teréz",
+			"birth": null,
+			"death": {
+				"location": "Szajol",
+				"latitude": 47.1764886,
+				"longitude": 20.2996108,
+				"time": "1920-01-31"
+			}
+		},
+		{
+			"name": "NIEDERMAYER Terézia",
+			"birth": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1894-11-13"
+			},
+			"death": {
+				"location": "Újrónafõ",
+				"latitude": null,
+				"longitude": null,
+				"time": "1974-01-24"
+			}
+		},
+		{
+			"name": "NIEDERMAYERNÉ Anna Mária",
+			"birth": {
+				"location": "Gerlichshof",
+				"latitude": null,
+				"longitude": null,
+				"time": "1714"
+			},
+			"death": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1767-09-19"
+			}
+		},
+		{
+			"name": "NIEDERMAYERNÉ Éva",
+			"birth": {
+				"location": "Rüdern",
+				"latitude": null,
+				"longitude": null,
+				"time": "1675"
+			},
+			"death": null
+		},
+		{
+			"name": "NIEPOTH Anna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NOVRECZKY Árpád",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NOVRECZKY Árpád",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NOVRECZKY Botond",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NOVRECZKY Csenge",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NOVRECZKY Éva",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NOVRECZKY Hanga",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NOVRECZKY János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NOVRECZKY Lajos",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1911"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1955"
+			}
+		},
+		{
+			"name": "NOVRECZKY Lajos id",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1883"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1959"
+			}
+		},
+		{
+			"name": "NOVRECZKY Réka",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NOVRECZKY Vilmos",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NYILAS Roxana",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NYILAS Zoltán",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NYÍRI Balázs",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NYÍRI Márton",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NYISZTOR Albert",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NYISZTOR Edit",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NYOLCZAS Katalin",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NYOLCZAS Rita",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NYOLCZAS Sándor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "NYOLCZAS Sándor ifj.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "OLLÁRI ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "OLLÁRI András",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "OLLÁRI Béla",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "OLLÁRI Erzsébet",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "OLLÁRI Ilona",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "OLLÁRI Imre",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "OLLÁRI Imre id.",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1913"
+			},
+			"death": {
+				"location": "Kuncsorba",
+				"latitude": 47.1282678,
+				"longitude": 20.5552834,
+				"time": "1992"
+			}
+		},
+		{
+			"name": "OLLÁRI Imre ifj.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "OLLÁRI Irén",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "OLLÁRI István",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "OLLÁRI János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "OLLÁRI János",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1931"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "2005-01-16"
+			}
+		},
+		{
+			"name": "OLLÁRI János ifj.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "OLLÁRI József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "OLLÁRI Katalin",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "OLLÁRI Krisztián",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "OLLÁRI Magdolna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "OLLÁRI Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "OLLÁRI Rita",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "OLLÁRI Sarolta",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "OLLÁRI Szebasztián",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "OLLÁRI Tibor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "OLLÁRI Zoltán",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "OLLÁRINÉ SZABÓ Éva",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ÖTTÖMÖSI Géza",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ÔZ Ági",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ÔZE Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "PAITLER Maria",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "PÁL György",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "PÁL István",
+			"birth": {
+				"location": "Szilasbalhás",
+				"latitude": null,
+				"longitude": null,
+				"time": "1802-12-01"
+			},
+			"death": null
+		},
+		{
+			"name": "PÁL János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "PÁL Júlianna",
+			"birth": {
+				"location": "Szilasbalhás",
+				"latitude": null,
+				"longitude": null,
+				"time": "1871-07-10"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1933-11-24"
+			}
+		},
+		{
+			"name": "PÁL Margit",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "PALÁDI Béla",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "PALÁDI Béla",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "PALÁDI Béla György",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "PALÁDI Csenge",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "PALÁDI Erika",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "PALÁDI Éva",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "PALÁDI István",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "PALÁDI Katalin",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "PALÁDI Lenke",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "PALÁDI Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "PALÁDI Victorya",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "PALÁDI Vivien",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "PALÁDI Zoltán",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "PALÁDI Zsigmond",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "PÁLFI Ildikó",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "PÁLI Erika",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "PÁLI Imre",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "PÁLI Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "PÁLOS Dániel Tamás",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "QUIJA David",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "UDVARDY Mária",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1880"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1951"
+			}
+		},
+		{
+			"name": "ÚJHELYI-KISS Andrea",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "UNK Olga",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "URBÁN Erzsébet",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VADA Edina",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VADA Gábor Pál",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VADA Gergely",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VADA Krisztina",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VADA Pál",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VADA Péter",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VADA Tamás",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VADA Vince Gergely",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VADA Viola Panna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VADA Virág Nóra",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VÁGVÖLGYI Emma",
+			"birth": {
+				"location": "Bécs",
+				"latitude": null,
+				"longitude": null,
+				"time": "1919-07-12"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1998-12-25"
+			}
+		},
+		{
+			"name": "VÁGVÖLGYI Erzsébet",
+			"birth": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1923-10-19"
+			},
+			"death": {
+				"location": "Bécs",
+				"latitude": null,
+				"longitude": null,
+				"time": "2002-04-26"
+			}
+		},
+		{
+			"name": "VÁGVÖLGYI János",
+			"birth": {
+				"location": "Diószegh",
+				"latitude": null,
+				"longitude": null,
+				"time": "1885-09-19"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1959-03-24"
+			}
+		},
+		{
+			"name": "VÁGVÖLGYI Krisztina",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VÁGVÖLGYI Ottó Sándor",
+			"birth": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1925-04-27"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1996-05-15"
+			}
+		},
+		{
+			"name": "VÁGVÖLGYI Petra",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VÁGVÖLGYI Rozália",
+			"birth": {
+				"location": "Bucsa",
+				"latitude": 47.2042482,
+				"longitude": 20.9967301,
+				"time": "1921-04-30"
+			},
+			"death": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "2010-10-01"
+			}
+		},
+		{
+			"name": "VÁGVÖLGYI Tamás",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VÁGVÖLGYI Tamás Gábor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VÁGVÖLGYI Viktória",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VÁGVÖLGYI Zsuzsanna Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VÁGVÖLGYINÉ Anita",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VALTER Erzsébet",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VÁRADY Júlia",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VARGA Erzsébet",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VARGA István",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VARGA Magdolna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VARGA Terézia",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VARGA-TÓTH Ádám",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VARGA-TÓTH Léna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VÁRI NAGY Etelka",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1869"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1953"
+			}
+		},
+		{
+			"name": "VARJÚ Balázs",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VARJÚ Réka Magdolna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VARJÚ Tamás Antal",
+			"birth": {
+				"location": "Mosonmagyaróvár",
+				"latitude": null,
+				"longitude": null,
+				"time": "1949-06-11"
+			},
+			"death": {
+				"location": "Mosonmagyaróvár",
+				"latitude": null,
+				"longitude": null,
+				"time": "2008-04-15"
+			}
+		},
+		{
+			"name": "VARRÓ Judit",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VENCZEL András",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VERES Anna",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1877"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1913-09-04"
+			}
+		},
+		{
+			"name": "VERES Mihály",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VIDA Ilona",
+			"birth": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1845-07-19"
+			},
+			"death": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1924-05-01"
+			}
+		},
+		{
+			"name": "VIDA János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VIDA János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VILLALOBOS LOAIZA Yennie",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VIRÁG Adrienn",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VIRÁG Bálint",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VIRÁG Curie",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VIRÁG Eszter",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VIRÁG Ilona",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VIRÁG Sebastian",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VIRÁG Tibor dr.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VIRÁG Zsófia",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VLASICS Katalin",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1909"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1990"
+			}
+		},
+		{
+			"name": "von CSIKY Csaba",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "von CSIKY Csaba ifj.",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "von CSIKY Csaba László dr.",
+			"birth": {
+				"location": "Csíksomlyó",
+				"latitude": null,
+				"longitude": null,
+				"time": "1921"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "2014-06-20"
+			}
+		},
+		{
+			"name": "von CSIKY Csilla",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "von CSIKY Johannes",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "von CSIKY Mátyás",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "von CSIKY Pál",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "von CSIKY-SESSOMS Manon",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "von CSIKY-SESSOMS Stephanie",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VÖRÖS Ágnes",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VUKMAN Adél",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VUKMAN Marcell",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "VUKMAN Norbert",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WAITZ Maria",
+			"birth": null,
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1718"
+			}
+		},
+		{
+			"name": "WALLNER Katharina",
+			"birth": {
+				"location": "Leutschach",
+				"latitude": 46.9209622,
+				"longitude": 13.2353614,
+				"time": "1782-11-23"
+			},
+			"death": null
+		},
+		{
+			"name": "WALLNER Petrus",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WEISZ Anna",
+			"birth": {
+				"location": "Magyaróvár",
+				"latitude": null,
+				"longitude": null,
+				"time": "1903"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1988-12-12"
+			}
+		},
+		{
+			"name": "WEISZ Antal",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WEISZ Rozália",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WINTER Gyôzô",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WITTMANN ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WITTMANN Ádám",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WITTMANN Ádám",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WITTMANN Anna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WITTMANN Anna",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1837-08-26"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1886-01-13"
+			}
+		},
+		{
+			"name": "WITTMANN Antal",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WITTMANN Antal",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WITTMANN Borbála",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WITTMANN Erzsébet",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1889-11-12"
+			},
+			"death": null
+		},
+		{
+			"name": "WITTMANN Ferenc",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WITTMANN Franciska",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WITTMANN György",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WITTMANN János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WITTMANN József",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WITTMANN József",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1867"
+			},
+			"death": {
+				"location": "Elek",
+				"latitude": 46.5294265,
+				"longitude": 21.2526107,
+				"time": "1919-10-02"
+			}
+		},
+		{
+			"name": "WITTMANN Magdolna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WITTMANN Miksa",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WITTMANN Teréz",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WITTMANN Veronika",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WITTMANNÉ Lujza",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WOLF Johanna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WOLFRAM ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Adam",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Andreas",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1715"
+			},
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Andreas",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1795-12-01"
+			},
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Anna Maria",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1746-06-16"
+			},
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Anna Maria",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1754-03-22"
+			},
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Anna Maria",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1759"
+			},
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Anna Maria",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1799-09-03"
+			},
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Anton",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1824-05-28"
+			},
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Barbara",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1803-03-31"
+			},
+			"death": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1803"
+			}
+		},
+		{
+			"name": "WOLFRAM Emilia Sophie",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Emma Franciska",
+			"birth": {
+				"location": "Diószegh",
+				"latitude": null,
+				"longitude": null,
+				"time": "1890-11-17"
+			},
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Gertrud",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1787-07-22"
+			},
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Gottfried",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WOLFRAM János",
+			"birth": {
+				"location": "Bécs - Oberdöbling",
+				"latitude": null,
+				"longitude": null,
+				"time": "1859-04-24"
+			},
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Johann",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Johann",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1831-03-27"
+			},
+			"death": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1842-05-17"
+			}
+		},
+		{
+			"name": "WOLFRAM Johannes",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1756-06-26"
+			},
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Joseph",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1793-01-28"
+			},
+			"death": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1809-10-07"
+			}
+		},
+		{
+			"name": "WOLFRAM Josephus",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1758-09-13"
+			},
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Karl",
+			"birth": {
+				"location": "Bécs - Oberdöbling",
+				"latitude": null,
+				"longitude": null,
+				"time": "1857-03-14"
+			},
+			"death": null
+		},
+		{
+			"name": "WOLFRAM László Ottó",
+			"birth": {
+				"location": "Budapest",
+				"latitude": 47.4983815,
+				"longitude": 19.0404707,
+				"time": "1954-02-13"
+			},
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Leopold",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1754"
+			},
+			"death": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1823-04-21"
+			}
+		},
+		{
+			"name": "WOLFRAM Maria",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1752-06-11"
+			},
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Maria Anna",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1750-10-13"
+			},
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Maria Anna",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1805-04-02"
+			},
+			"death": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1806"
+			}
+		},
+		{
+			"name": "WOLFRAM Martin",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1825-02-05"
+			},
+			"death": {
+				"location": "Bécs",
+				"latitude": null,
+				"longitude": null,
+				"time": "1889-02-01"
+			}
+		},
+		{
+			"name": "WOLFRAM Máté",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Mathias",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1761-09-16"
+			},
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Philipp",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1789-07-06"
+			},
+			"death": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1809-11-21"
+			}
+		},
+		{
+			"name": "WOLFRAM Rosalia",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1744-08-30"
+			},
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Rosalia",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1792-08-22"
+			},
+			"death": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1810-01-01"
+			}
+		},
+		{
+			"name": "WOLFRAM Rudolf",
+			"birth": {
+				"location": "Diószegh",
+				"latitude": null,
+				"longitude": null,
+				"time": "1888-03-01"
+			},
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Theresia",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1748-05-07"
+			},
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Theresia",
+			"birth": {
+				"location": "Altruppersdorf",
+				"latitude": 48.69263245,
+				"longitude": 16.550044314613,
+				"time": "1797-02-20"
+			},
+			"death": null
+		},
+		{
+			"name": "WOLFRAM Theresia Rosa",
+			"birth": {
+				"location": "Bécs - Oberdöbling",
+				"latitude": null,
+				"longitude": null,
+				"time": "1853-09-01"
+			},
+			"death": null
+		},
+		{
+			"name": "WOLFRAM-NÉ Maria",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WRESNIGG Ägidi",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "WRESNIGG Anna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ZATKÓ Ferenc",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ZATKÓ Terézia",
+			"birth": {
+				"location": "Jászkarajenô",
+				"latitude": null,
+				"longitude": null,
+				"time": "1886-04-06"
+			},
+			"death": {
+				"location": "Törökszentmiklós",
+				"latitude": null,
+				"longitude": null,
+				"time": "1959-04-09"
+			}
+		},
+		{
+			"name": "ZEILER Barbara",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ZEITLER Erzsébet",
+			"birth": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1762-11-19"
+			},
+			"death": {
+				"location": "-",
+				"latitude": null,
+				"longitude": null,
+				"time": "1826-08-31"
+			}
+		},
+		{
+			"name": "ZIEGLER Zsuzsanna",
+			"birth": {
+				"location": "Medgyes",
+				"latitude": 46.1649111,
+				"longitude": 24.3511266,
+				"time": "-"
+			},
+			"death": null
+		},
+		{
+			"name": "ZISKA Bálint",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ZISKA Gábor",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ZISKA Klaudia Melinda",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ZÓDOR János",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ZÓDOR Mária",
+			"birth": {
+				"location": "Péteri",
+				"latitude": null,
+				"longitude": null,
+				"time": "1879"
+			},
+			"death": null
+		},
+		{
+			"name": "ZSABKA Martin",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ZSABKA Terézia",
+			"birth": {
+				"location": "Felsõturcsek",
+				"latitude": null,
+				"longitude": null,
+				"time": "1805-04-17"
+			},
+			"death": null
+		},
+		{
+			"name": "ZSABKÁNÉ Anna",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ZSITVA Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ZURMÜHL Mária",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ZWICKLER ",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ZWICKLER Gertrude",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ZWICKLER Ilse",
+			"birth": null,
+			"death": null
+		},
+		{
+			"name": "ZWICKLER Wolfgang",
+			"birth": null,
+			"death": null
+		}
+	]
+}

@@ -6,6 +6,8 @@ import lombok.Data;
 public class LocationAndTime {
 
 	private String location;
+	private Double latitude;
+	private Double longitude;
 	private String time;
 	
 }

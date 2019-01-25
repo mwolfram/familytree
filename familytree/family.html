@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Quick Start - Leaflet</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="docs/images/favicon.ico" />
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
+	
+	<link  href="https://unpkg.com/leaflet-geosearch@latest/assets/css/leaflet.css" rel="stylesheet" />
+	<script src="https://unpkg.com/leaflet-geosearch@latest/dist/bundle.min.js"></script>
+
+	
+</head>
+<body>
+
+
+
+<div id="mapid" style="width: 1250px; height: 550px;"></div>
+<script>
+
+	var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+
+	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+		maxZoom: 18,
+		attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+			'<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+			'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+		id: 'mapbox.streets'
+	}).addTo(mymap);
+	
+	
+	
+	var circle = L.circle([51.508, -0.11], {
+		color: 'red',
+		fillColor: '#f03',
+		fillOpacity: 0.5,
+		radius: 500
+	}).addTo(mymap);
+	
+	circle.bindPopup("I am a circle.");
+	
+	// instead of import {} from 'leaflet-geosearch', use the `window` global
+	var GeoSearchControl = window.GeoSearch.GeoSearchControl;
+	var OpenStreetMapProvider = window.GeoSearch.OpenStreetMapProvider;
+
+	// remaining is the same as in the docs, accept for the var instead of const declarations
+	var provider = new OpenStreetMapProvider();
+
+	var searchControl = new GeoSearchControl({
+	  provider: provider,
+	});
+
+	provider.search("New Kent Rd, London").then(
+	  function(result) { var marker = L.marker([51.5, -0.09]).addTo(mymap); },
+	  function(error) { alert(error) }
+	);
+	
+	L.marker([47.314846, 20.9232519]).addTo(mymap);
+L.marker([-36.7837643, -73.1052456]).addTo(mymap);
+L.marker([47.4983815, 19.0404707]).addTo(mymap);
+L.marker([48.433651, 22.1632747]).addTo(mymap);
+L.marker([47.7856977, 18.7403349]).addTo(mymap);
+L.marker([47.1056579, 17.5587276]).addTo(mymap);
+L.marker([46.2546312, 20.1486016]).addTo(mymap);
+L.marker([47.2042482, 20.9967301]).addTo(mymap);
+L.marker([27.7567667, -81.4639835]).addTo(mymap);
+L.marker([46.5554057, 16.937305]).addTo(mymap);
+L.marker([47.1764886, 20.2996108]).addTo(mymap);
+L.marker([34.68132695, 10.6831941319743]).addTo(mymap);
+L.marker([43.220133, 22.4120497931248]).addTo(mymap);
+L.marker([46.5527888, 16.9161006]).addTo(mymap);
+L.marker([48.181568, 22.903061]).addTo(mymap);
+L.marker([48.1031517, 20.7902158]).addTo(mymap);
+L.marker([39.7837304, -100.4458825]).addTo(mymap);
+L.marker([48.5195852, 13.4974316]).addTo(mymap);
+L.marker([47.6752768, 17.1988877]).addTo(mymap);
+L.marker([47.9470202, 23.8747013]).addTo(mymap);
+L.marker([50.2296385, 17.2046012]).addTo(mymap);
+L.marker([47.4484411, 19.1465176]).addTo(mymap);
+L.marker([47.2291184, 16.6187625]).addTo(mymap);
+L.marker([46.676506, 15.401302]).addTo(mymap);
+L.marker([46.6438656, 21.2747575]).addTo(mymap);
+L.marker([46.9163658, 18.9716536]).addTo(mymap);
+L.marker([47.1754555, 20.1946818]).addTo(mymap);
+L.marker([46.1649111, 24.3511266]).addTo(mymap);
+L.marker([46.6442755, 18.9990105]).addTo(mymap);
+L.marker([48.69263245, 16.550044314613]).addTo(mymap);
+L.marker([46.9209622, 13.2353614]).addTo(mymap);
+L.marker([46.5294265, 21.2526107]).addTo(mymap);
+L.marker([46.671352, 15.4209552]).addTo(mymap);
+L.marker([47.1208993, 18.8631074]).addTo(mymap);
+L.marker([47.1282678, 20.5552834]).addTo(mymap);
+L.marker([45.8958985, 14.0718907]).addTo(mymap);
+L.marker([47.0079887, 23.9417943]).addTo(mymap);
+L.marker([46.3169161, 11.2725698]).addTo(mymap);
+L.marker([54.1759614, 15.5764209]).addTo(mymap);
+L.marker([47.8594524, 17.27057]).addTo(mymap);
+L.marker([52.4205588, 10.7861682]).addTo(mymap);
+L.marker([47.2235442, 18.5792008343404]).addTo(mymap);
+L.marker([47.424317, 19.0692138186022]).addTo(mymap);
+L.marker([45.2342366, 19.0915559]).addTo(mymap);
+L.marker([49.9003568, 10.3487749]).addTo(mymap);
+	
+	
+	mymap.addControl(searchControl);
+	
+	provider.search('New Kent Rd, London'), function (result) {
+		L.marker([result.x, result.y]).addTo(mymap)
+	};
+
+</script>
+
+
+
+</body>
+</html>
