@@ -6,7 +6,10 @@ import java.net.MalformedURLException;
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
+import org.geojson.GeoJsonObject;
 
+import at.or.wolfram.mate.familytree.common.Mapper;
+import at.or.wolfram.mate.familytree.common.geojson.GeoJson;
 import at.or.wolfram.mate.familytree.service.familytree.FamilyTreeService;
 import at.or.wolfram.mate.familytree.service.location.LocationLookupService;
 
@@ -23,6 +26,11 @@ public class FamilyTree {
 				BASE_URL, 
 				FAMILY_TREE_CACHE_FILE, 
 				new LocationLookupService(LOCATION_LOOKUP_CACHE_FILE));
+		
+		GeoJsonObject geoJson = GeoJson.fromTree(familyTreeService.getTree());
+		System.out.println("---");
+		System.out.println(Mapper.writeJson(geoJson));
+		System.out.println("---");
 	}
 	
 //	private static void generatePersonPins() throws IOException {

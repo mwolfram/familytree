@@ -42,6 +42,10 @@ public class FamilyTreeService {
 		}
 	}
 	
+	public Tree getTree() {
+		return this.tree;
+	}
+	
 	private void readFromCacheFile() throws IOException {
 		String jsonData = FileUtils.readFileToString(this.cacheFile, Tools.ENCODING);
 		this.tree = Mapper.parseJson(jsonData, Tree.class);
