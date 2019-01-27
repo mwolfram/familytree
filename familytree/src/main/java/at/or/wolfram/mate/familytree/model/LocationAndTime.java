@@ -1,4 +1,4 @@
-package at.or.wolfram.mate.familytree;
+package at.or.wolfram.mate.familytree.model;
 
 import lombok.Data;
 
@@ -6,8 +6,7 @@ import lombok.Data;
 public class LocationAndTime {
 
 	private String location;
-	private Double latitude;
-	private Double longitude;
+	private Coordinates coordinates;
 	private String time;
 	
 }

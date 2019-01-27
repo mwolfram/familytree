@@ -1,4 +1,4 @@
-package at.or.wolfram.mate.familytree;
+package at.or.wolfram.mate.familytree.common;
 
 import java.io.IOException;
 import java.nio.charset.Charset;

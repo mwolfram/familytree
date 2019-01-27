@@ -1,4 +1,4 @@
-package at.or.wolfram.mate.familytree;
+package at.or.wolfram.mate.familytree.model;
 
 import lombok.Data;
 
