@@ -1,5 +1,9 @@
 package at.or.wolfram.mate.familytree.common.geojson;
 
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
 import org.apache.log4j.Logger;
 import org.geojson.Feature;
 import org.geojson.FeatureCollection;
@@ -48,9 +52,30 @@ public class GeoJson {
 				logger.error("Failed extracting year from string " + time);
 				continue;
 			}
+			
+			feature.setProperty("name", person.getName());
 
 			features.add(feature);
 		}
+		
+		List<Feature> featuresList = features.getFeatures();
+		Collections.sort(featuresList, new Comparator<Feature>() {
+
+			public int compare(Feature o1, Feature o2) {
+				int t1 = Integer.parseInt((String)(o1.getProperty("epoch")));
+				int t2 = Integer.parseInt((String)(o2.getProperty("epoch")));
+				if (t1 < t2) {
+					return 1;
+				}
+				else if (t2 > t1) {
+					return -1;
+				}
+				return 0;
+			}
+			
+		});
+		
+		features.setFeatures(featuresList);
 		
 		return features;
 	}
