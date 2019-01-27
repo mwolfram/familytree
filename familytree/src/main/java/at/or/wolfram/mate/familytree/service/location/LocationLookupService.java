@@ -70,6 +70,9 @@ public class LocationLookupService {
 	
 	private Coordinates getCoordinatesFromOpenStreetMapService(String locationName) {
 		Map<String, Double> coords = this.openStreetMapUtils.getCoordinates(locationName);
+		if (coords == null) {
+			return null;
+		}
 		return new Coordinates(coords.get(OpenStreetMapUtils.LATITUDE), coords.get(OpenStreetMapUtils.LONGITUDE));
 	}
 	

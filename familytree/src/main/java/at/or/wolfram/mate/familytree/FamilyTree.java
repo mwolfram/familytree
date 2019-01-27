@@ -3,6 +3,10 @@ package at.or.wolfram.mate.familytree;
 import java.io.IOException;
 import java.net.MalformedURLException;
 
+import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+
 import at.or.wolfram.mate.familytree.service.familytree.FamilyTreeService;
 import at.or.wolfram.mate.familytree.service.location.LocationLookupService;
 
@@ -13,6 +17,8 @@ public class FamilyTree {
 	private static final String LOCATION_LOOKUP_CACHE_FILE = "cache/locations.json";
 	
 	public static void main(String[] args) throws MalformedURLException, IOException {
+		BasicConfigurator.configure();
+		Logger.getRootLogger().setLevel(Level.INFO);
 		FamilyTreeService familyTreeService = new FamilyTreeService(
 				BASE_URL, 
 				FAMILY_TREE_CACHE_FILE, 
