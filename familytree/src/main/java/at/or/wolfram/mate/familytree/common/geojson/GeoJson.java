@@ -65,12 +65,14 @@ public class GeoJson {
 				int t1 = Integer.parseInt((String)(o1.getProperty("epoch")));
 				int t2 = Integer.parseInt((String)(o2.getProperty("epoch")));
 				if (t1 < t2) {
-					return 1;
-				}
-				else if (t2 > t1) {
 					return -1;
 				}
-				return 0;
+				else if (t1 > t2) {
+					return 1;
+				}
+				else {
+					return 0;
+				}
 			}
 			
 		});
