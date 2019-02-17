@@ -123,4 +123,15 @@ public class Crawler {
 		
 	}
 	
+	public static void main(String[] args) throws MalformedURLException, IOException {
+		Source source = new Source(new URL("http://members.chello.at/laszlowolfram/mate.web/per00030.htm"));
+		
+		for (Element element : source.getAllElements("img")) {
+			String alt = element.getAttributeValue("alt");
+			String src = element.getAttributeValue("src");
+			System.out.println(alt + ": " + src);
+		}
+		
+	}
+	
 }

@@ -54,6 +54,7 @@ public class GeoJson {
 			}
 			
 			feature.setProperty("name", person.getName());
+			feature.setProperty("icon", "icons8-acacia-48.png");
 
 			features.add(feature);
 		}
