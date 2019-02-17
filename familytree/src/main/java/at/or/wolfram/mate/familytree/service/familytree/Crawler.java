@@ -47,9 +47,10 @@ public class Crawler {
 			List<String> links = getPersonLinks(source);
 			for (String link : links) {
 				Source personSource = null;
+				String globalPageLink = baseUrl + link;
 				while (personSource == null) {
 					try {
-						personSource = new Source(new URL(baseUrl + link));
+						personSource = new Source(new URL(globalPageLink));
 						personSource.fullSequentialParse();
 					} catch (MalformedURLException e) {
 						logger.info("Retrying person " + link);
@@ -58,6 +59,8 @@ public class Crawler {
 					}
 				}
 				Person person = getPerson(personSource);
+				person.setGlobalImageLink(baseUrl + getImageLinkFromPersonPage(source));
+				person.setGlobalPageLink(globalPageLink);
 				persons.add(person);
 			}
 		}
@@ -121,6 +124,22 @@ public class Crawler {
 		}
 		return person;
 		
+	}
+	
+	private String getImageLinkFromPersonPage(Source personPage) {
+		String personName = personPage.getFirstElement("title").getContent().toString();
+		
+		for (Element element : personPage.getAllElements("img")) {
+			String alt = element.getAttributeValue("alt");
+			if (alt != null && alt.equals(personName)) {
+				String src = element.getAttributeValue("src");
+				if (src != null && !src.isEmpty()) {
+					return src;
+				}
+			}
+		}
+		
+		return null;
 	}
 	
 	public static void main(String[] args) throws MalformedURLException, IOException {

@@ -6,6 +6,8 @@ import lombok.Data;
 public class Person {
 
 	private String name;
+	private String globalImageLink;
+	private String globalPageLink;
 	private LocationAndTime birth;
 	private LocationAndTime death;
 	
