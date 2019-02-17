@@ -54,7 +54,13 @@ public class GeoJson {
 			}
 			
 			feature.setProperty("name", person.getName());
-			feature.setProperty("icon", "icons8-acacia-48.png");
+			
+			// TODO hack, rather set link to null if it does not make sense
+			if (!"http://members.chello.at/laszlowolfram/mate.web/null".equals(person.getGlobalImageLink()) && person.getGlobalImageLink() != null) {
+				feature.setProperty("image", person.getGlobalImageLink());
+			}
+			
+			feature.setProperty("link", person.getGlobalPageLink());
 
 			features.add(feature);
 		}

@@ -59,7 +59,7 @@ public class Crawler {
 					}
 				}
 				Person person = getPerson(personSource);
-				person.setGlobalImageLink(baseUrl + getImageLinkFromPersonPage(source));
+				person.setGlobalImageLink(baseUrl + getImageLinkFromPersonPage(personSource));
 				person.setGlobalPageLink(globalPageLink);
 				persons.add(person);
 			}
@@ -126,14 +126,26 @@ public class Crawler {
 		
 	}
 	
+	// TODO cleanup, lots of unnecessary output
 	private String getImageLinkFromPersonPage(Source personPage) {
-		String personName = personPage.getFirstElement("title").getContent().toString();
+		String personName = null;
+		
+		System.out.println("Let's go");
+		
+		for (Element title : personPage.getAllElements("title")) {
+			personName = title.getContent().toString();
+			System.out.println("Name is " + personName);
+		}
 		
 		for (Element element : personPage.getAllElements("img")) {
 			String alt = element.getAttributeValue("alt");
+			System.out.println("Alt is " + alt);
 			if (alt != null && alt.equals(personName)) {
+				System.out.println("Equals!");
 				String src = element.getAttributeValue("src");
+				System.out.println("Found src " + src);
 				if (src != null && !src.isEmpty()) {
+					System.out.println("Good to go with src " + src);
 					return src;
 				}
 			}
