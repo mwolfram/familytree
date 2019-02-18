@@ -4,7 +4,10 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 
 import org.apache.log4j.Logger;
 
@@ -17,6 +20,10 @@ import net.htmlparser.jericho.Source;
 
 public class Crawler {
 
+	private static final String ROOT = "<TABLE border width=100% BGCOLOR=\"#FF0000\">";
+	private static final String FATHER = "<TABLE border width=100% BGCOLOR=\"#0080FF\">";
+	private static final String MOTHER = "<TABLE border width=100% BGCOLOR=\"#FF8080\">";
+	
 	private final String baseUrl;
 	
 	private final LocationLookupService locationLookupService;
@@ -28,7 +35,7 @@ public class Crawler {
 		this.locationLookupService = locationLookupService;
 	}
 	
-	public Tree execute() {
+	public Tree crawlIndices() {
 		List<Person> persons = new ArrayList<Person>();
 		Tree tree = new Tree();
 		for (int i = 1; i <= 33; i++) {
@@ -44,32 +51,98 @@ public class Crawler {
 					logger.info("Retrying index " + i);
 				}
 			}
-			List<String> links = getPersonLinks(source);
-			for (String link : links) {
-				Source personSource = null;
-				String globalPageLink = baseUrl + link;
-				while (personSource == null) {
-					try {
-						personSource = new Source(new URL(globalPageLink));
-						personSource.fullSequentialParse();
-					} catch (MalformedURLException e) {
-						logger.info("Retrying person " + link);
-					} catch (IOException e) {
-						logger.info("Retrying person " + link);
-					}
-				}
-				Person person = getPerson(personSource);
-				person.setGlobalImageLink(baseUrl + getImageLinkFromPersonPage(personSource));
-				person.setGlobalPageLink(globalPageLink);
-				persons.add(person);
-			}
+			List<String> links = getPersonLinksFromIndexPage(source);
+			persons.addAll(processPersonPages(links));
 		}
 		
 		tree.setPersons(persons);
 		return tree;
 	}
 	
-	private List<String> getPersonLinks(Source source) {
+	public Tree crawlAncestors(String root) {
+		List<String> links = getPersonLinksFromAncestors(root);
+		List<Person> persons = processPersonPages(links);
+		
+		Tree tree = new Tree();
+		tree.setPersons(persons);
+		return tree;
+	}
+	
+	private List<Person> processPersonPages(List<String> links) {
+		List<Person> persons = new ArrayList<Person>();
+		
+		for (String link : links) {
+			Source personSource = null;
+			String globalPageLink = baseUrl + link;
+			while (personSource == null) {
+				try {
+					personSource = new Source(new URL(globalPageLink));
+					personSource.fullSequentialParse();
+				} catch (MalformedURLException e) {
+					logger.info("Retrying person " + link);
+				} catch (IOException e) {
+					logger.info("Retrying person " + link);
+				}
+			}
+			Person person = getPerson(personSource);
+			String relativeImageLink = getImageLinkFromPersonPage(personSource);
+			if (relativeImageLink != null) {
+				person.setGlobalImageLink(baseUrl + getImageLinkFromPersonPage(personSource));
+			}
+			person.setGlobalPageLink(globalPageLink);
+			persons.add(person);
+		}
+		
+		return persons;
+	}
+	
+	private List<String> getPersonLinksFromAncestors(String root) {
+		
+		Set<String> personLinks = new HashSet<String>();
+		Set<String> openSet = new HashSet<String>();
+		
+		openSet.add(root);
+		
+		while(!openSet.isEmpty()) {
+			
+			Iterator<String> it = openSet.iterator();
+		    root = it.next();
+		    it.remove();
+			
+			Source personSource = null;
+			while (personSource == null) {
+				try {
+					personSource = new Source(new URL(baseUrl + root));
+					personSource.fullSequentialParse();
+				} catch (MalformedURLException e) {
+					logger.info("Retrying person " + root);
+				} catch (IOException e) {
+					logger.info("Retrying person " + root);
+				}
+			}
+			
+			for (Element element : personSource.getAllElements("A HREF")) {
+				String tableElement = element.getParentElement().getParentElement().getParentElement().getParentElement().getParentElement().getStartTag().toString();
+				String link = element.getAttributeValue("HREF");
+				
+				if (ROOT.equals(tableElement)) {
+					personLinks.add(link);
+				}
+				else if (FATHER.equals(tableElement)) {
+					personLinks.add(link);
+					openSet.add(link);
+				}
+				else if (MOTHER.equals(tableElement)) {
+					personLinks.add(link);
+					openSet.add(link);
+				}
+			}
+		}
+		
+		return new ArrayList<String>(personLinks);
+	}
+	
+	private List<String> getPersonLinksFromIndexPage(Source source) {
 		List<String> links = new ArrayList<String>();
 		for (Element element : source.getAllElements("A HREF")) {
 			String link = element.getAttributeValue("HREF");
@@ -126,43 +199,24 @@ public class Crawler {
 		
 	}
 	
-	// TODO cleanup, lots of unnecessary output
 	private String getImageLinkFromPersonPage(Source personPage) {
 		String personName = null;
 		
-		System.out.println("Let's go");
-		
 		for (Element title : personPage.getAllElements("title")) {
 			personName = title.getContent().toString();
-			System.out.println("Name is " + personName);
 		}
 		
 		for (Element element : personPage.getAllElements("img")) {
 			String alt = element.getAttributeValue("alt");
-			System.out.println("Alt is " + alt);
 			if (alt != null && alt.equals(personName)) {
-				System.out.println("Equals!");
 				String src = element.getAttributeValue("src");
-				System.out.println("Found src " + src);
 				if (src != null && !src.isEmpty()) {
-					System.out.println("Good to go with src " + src);
 					return src;
 				}
 			}
 		}
 		
 		return null;
-	}
-	
-	public static void main(String[] args) throws MalformedURLException, IOException {
-		Source source = new Source(new URL("http://members.chello.at/laszlowolfram/mate.web/per00030.htm"));
-		
-		for (Element element : source.getAllElements("img")) {
-			String alt = element.getAttributeValue("alt");
-			String src = element.getAttributeValue("src");
-			System.out.println(alt + ": " + src);
-		}
-		
 	}
 	
 }

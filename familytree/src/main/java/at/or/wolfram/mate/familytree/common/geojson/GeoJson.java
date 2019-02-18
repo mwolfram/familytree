@@ -55,8 +55,7 @@ public class GeoJson {
 			
 			feature.setProperty("name", person.getName());
 			
-			// TODO hack, rather set link to null if it does not make sense
-			if (!"http://members.chello.at/laszlowolfram/mate.web/null".equals(person.getGlobalImageLink()) && person.getGlobalImageLink() != null) {
+			if (person.getGlobalImageLink() != null) {
 				feature.setProperty("image", person.getGlobalImageLink());
 			}
 			
