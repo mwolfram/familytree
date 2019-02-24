@@ -33,8 +33,8 @@ public class FamilyTreeService {
 		}
 		else {
 			logger.info("Cache file does not exist. Starting crawler now.");
-			this.tree = this.crawler.crawlAncestors("per00001.htm");
-//			this.tree = this.crawler.crawlIndices();
+//			this.tree = this.crawler.crawlAncestors("per00001.htm");
+			this.tree = this.crawler.crawlIndices();
 			try {
 				writeToCacheFile();
 			} catch (IOException e) {
