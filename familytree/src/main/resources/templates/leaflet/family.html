@@ -19,6 +19,11 @@
 	<link  href="https://unpkg.com/jquery-ui-css@1.11.5/jquery-ui.css" rel="stylesheet" />
 	<script src="https://unpkg.com/jquery-ui-css@1.11.5/jquery-ui.js"></script>
 
+	<link  href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" rel="stylesheet" />
+	<link  href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" rel="stylesheet" />
+	<script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+	<script src="https://unpkg.com/leaflet.markercluster.layersupport@2.0.1/dist/leaflet.markercluster.layersupport.js"></script>
+	
 	<style>
         body {
             padding: 0;
@@ -63,6 +68,8 @@
 	
 	var json = JSON.parse(jsonStr);
 
+	var markers = L.layerGroup();
+	
 	console.log(json); // this will show the info it in firebug console
 	var testlayer = L.geoJson(json, {
 		onEachFeature: function (feature, layer) {
@@ -71,22 +78,31 @@
 				var myIcon = L.icon({
 					iconUrl: feature.properties.image,
 					iconSize: [25, ],
-					iconAnchor: [22, 94],
-					popupAnchor: [-3, -76],
+					iconAnchor: [12, 18],
+					popupAnchor: [0, -15],
 					shadowUrl: 'my-icon-shadow.png',
 					shadowSize: [68, 95],
 					shadowAnchor: [22, 94]
 				});
 				layer.setIcon(myIcon);
 			}
-			/*
-			layer.setIcon(L.Icon.extend(
-				{iconUrl: feature.properties.icon}
-			));
-			*/
+			markers.addLayer(layer);
     	}
   	});
-	var sliderControl = L.control.sliderControl({position: "topright", layer: testlayer, range: true, timeAttribute: "epoch", alwaysShowDate: true});
+	
+	L.markerClusterGroup.layerSupport({
+		maxClusterRadius: 2,
+		zoomToBoundsOnClick: true,
+		spiderfyDistanceMultiplier: 1.5
+	}).addTo(mymap).checkIn(markers);
+	
+	var sliderControl = L.control.sliderControl({
+		position: "topright", 
+		layer: markers, 
+		range: true, 
+		timeAttribute: "epoch", 
+		alwaysShowDate: true, 
+		showAllOnStart: true});
 	mymap.addControl(sliderControl);
 	sliderControl.startSlider();
 
