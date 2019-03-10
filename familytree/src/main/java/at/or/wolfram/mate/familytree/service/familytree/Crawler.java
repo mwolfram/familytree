@@ -24,6 +24,8 @@ public class Crawler {
 	private static final String FATHER = "<TABLE border width=100% BGCOLOR=\"#0080FF\">";
 	private static final String MOTHER = "<TABLE border width=100% BGCOLOR=\"#FF8080\">";
 	
+	private static final String MALE_AVATAR = "ferfi-1.jpg";
+	
 	private final String baseUrl;
 	
 	private final LocationLookupService locationLookupService;
@@ -88,6 +90,9 @@ public class Crawler {
 			String relativeImageLink = getImageLinkFromPersonPage(personSource);
 			if (relativeImageLink != null) {
 				person.setGlobalImageLink(baseUrl + getImageLinkFromPersonPage(personSource));
+			}
+			else { // TODO choose male or female avatar based on gender info
+				person.setGlobalImageLink(MALE_AVATAR);
 			}
 			person.setGlobalPageLink(globalPageLink);
 			persons.add(person);
