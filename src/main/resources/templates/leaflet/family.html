@@ -86,6 +86,18 @@
 				});
 				layer.setIcon(myIcon);
 			}
+			else {
+				var myIcon = L.icon({
+					iconUrl: 'ferfi-1.jpg',
+					iconSize: [25, ],
+					iconAnchor: [12, 18],
+					popupAnchor: [0, -15],
+					shadowUrl: feature.properties.shadow,
+					shadowSize: [35, ],
+					shadowAnchor: [12, 18]
+				});
+				layer.setIcon(myIcon);
+			}
 			markers.addLayer(layer);
     	}
   	});
