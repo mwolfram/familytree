@@ -93,6 +93,8 @@ public class GeoJson {
 		}
 		
 		feature.setProperty("link", person.getGlobalPageLink());
+		feature.setProperty("shadow", "red.png");
+		feature.setProperty("event", "Született");
 
 		return feature;
 	}
@@ -128,6 +130,8 @@ public class GeoJson {
 		}
 		
 		feature.setProperty("link", person.getGlobalPageLink());
+		feature.setProperty("shadow", "black.png");
+		feature.setProperty("event", "Meghalt");
 
 		return feature;
 	}
