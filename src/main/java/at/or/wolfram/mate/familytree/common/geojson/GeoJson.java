@@ -93,8 +93,8 @@ public class GeoJson {
 		}
 		
 		feature.setProperty("link", person.getGlobalPageLink());
-		feature.setProperty("shadow", "red.png");
-		feature.setProperty("event", "Született");
+		feature.setProperty("shadow", "red.png"); // TODO do not mix data and view!
+		feature.setProperty("event", "Született"); // TODO do not mix data and view!
 
 		return feature;
 	}
@@ -130,8 +130,8 @@ public class GeoJson {
 		}
 		
 		feature.setProperty("link", person.getGlobalPageLink());
-		feature.setProperty("shadow", "black.png");
-		feature.setProperty("event", "Meghalt");
+		feature.setProperty("shadow", "black.png"); // TODO do not mix data and view!
+		feature.setProperty("event", "Meghalt"); // TODO do not mix data and view!
 
 		return feature;
 	}
