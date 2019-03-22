@@ -11,4 +11,14 @@ public class Person {
 	private LocationAndTime birth;
 	private LocationAndTime death;
 	
+	public boolean isBirthDataValid() {
+		return getBirth() != null &&
+			   getBirth().isValid();
+	}
+	
+	public boolean isDeathDataValid() {
+		return getDeath() != null &&
+			   getDeath().isValid();
+	}
+	
 }

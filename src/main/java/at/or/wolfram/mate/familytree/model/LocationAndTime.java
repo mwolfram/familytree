@@ -9,4 +9,10 @@ public class LocationAndTime {
 	private Coordinates coordinates;
 	private String time;
 	
+	public boolean isValid() {
+		return 	getTime() != null &&
+				getCoordinates() != null &&
+				getCoordinates().areValid();
+	}
+	
 }

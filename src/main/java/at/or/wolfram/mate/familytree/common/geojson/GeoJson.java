@@ -26,42 +26,16 @@ public class GeoJson {
 		FeatureCollection features = new FeatureCollection();
 		
 		for (Person person : tree.getPersons()) {
-			Feature feature = new Feature();
+			Feature birthFeature = createBirthFeature(person);
+			Feature deathFeature = createDeathFeature(person);
 			
-			Coordinates coordinates = getPreferredCoordinatesFromPerson(person);
-			if (coordinates == null) {
-				logger.error("Failed getting coordinates for person " + person.getName());
-				continue;
-			}
-			Point point = new Point(
-					coordinates.getLongitude(), 
-					coordinates.getLatitude());
-			
-			feature.setGeometry(point);
-			
-			String time = getPreferredTime(person);
-			if (time == null) {
-				logger.error("Failed getting preferred time for person " + person.getName());
-				continue;
+			if (birthFeature != null) {
+				features.add(birthFeature);
 			}
 			
-			try {
-				int year = Tools.extractYear(time);
-				feature.setProperty("epoch", String.valueOf(year));
-			} catch (IllegalArgumentException e) {
-				logger.error("Failed extracting year from string " + time);
-				continue;
+			if (deathFeature != null) {
+				features.add(deathFeature);
 			}
-			
-			feature.setProperty("name", person.getName());
-			
-			if (person.getGlobalImageLink() != null) {
-				feature.setProperty("image", person.getGlobalImageLink());
-			}
-			
-			feature.setProperty("link", person.getGlobalPageLink());
-
-			features.add(feature);
 		}
 		
 		List<Feature> featuresList = features.getFeatures();
@@ -88,28 +62,74 @@ public class GeoJson {
 		return features;
 	}
 	
-	private static String getPreferredTime(Person person) {
-		if (person.getBirth() != null && person.getBirth().getTime() != null) {
-			return person.getBirth().getTime();
+	private static Feature createBirthFeature(Person person) {
+		Feature feature = new Feature();
+		
+		if (!person.isBirthDataValid()) {
+			return null;
 		}
 		
-		if (person.getDeath() != null && person.getDeath().getTime() != null) {
-			return person.getDeath().getTime();
+		Coordinates coordinates = person.getBirth().getCoordinates();
+		Point point = new Point(
+				coordinates.getLongitude(), 
+				coordinates.getLatitude());
+		
+		feature.setGeometry(point);
+		
+		String time = person.getBirth().getTime();
+		
+		try {
+			int year = Tools.extractYear(time);
+			feature.setProperty("epoch", String.valueOf(year));
+		} catch (IllegalArgumentException e) {
+			logger.error("Failed extracting year from string " + time);
+			return null;
 		}
 		
-		return null;
+		feature.setProperty("name", person.getName());
+		
+		if (person.getGlobalImageLink() != null) {
+			feature.setProperty("image", person.getGlobalImageLink());
+		}
+		
+		feature.setProperty("link", person.getGlobalPageLink());
+
+		return feature;
 	}
 	
-	private static Coordinates getPreferredCoordinatesFromPerson(Person person) {
-		if (person.getBirth() != null && person.getBirth().getCoordinates() != null && person.getBirth().getCoordinates().areValid()) {
-			return person.getBirth().getCoordinates();
+	private static Feature createDeathFeature(Person person) {
+		Feature feature = new Feature();
+		
+		if (!person.isDeathDataValid()) {
+			return null;
+		}
+
+		Coordinates coordinates = person.getDeath().getCoordinates();
+		Point point = new Point(
+				coordinates.getLongitude(), 
+				coordinates.getLatitude());
+		
+		feature.setGeometry(point);
+		
+		String time = person.getDeath().getTime();
+		
+		try {
+			int year = Tools.extractYear(time);
+			feature.setProperty("epoch", String.valueOf(year));
+		} catch (IllegalArgumentException e) {
+			logger.error("Failed extracting year from string " + time);
+			return null;
 		}
 		
-		if (person.getDeath() != null && person.getDeath().getCoordinates() != null && person.getDeath().getCoordinates().areValid()) {
-			return person.getDeath().getCoordinates();
+		feature.setProperty("name", person.getName());
+		
+		if (person.getGlobalImageLink() != null) {
+			feature.setProperty("image", person.getGlobalImageLink());
 		}
 		
-		return null;
+		feature.setProperty("link", person.getGlobalPageLink());
+
+		return feature;
 	}
 	
 }
