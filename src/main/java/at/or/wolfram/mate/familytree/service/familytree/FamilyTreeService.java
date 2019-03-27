@@ -24,7 +24,7 @@ public class FamilyTreeService {
 		this.crawler = new Crawler(baseUrl, locationLookupService);
 		
 		this.cacheFile = new File(cacheFileName);
-		if (this.cacheFile.exists()) {
+		if (false/*this.cacheFile.exists()*/) { // XXX
 			try {
 				readFromCacheFile();
 			} catch (IOException e) {
@@ -33,8 +33,9 @@ public class FamilyTreeService {
 		}
 		else {
 			logger.info("Cache file does not exist. Starting crawler now.");
-			this.tree = this.crawler.crawlAncestors("per00001.htm");
-//			this.tree = this.crawler.crawlIndices();
+//			this.tree = this.crawler.crawlAncestors("per00001.htm");
+//			this.tree = this.crawler.crawlSelected("per00072.htm"); // ROSOS Rozina
+			this.tree = this.crawler.crawlIndices();
 			try {
 				writeToCacheFile();
 			} catch (IOException e) {

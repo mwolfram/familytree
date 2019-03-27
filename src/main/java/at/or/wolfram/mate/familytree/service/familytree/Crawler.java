@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
@@ -11,11 +12,15 @@ import java.util.Set;
 
 import org.apache.log4j.Logger;
 
+import at.or.wolfram.mate.familytree.common.Tools;
+import at.or.wolfram.mate.familytree.model.Coordinates;
 import at.or.wolfram.mate.familytree.model.LocationAndTime;
 import at.or.wolfram.mate.familytree.model.Person;
+import at.or.wolfram.mate.familytree.model.Sex;
 import at.or.wolfram.mate.familytree.model.Tree;
 import at.or.wolfram.mate.familytree.service.location.LocationLookupService;
 import net.htmlparser.jericho.Element;
+import net.htmlparser.jericho.Segment;
 import net.htmlparser.jericho.Source;
 
 public class Crawler {
@@ -25,6 +30,10 @@ public class Crawler {
 	private static final String MOTHER = "<TABLE border width=100% BGCOLOR=\"#FF8080\">";
 	
 	private static final String MALE_AVATAR = "ferfi-1.jpg";// TODO do not mix data and view!
+	private static final String FEMALE_AVATAR = "no-1.jpg";// TODO do not mix data and view!
+	
+	private static final String MALE_COLOR = "#0080FF";
+	private static final String FEMALE_COLOR = "#FF8080";
 	
 	private final String baseUrl;
 	
@@ -70,6 +79,14 @@ public class Crawler {
 		return tree;
 	}
 	
+	public Tree crawlSelected(String... links) {
+		List<Person> persons = processPersonPages(Arrays.asList(links));
+		
+		Tree tree = new Tree();
+		tree.setPersons(persons);
+		return tree;
+	}
+	
 	private List<Person> processPersonPages(List<String> links) {
 		List<Person> persons = new ArrayList<Person>();
 		
@@ -91,8 +108,13 @@ public class Crawler {
 			if (relativeImageLink != null) {
 				person.setGlobalImageLink(baseUrl + getImageLinkFromPersonPage(personSource));
 			}
-			else { // TODO choose male or female avatar based on gender info
-				person.setGlobalImageLink(MALE_AVATAR); // TODO do not mix data and view!
+			else {
+				if (person.getSex() == Sex.MALE) {
+					person.setGlobalImageLink(MALE_AVATAR); // TODO do not mix data and view!
+				}
+				else if (person.getSex() == Sex.FEMALE) {
+					person.setGlobalImageLink(FEMALE_AVATAR); // TODO do not mix data and view!
+				}
 			}
 			person.setGlobalPageLink(globalPageLink);
 			persons.add(person);
@@ -175,6 +197,21 @@ public class Crawler {
 		return isSpecificRow(tr, "Meghalt");
 	}
 	
+	private Sex getSex(Source source) {
+		String sexColorStr = source.getAllElements("TABLE").get(0).getAllElements("TD").get(0).getAttributeValue("BGCOLOR");
+		if (MALE_COLOR.equals(sexColorStr)) {
+			return Sex.MALE;
+		}
+		else if (FEMALE_COLOR.equals(sexColorStr)) {
+			return Sex.FEMALE;
+		}
+		else {
+			logger.error("Unknown sex color " + sexColorStr);
+		}
+		
+		return null;
+	}
+	
 	private Person getPerson(Source source) {
 		Person person = new Person();
 		
@@ -182,26 +219,85 @@ public class Crawler {
 			person.setName(title.getContent().toString());
 		}
 		
+		person.setSex(getSex(source));
+		
 		for (Element tr : source.getAllElements("TR")) {
 			if (isPlaceOfBirthRow(tr)) {
-				LocationAndTime birth = new LocationAndTime();
-				birth.setTime(tr.getAllElements().get(3).getContent().toString());
-				String addressLine = tr.getAllElements().get(4).getContent().toString();
-				birth.setLocation(addressLine);
-	        	birth.setCoordinates(locationLookupService.getCoordinates(addressLine));
+				LocationAndTime birth = tableRowToLocationAndTime(tr);
 				person.setBirth(birth);
 			}
 			if (isPlaceOfDeathRow(tr)) {
-				LocationAndTime death = new LocationAndTime();
-				death.setTime(tr.getAllElements().get(3).getContent().toString());
-				String addressLine = tr.getAllElements().get(4).getContent().toString();
-				death.setLocation(addressLine);
-				death.setCoordinates(locationLookupService.getCoordinates(addressLine));
+				LocationAndTime death = tableRowToLocationAndTime(tr);
 				person.setDeath(death);
 			}
 		}
 		return person;
 		
+	}
+	
+	private boolean containsHref(Segment segment) {
+		return segment.getAllElements("A HREF").size() > 0;
+	}
+	
+	// TODO reuse
+	private Source getPage(String relativeLink) {
+		Source source = null;
+		while (source == null) {
+			try {
+				source = new Source(new URL(baseUrl + relativeLink));
+				source.fullSequentialParse();
+			} catch (MalformedURLException e) {
+				logger.info("Retrying link " + relativeLink);
+			} catch (IOException e) {
+				logger.info("Retrying link " + relativeLink);
+			}
+		}
+		return source;
+	}
+	
+	// TODO OO
+	private Coordinates coordinatesFromAddressPage(Source addressPage) {
+		String locationAndCoordinates = addressPage.getAllElements("TABLE").get(1).getFirstElement("TD").getContent().toString();
+		System.out.println(locationAndCoordinates);
+		String[] lines = locationAndCoordinates.split("<BR>");
+		for (int i = 0; i < lines.length; i++) {
+			if (lines[i].equals("GPS:") && lines.length >= i + 3) {
+				Coordinates coordinates = new Coordinates();
+				coordinates.setLatitude(Tools.degreesMinutesSecondsToDecimalCoordinate(lines[i+1]));
+				coordinates.setLongitude(Tools.degreesMinutesSecondsToDecimalCoordinate(lines[i+2]));
+				return coordinates;
+			}
+		}
+		
+		return null;
+	}
+	
+	// TODO OO
+	private String locationFromAddressPage(Source addressPage) {
+		return null;
+	}
+	
+	private LocationAndTime tableRowToLocationAndTime(Element tr) {
+		LocationAndTime locationAndTime = new LocationAndTime();
+		
+		locationAndTime.setTime(tr.getAllElements().get(3).getContent().toString());
+		Segment addressLineSegment = tr.getAllElements().get(4).getContent();
+		
+		if (containsHref(addressLineSegment)) {
+			String locationAndTimeLink = addressLineSegment.getAllElements("A HREF").get(0).getAttributeValue("HREF");
+			Source addressPage = getPage(locationAndTimeLink);
+			String location = addressLineSegment.getAllElements("A HREF").get(0).getContent().toString();
+//			Coordinates coordinates = coordinatesFromAddressPage(addressPage);
+			locationAndTime.setCoordinates(locationLookupService.getCoordinates(location));
+			
+		}
+		else {
+			locationAndTime.setLocation(addressLineSegment.toString());
+			locationAndTime.setCoordinates(locationLookupService.getCoordinates(addressLineSegment.toString()));
+		}
+//		System.out.println(addressLineSegment);
+		
+		return locationAndTime;
 	}
 	
 	private String getImageLinkFromPersonPage(Source personPage) {
