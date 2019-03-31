@@ -32,19 +32,20 @@ public class Tools {
 	}
 	
 	public static Double degreesMinutesSecondsToDecimalCoordinate(String dms) {
+		System.out.println("GPS coordinate from [" + dms + "]");
 		Direction direction = Direction.fromString(dms.split(" ")[0].trim());
 		
 		String degreesStr = dms.split(" ")[1].split("°")[0].trim();
 		double degrees = Double.valueOf(degreesStr);
 
-		String decimalsStr = dms.split(" ")[1].split("°")[1].trim();
-		String minutesStr = decimalsStr.split("'")[0];
-		String secondsStr = decimalsStr.split("'")[1];
+		String decimalsStr = dms.split("°")[1].trim();
+		String minutesStr = decimalsStr.split("'")[0].trim();
+		String secondsStr = decimalsStr.split("'")[1].trim();
 
 		double minutes = parseDoubleWithGermanLocale(minutesStr);
-		double seconds = parseDoubleWithGermanLocale(secondsStr);
+		double seconds = parseDoubleWithGermanLocale(secondsStr.replace("\"", ""));
 		
-		System.out.println("parsed: " + direction + " " + degrees + "°" + minutes + "' " + seconds + "''");
+		System.out.println("parsed: " + direction + " " + degrees + "°" + minutes + "' " + seconds + "\"");
 		
 		double sign = (direction == Direction.S || direction == Direction.W) ? -1.0 : 1.0;
 		double decimalPart = ((minutes * 60) + (seconds * 3600)) / 3600.0;

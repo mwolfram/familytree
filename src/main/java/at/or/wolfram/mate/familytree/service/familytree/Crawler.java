@@ -258,7 +258,6 @@ public class Crawler {
 	// TODO OO
 	private Coordinates coordinatesFromAddressPage(Source addressPage) {
 		String locationAndCoordinates = addressPage.getAllElements("TABLE").get(1).getFirstElement("TD").getContent().toString();
-		System.out.println(locationAndCoordinates);
 		String[] lines = locationAndCoordinates.split("<BR>");
 		for (int i = 0; i < lines.length; i++) {
 			if (lines[i].equals("GPS:") && lines.length >= i + 3) {
@@ -272,11 +271,6 @@ public class Crawler {
 		return null;
 	}
 	
-	// TODO OO
-	private String locationFromAddressPage(Source addressPage) {
-		return null;
-	}
-	
 	private LocationAndTime tableRowToLocationAndTime(Element tr) {
 		LocationAndTime locationAndTime = new LocationAndTime();
 		
@@ -287,15 +281,16 @@ public class Crawler {
 			String locationAndTimeLink = addressLineSegment.getAllElements("A HREF").get(0).getAttributeValue("HREF");
 			Source addressPage = getPage(locationAndTimeLink);
 			String location = addressLineSegment.getAllElements("A HREF").get(0).getContent().toString();
-//			Coordinates coordinates = coordinatesFromAddressPage(addressPage);
-			locationAndTime.setCoordinates(locationLookupService.getCoordinates(location));
-			
+			Coordinates coordinates = coordinatesFromAddressPage(addressPage);
+			if (coordinates == null) {
+				coordinates = locationLookupService.getCoordinates(location);
+			}
+			locationAndTime.setCoordinates(coordinates);
 		}
 		else {
 			locationAndTime.setLocation(addressLineSegment.toString());
 			locationAndTime.setCoordinates(locationLookupService.getCoordinates(addressLineSegment.toString()));
 		}
-//		System.out.println(addressLineSegment);
 		
 		return locationAndTime;
 	}
