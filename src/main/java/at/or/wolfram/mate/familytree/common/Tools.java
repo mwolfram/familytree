@@ -48,8 +48,11 @@ public class Tools {
 		System.out.println("parsed: " + direction + " " + degrees + "°" + minutes + "' " + seconds + "\"");
 		
 		double sign = (direction == Direction.S || direction == Direction.W) ? -1.0 : 1.0;
-		double decimalPart = ((minutes * 60) + (seconds * 3600)) / 3600.0;
-		return sign * (degrees + decimalPart);
+		double decimalPart = ((minutes * 60) + seconds) / 3600.0;
+		double result = sign * (degrees + decimalPart);
+		return result;
+		
+		
 		
 		// https://stackoverflow.com/questions/8263959/how-to-convert-between-degrees-minutes-seconds-to-decimal-coordinates
 	}
