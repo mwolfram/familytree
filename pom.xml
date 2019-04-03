@@ -62,4 +62,21 @@
 	</dependency>
   </dependencies>
   
+  <distributionManagement>
+    <repository>
+      <id>ftp-world4you</id>
+      <url>ftp://ftp48.world4you.com/testfolder</url>
+    </repository>
+  </distributionManagement>
+  
+  <build>
+    <extensions>
+      <!-- Enabling the use of FTP -->
+      <extension>
+        <groupId>org.apache.maven.wagon</groupId>
+        <artifactId>wagon-ftp</artifactId>
+      </extension>
+    </extensions>
+  </build>
+  
 </project>
