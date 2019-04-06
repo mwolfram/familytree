@@ -97,7 +97,7 @@
 	              <fromDir></fromDir>
 	              <includes>index.html</includes>
 	              <url>ftp://ftp48.world4you.com</url>
-	              <toDir>testfolder</toDir>
+	              <toDir>terkep</toDir>
 	            </configuration>
 	          </execution>
 	        </executions>
