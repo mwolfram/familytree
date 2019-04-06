@@ -1,1 +1,668 @@
-{"locationToCoordinates":{"Budapest VIII.":{"latitude":-36.7837643,"longitude":-73.1052456},"Garabonc - Magyarország":{"latitude":46.5848409,"longitude":17.1222657},"Nagybánya":{"latitude":47.6565584,"longitude":23.5719843},"Szilágypér":{"latitude":47.4600425,"longitude":22.3715921},"Hajmáskér":{"latitude":47.1444695,"longitude":18.0142678},"Elek":{"latitude":46.5294265,"longitude":21.2526107},"Budapest":{"latitude":47.4983815,"longitude":19.0404707},"Bocska":{"latitude":46.5527888,"longitude":16.9161006},"Törökszentmiklós":{"latitude":47.1793568,"longitude":20.409153},"Magyarszerdahely":{"latitude":46.5554057,"longitude":16.937305},"Állampuszta":{"latitude":46.7190667,"longitude":19.0704416},"Makó":{"latitude":46.2150438,"longitude":20.4751022},"Tiszasalamon":{"latitude":48.433651,"longitude":22.1632747},"Mosonmagyaróvár":{"latitude":47.8731793,"longitude":17.2722342},"Zágráb":{"latitude":45.813177,"longitude":15.977048},"Szigetszentmárton":{"latitude":47.2286092,"longitude":18.9576052},"Budapest / Kispest":{"latitude":47.4484411,"longitude":19.1465176},"Freiwaldau":{"latitude":50.2296385,"longitude":17.2046012},"Jauernig - Csehország":{"latitude":50.3919833,"longitude":17.0025022},"Felsõbánya":{"latitude":47.6615913,"longitude":23.6922094},"Jóka":{"latitude":48.145206,"longitude":17.5068773},"Acsalag":{"latitude":47.6752768,"longitude":17.1988877},"Törökország":{"latitude":38.9597594,"longitude":34.9249653},"Szatmárnémeti":{"latitude":47.7945819,"longitude":22.8797292},"Mátészalka":{"latitude":47.9539113,"longitude":22.3208477},"Kôvárhosszúfalu":{"latitude":47.5711038,"longitude":23.4281496},"USA":{"latitude":39.7837304,"longitude":-100.4458825},"Hajdúnánás":{"latitude":47.8452241,"longitude":21.4279002},"Békásmegyer":{"latitude":47.5994131,"longitude":19.054996},"Mikola":{"latitude":47.0079887,"longitude":23.9417943},"Feketepatak":{"latitude":48.181568,"longitude":22.903061},"Tótvázsony":{"latitude":47.0083012,"longitude":17.7874287},"Veszprém":{"latitude":47.0916334,"longitude":17.9116007},"Csepel":{"latitude":47.424317,"longitude":19.0692138186022},"Dunavecse":{"latitude":46.9163658,"longitude":18.9716536},"Zsámbék":{"latitude":47.5483115,"longitude":18.7174344},"Nemesvámos":{"latitude":47.0548638,"longitude":17.8718258},"Óbuda":{"latitude":47.5385916,"longitude":19.0395611},"Budapest / Óbuda":{"latitude":47.5385916,"longitude":19.0395611},"Técsõ":{"latitude":48.01752315,"longitude":23.5757783661401},"Schardenberg":{"latitude":48.5195888,"longitude":13.4972841},"Buda / Tabán":{"latitude":48.7143188,"longitude":17.6313285534305},"Tompojevci":{"latitude":45.2342366,"longitude":19.0915559},"Pápa":{"latitude":47.3261087,"longitude":17.4705293},"Veszprém (?)":{"latitude":47.0916334,"longitude":17.9116007},"Tósokberénd":{"latitude":47.1008254,"longitude":17.5243142},"Komárom":{"latitude":47.7417349,"longitude":18.1218256},"Ercsi":{"latitude":47.2519697,"longitude":18.8983773},"Ajka":{"latitude":47.1056579,"longitude":17.5587276},"Kassel":{"latitude":51.3076867,"longitude":9.4624705},"Wien":{"latitude":48.2083537,"longitude":16.3725042},"Pozsonypüspöki":{"latitude":48.09899175,"longitude":17.1831348965861},"Cikolasziget":{"latitude":47.9343312,"longitude":17.3744568},"Altruppersdorf":{"latitude":48.69263245,"longitude":16.550044314613},"Nagykanizsa":{"latitude":46.4548261,"longitude":16.9923923},"Gönyû":{"latitude":47.7331432,"longitude":17.8279231},"Békéscsaba":{"latitude":46.6849789,"longitude":21.0866918},"Tatabánya":{"latitude":47.5837788,"longitude":18.3980308},"Karcag":{"latitude":47.314646,"longitude":20.9240941},"Modor":{"latitude":48.3357255,"longitude":17.3087863},"Szomolány":{"latitude":48.5061696,"longitude":17.41532525489},"Moson":{"latitude":47.8594524,"longitude":17.27057},"Egyházashetye":{"latitude":47.1695366,"longitude":17.1197109},"Szentkirályszabadja":{"latitude":47.0565157,"longitude":17.9705319},"Pécs":{"latitude":46.0763222,"longitude":18.2280746},"Vámos - Magyarország":{"latitude":47.1818523,"longitude":17.6702166},"Csákvár":{"latitude":47.3918045,"longitude":18.464064},"Gölle":{"latitude":46.4412291,"longitude":18.0135054},"Debrecen":{"latitude":47.531399,"longitude":21.6259782},"Kisköcsk":{"latitude":47.1918983,"longitude":17.1106702},"Budapest / Soroksár":{"latitude":47.4025482,"longitude":19.1184601},"Kaposvár":{"latitude":46.3564692,"longitude":17.7886886},"Vámos":{"latitude":35.4075119,"longitude":24.1981207},"Leutschach":{"latitude":46.9209622,"longitude":13.2353614},"Schloßberg - Steiermark":{"latitude":46.8844666,"longitude":15.5123431},"Pálosnagymezô":{"latitude":48.53943,"longitude":18.567207},"Szigetszentmiklós":{"latitude":47.345765,"longitude":19.0409037},"Nagyberény":{"latitude":46.7982528,"longitude":18.1639971},"Vasvár":{"latitude":47.0490649,"longitude":16.7998821},"Szombathely":{"latitude":47.2291184,"longitude":16.6187625},"Aknaszlatina":{"latitude":47.9470202,"longitude":23.8747013},"Magyaróvár":{"latitude":47.8731793,"longitude":17.2722342},"Lökösháza":{"latitude":46.429761,"longitude":21.2307202},"Magyarszovát":{"latitude":46.7720689,"longitude":23.9686333},"Tinaberg - Austria":{"latitude":47.0157005,"longitude":10.2930397832149},"Szolnok":{"latitude":47.1754555,"longitude":20.1946818},"Tiszatenyõ ??":{"latitude":47.1359865,"longitude":20.3797581},"Don-kanyar":{"latitude":47.2235442,"longitude":18.5792008343404},"Gyula":{"latitude":46.6438656,"longitude":21.2747575},"Mezôtúr":{"latitude":47.0004724,"longitude":20.6299513},"Kuncsorba":{"latitude":47.1282678,"longitude":20.5552834},"Mainz,Hessen, Németország":{"latitude":50.0083449,"longitude":8.2844378},"München":{"latitude":48.1371079,"longitude":11.5753822},"FL, USA":{"latitude":27.7567667,"longitude":-81.4639835},"Börcs":{"latitude":47.6850359,"longitude":17.5007155},"Neumarkt":{"latitude":46.3169161,"longitude":11.2725698},"Szeged":{"latitude":46.2546312,"longitude":20.1486016},"Föveny":{"latitude":46.1094662,"longitude":18.060708},"Maltschach":{"latitude":46.671352,"longitude":15.4209552},"Jászjákóhalma":{"latitude":47.5219388,"longitude":19.9891136},"Esztergom":{"latitude":47.7856977,"longitude":18.7403349},"Arnfels":{"latitude":46.676506,"longitude":15.401302},"Tápióság":{"latitude":47.3992437,"longitude":19.6303259},"Bécs":{"latitude":48.2083537,"longitude":16.3725042},"Ada (Szerbia)":{"latitude":43.220133,"longitude":22.4120497931248},"Miskolc":{"latitude":48.1031517,"longitude":20.7902158},"Felsõvisó":{"latitude":47.7099597,"longitude":24.4311547},"Szentpéter":{"latitude":47.8464683,"longitude":18.2628926},"Úri":{"latitude":47.4135085,"longitude":19.5238494},"Pálóc":{"latitude":43.9343773,"longitude":17.5634732},"Szatmár":{"latitude":48.0297821,"longitude":22.0040108},"Biatorbágy":{"latitude":47.4701722,"longitude":18.8200347},"Alsószûcs":{"latitude":48.9579902,"longitude":18.0330936},"Dunapataj":{"latitude":46.6442755,"longitude":18.9990105},"Adony":{"latitude":47.1208993,"longitude":18.8631074},"Gálosfa":{"latitude":46.2561956,"longitude":17.8855267},"Vámospércs":{"latitude":47.5267293,"longitude":21.8987164},"Lengyeltóti":{"latitude":46.667132,"longitude":17.6412975},"Wolfsberg - Austria":{"latitude":46.8390583,"longitude":14.8452061},"Rüdern":{"latitude":49.3961027,"longitude":10.6605791},"Gerolzhofen":{"latitude":49.9003568,"longitude":10.3487749},"Szajol":{"latitude":47.1764886,"longitude":20.2996108},"Újrónafõ":{"latitude":47.8107082,"longitude":17.2019677},"Érsekújvár":{"latitude":47.9861843,"longitude":18.1631415},"Gyömrõ":{"latitude":47.4223375,"longitude":19.394503},"Cilli (Slovenien)":{"latitude":46.2309234,"longitude":15.2659932},"Graz":{"latitude":47.0702563,"longitude":15.4385716},"Lungau - Austria":{"latitude":47.1491046,"longitude":13.7930773},"Üllõ":{"latitude":47.3851041,"longitude":19.3456911},"Péteri":{"latitude":47.3880659,"longitude":19.4107817},"Kistarcsa":{"latitude":47.5447322,"longitude":19.2636378},"Szarvaskõ / Eger":{"latitude":47.9797969,"longitude":20.342203},"Albertfalu":{"latitude":45.6976783,"longitude":18.7406149},"Velence - Magyarország":{"latitude":47.2353177,"longitude":18.6605263},"Budapest X.":{"latitude":-31.3958145,"longitude":-64.496779},"Zirc":{"latitude":47.2613795,"longitude":17.8718188},"St. Johann im Saggautal/Leibnitz":{"latitude":46.7021679,"longitude":15.4001519},"Remschnigg":{"latitude":46.6596917,"longitude":15.4291251},"Steinbach  -   Austria":{"latitude":47.4496252,"longitude":12.3790684},"Eichberg 14":{"latitude":53.6134981,"longitude":10.16718695},"Lepsény":{"latitude":46.9943177,"longitude":18.2443158},"Hetzeldorf":{"latitude":46.1574914,"longitude":24.4678798},"Medgyes":{"latitude":46.1649111,"longitude":24.3511266},"Hegybánya":{"latitude":48.43435485,"longitude":18.8473901936385},"Lengyelország":{"latitude":52.0977181,"longitude":19.0258159},"Saga  -  Austria":{"latitude":47.252793,"longitude":11.6622571},"Saggau":{"latitude":46.7000798,"longitude":15.3860458},"Kassa":{"latitude":48.7172272,"longitude":21.2496774},"Kassa ?":{"latitude":48.7172272,"longitude":21.2496774},"Cleveland/Cuyahoga":{"latitude":41.5051613,"longitude":-81.6934446},"Parma/Cuyahoga":{"latitude":41.3822398,"longitude":-81.7355692},"Visk":{"latitude":48.0463001,"longitude":23.42903},"Winterbury":{"latitude":39.762097,"longitude":-75.6603903},"Huszt":{"latitude":48.1764917,"longitude":23.291166},"Mosonszentandrás":{"latitude":47.7841321,"longitude":16.9415},"Erdõd":{"latitude":45.524931,"longitude":19.0612618},"Gyõr":{"latitude":47.687609,"longitude":17.6346815},"Szatmár-Németi":{"latitude":47.8005657,"longitude":22.874753397349},"Kokad (Bihar-m)":{"latitude":47.4054635,"longitude":21.9313839},"Marcali":{"latitude":46.5833484,"longitude":17.4123002},"Bucsa":{"latitude":47.2042482,"longitude":20.9967301},"Csíksomlyó":{"latitude":46.3783639,"longitude":25.8217892},"Bécs / Oberdöbling":{"latitude":48.24478215,"longitude":16.3442035320382},"Jászkarajenô":{"latitude":47.0537807,"longitude":20.0683316}}}
+{
+	"locationToCoordinates": {
+		"Budapest VIII.": {
+			"latitude": -36.7837643,
+			"longitude": -73.1052456
+		},
+		"Garabonc - Magyarország": {
+			"latitude": 46.5848409,
+			"longitude": 17.1222657
+		},
+		"Nagybánya": {
+			"latitude": 47.6565584,
+			"longitude": 23.5719843
+		},
+		"Szilágypér": {
+			"latitude": 47.4600425,
+			"longitude": 22.3715921
+		},
+		"Hajmáskér": {
+			"latitude": 47.1444695,
+			"longitude": 18.0142678
+		},
+		"Elek": {
+			"latitude": 46.5294265,
+			"longitude": 21.2526107
+		},
+		"Budapest": {
+			"latitude": 47.4983815,
+			"longitude": 19.0404707
+		},
+		"Bocska": {
+			"latitude": 46.5527888,
+			"longitude": 16.9161006
+		},
+		"Törökszentmiklós": {
+			"latitude": 47.1793568,
+			"longitude": 20.409153
+		},
+		"Magyarszerdahely": {
+			"latitude": 46.5554057,
+			"longitude": 16.937305
+		},
+		"Állampuszta": {
+			"latitude": 46.7190667,
+			"longitude": 19.0704416
+		},
+		"Makó": {
+			"latitude": 46.2150438,
+			"longitude": 20.4751022
+		},
+		"Tiszasalamon": {
+			"latitude": 48.433651,
+			"longitude": 22.1632747
+		},
+		"Mosonmagyaróvár": {
+			"latitude": 47.8731793,
+			"longitude": 17.2722342
+		},
+		"Zágráb": {
+			"latitude": 45.813177,
+			"longitude": 15.977048
+		},
+		"Szigetszentmárton": {
+			"latitude": 47.2286092,
+			"longitude": 18.9576052
+		},
+		"Budapest / Kispest": {
+			"latitude": 47.4484411,
+			"longitude": 19.1465176
+		},
+		"Freiwaldau": {
+			"latitude": 50.2296385,
+			"longitude": 17.2046012
+		},
+		"Jauernig - Csehország": {
+			"latitude": 50.3919833,
+			"longitude": 17.0025022
+		},
+		"Felsõbánya": {
+			"latitude": 47.6615913,
+			"longitude": 23.6922094
+		},
+		"Jóka": {
+			"latitude": 48.145206,
+			"longitude": 17.5068773
+		},
+		"Acsalag": {
+			"latitude": 47.6752768,
+			"longitude": 17.1988877
+		},
+		"Törökország": {
+			"latitude": 38.9597594,
+			"longitude": 34.9249653
+		},
+		"Szatmárnémeti": {
+			"latitude": 47.7945819,
+			"longitude": 22.8797292
+		},
+		"Mátészalka": {
+			"latitude": 47.9539113,
+			"longitude": 22.3208477
+		},
+		"Kôvárhosszúfalu": {
+			"latitude": 47.5711038,
+			"longitude": 23.4281496
+		},
+		"USA": {
+			"latitude": 39.7837304,
+			"longitude": -100.4458825
+		},
+		"Hajdúnánás": {
+			"latitude": 47.8452241,
+			"longitude": 21.4279002
+		},
+		"Békásmegyer": {
+			"latitude": 47.5994131,
+			"longitude": 19.054996
+		},
+		"Mikola": {
+			"latitude": 47.0079887,
+			"longitude": 23.9417943
+		},
+		"Feketepatak": {
+			"latitude": 48.181568,
+			"longitude": 22.903061
+		},
+		"Tótvázsony": {
+			"latitude": 47.0083012,
+			"longitude": 17.7874287
+		},
+		"Veszprém": {
+			"latitude": 47.0916334,
+			"longitude": 17.9116007
+		},
+		"Csepel": {
+			"latitude": 47.424317,
+			"longitude": 19.0692138186022
+		},
+		"Dunavecse": {
+			"latitude": 46.9163658,
+			"longitude": 18.9716536
+		},
+		"Zsámbék": {
+			"latitude": 47.5483115,
+			"longitude": 18.7174344
+		},
+		"Nemesvámos": {
+			"latitude": 47.0548638,
+			"longitude": 17.8718258
+		},
+		"Óbuda": {
+			"latitude": 47.5385916,
+			"longitude": 19.0395611
+		},
+		"Budapest / Óbuda": {
+			"latitude": 47.5385916,
+			"longitude": 19.0395611
+		},
+		"Técsõ": {
+			"latitude": 48.01752315,
+			"longitude": 23.5757783661401
+		},
+		"Schardenberg": {
+			"latitude": 48.5195888,
+			"longitude": 13.4972841
+		},
+		"Buda / Tabán": {
+			"latitude": 48.7143188,
+			"longitude": 17.6313285534305
+		},
+		"Tompojevci": {
+			"latitude": 45.2342366,
+			"longitude": 19.0915559
+		},
+		"Pápa": {
+			"latitude": 47.3261087,
+			"longitude": 17.4705293
+		},
+		"Veszprém (?)": {
+			"latitude": 47.0916334,
+			"longitude": 17.9116007
+		},
+		"Tósokberénd": {
+			"latitude": 47.1008254,
+			"longitude": 17.5243142
+		},
+		"Komárom": {
+			"latitude": 47.7417349,
+			"longitude": 18.1218256
+		},
+		"Ercsi": {
+			"latitude": 47.2519697,
+			"longitude": 18.8983773
+		},
+		"Ajka": {
+			"latitude": 47.1056579,
+			"longitude": 17.5587276
+		},
+		"Kassel": {
+			"latitude": 51.3076867,
+			"longitude": 9.4624705
+		},
+		"Wien": {
+			"latitude": 48.2083537,
+			"longitude": 16.3725042
+		},
+		"Pozsonypüspöki": {
+			"latitude": 48.09899175,
+			"longitude": 17.1831348965861
+		},
+		"Cikolasziget": {
+			"latitude": 47.9343312,
+			"longitude": 17.3744568
+		},
+		"Altruppersdorf": {
+			"latitude": 48.69263245,
+			"longitude": 16.550044314613
+		},
+		"Nagykanizsa": {
+			"latitude": 46.4548261,
+			"longitude": 16.9923923
+		},
+		"Gönyû": {
+			"latitude": 47.7331432,
+			"longitude": 17.8279231
+		},
+		"Békéscsaba": {
+			"latitude": 46.6849789,
+			"longitude": 21.0866918
+		},
+		"Tatabánya": {
+			"latitude": 47.5837788,
+			"longitude": 18.3980308
+		},
+		"Karcag": {
+			"latitude": 47.314646,
+			"longitude": 20.9240941
+		},
+		"Modor": {
+			"latitude": 48.3357255,
+			"longitude": 17.3087863
+		},
+		"Szomolány": {
+			"latitude": 48.5061696,
+			"longitude": 17.41532525489
+		},
+		"Moson": {
+			"latitude": 47.8594524,
+			"longitude": 17.27057
+		},
+		"Egyházashetye": {
+			"latitude": 47.1695366,
+			"longitude": 17.1197109
+		},
+		"Szentkirályszabadja": {
+			"latitude": 47.0565157,
+			"longitude": 17.9705319
+		},
+		"Pécs": {
+			"latitude": 46.0763222,
+			"longitude": 18.2280746
+		},
+		"Vámos - Magyarország": {
+			"latitude": 47.1818523,
+			"longitude": 17.6702166
+		},
+		"Csákvár": {
+			"latitude": 47.3918045,
+			"longitude": 18.464064
+		},
+		"Gölle": {
+			"latitude": 46.4412291,
+			"longitude": 18.0135054
+		},
+		"Debrecen": {
+			"latitude": 47.531399,
+			"longitude": 21.6259782
+		},
+		"Kisköcsk": {
+			"latitude": 47.1918983,
+			"longitude": 17.1106702
+		},
+		"Budapest / Soroksár": {
+			"latitude": 47.4025482,
+			"longitude": 19.1184601
+		},
+		"Kaposvár": {
+			"latitude": 46.3564692,
+			"longitude": 17.7886886
+		},
+		"Vámos": {
+			"latitude": 35.4075119,
+			"longitude": 24.1981207
+		},
+		"Leutschach": {
+			"latitude": 46.9209622,
+			"longitude": 13.2353614
+		},
+		"Schloßberg - Steiermark": {
+			"latitude": 46.8844666,
+			"longitude": 15.5123431
+		},
+		"Pálosnagymezô": {
+			"latitude": 48.53943,
+			"longitude": 18.567207
+		},
+		"Szigetszentmiklós": {
+			"latitude": 47.345765,
+			"longitude": 19.0409037
+		},
+		"Nagyberény": {
+			"latitude": 46.7982528,
+			"longitude": 18.1639971
+		},
+		"Vasvár": {
+			"latitude": 47.0490649,
+			"longitude": 16.7998821
+		},
+		"Szombathely": {
+			"latitude": 47.2291184,
+			"longitude": 16.6187625
+		},
+		"Aknaszlatina": {
+			"latitude": 47.9470202,
+			"longitude": 23.8747013
+		},
+		"Magyaróvár": {
+			"latitude": 47.8731793,
+			"longitude": 17.2722342
+		},
+		"Lökösháza": {
+			"latitude": 46.429761,
+			"longitude": 21.2307202
+		},
+		"Magyarszovát": {
+			"latitude": 46.7720689,
+			"longitude": 23.9686333
+		},
+		"Tinaberg - Austria": {
+			"latitude": 47.0157005,
+			"longitude": 10.2930397832149
+		},
+		"Szolnok": {
+			"latitude": 47.1754555,
+			"longitude": 20.1946818
+		},
+		"Tiszatenyõ ??": {
+			"latitude": 47.1359865,
+			"longitude": 20.3797581
+		},
+		"Don-kanyar": {
+			"latitude": 47.2235442,
+			"longitude": 18.5792008343404
+		},
+		"Gyula": {
+			"latitude": 46.6438656,
+			"longitude": 21.2747575
+		},
+		"Mezôtúr": {
+			"latitude": 47.0004724,
+			"longitude": 20.6299513
+		},
+		"Kuncsorba": {
+			"latitude": 47.1282678,
+			"longitude": 20.5552834
+		},
+		"Mainz,Hessen, Németország": {
+			"latitude": 50.0083449,
+			"longitude": 8.2844378
+		},
+		"München": {
+			"latitude": 48.1371079,
+			"longitude": 11.5753822
+		},
+		"FL, USA": {
+			"latitude": 27.7567667,
+			"longitude": -81.4639835
+		},
+		"Börcs": {
+			"latitude": 47.6850359,
+			"longitude": 17.5007155
+		},
+		"Neumarkt": {
+			"latitude": 46.3169161,
+			"longitude": 11.2725698
+		},
+		"Szeged": {
+			"latitude": 46.2546312,
+			"longitude": 20.1486016
+		},
+		"Föveny": {
+			"latitude": 46.1094662,
+			"longitude": 18.060708
+		},
+		"Maltschach": {
+			"latitude": 46.671352,
+			"longitude": 15.4209552
+		},
+		"Jászjákóhalma": {
+			"latitude": 47.5219388,
+			"longitude": 19.9891136
+		},
+		"Esztergom": {
+			"latitude": 47.7856977,
+			"longitude": 18.7403349
+		},
+		"Arnfels": {
+			"latitude": 46.676506,
+			"longitude": 15.401302
+		},
+		"Tápióság": {
+			"latitude": 47.3992437,
+			"longitude": 19.6303259
+		},
+		"Bécs": {
+			"latitude": 48.2083537,
+			"longitude": 16.3725042
+		},
+		"Ada (Szerbia)": {
+			"latitude": 43.220133,
+			"longitude": 22.4120497931248
+		},
+		"Miskolc": {
+			"latitude": 48.1031517,
+			"longitude": 20.7902158
+		},
+		"Felsõvisó": {
+			"latitude": 47.7099597,
+			"longitude": 24.4311547
+		},
+		"Szentpéter": {
+			"latitude": 47.8464683,
+			"longitude": 18.2628926
+		},
+		"Úri": {
+			"latitude": 47.4135085,
+			"longitude": 19.5238494
+		},
+		"Pálóc": {
+			"latitude": 43.9343773,
+			"longitude": 17.5634732
+		},
+		"Szatmár": {
+			"latitude": 48.0297821,
+			"longitude": 22.0040108
+		},
+		"Biatorbágy": {
+			"latitude": 47.4701722,
+			"longitude": 18.8200347
+		},
+		"Alsószûcs": {
+			"latitude": 48.9579902,
+			"longitude": 18.0330936
+		},
+		"Dunapataj": {
+			"latitude": 46.6442755,
+			"longitude": 18.9990105
+		},
+		"Adony": {
+			"latitude": 47.1208993,
+			"longitude": 18.8631074
+		},
+		"Gálosfa": {
+			"latitude": 46.2561956,
+			"longitude": 17.8855267
+		},
+		"Vámospércs": {
+			"latitude": 47.5267293,
+			"longitude": 21.8987164
+		},
+		"Lengyeltóti": {
+			"latitude": 46.667132,
+			"longitude": 17.6412975
+		},
+		"Wolfsberg - Austria": {
+			"latitude": 46.8390583,
+			"longitude": 14.8452061
+		},
+		"Rüdern": {
+			"latitude": 49.3961027,
+			"longitude": 10.6605791
+		},
+		"Gerolzhofen": {
+			"latitude": 49.9003568,
+			"longitude": 10.3487749
+		},
+		"Szajol": {
+			"latitude": 47.1764886,
+			"longitude": 20.2996108
+		},
+		"Újrónafõ": {
+			"latitude": 47.8107082,
+			"longitude": 17.2019677
+		},
+		"Érsekújvár": {
+			"latitude": 47.9861843,
+			"longitude": 18.1631415
+		},
+		"Gyömrõ": {
+			"latitude": 47.4223375,
+			"longitude": 19.394503
+		},
+		"Cilli (Slovenien)": {
+			"latitude": 46.2309234,
+			"longitude": 15.2659932
+		},
+		"Graz": {
+			"latitude": 47.0702563,
+			"longitude": 15.4385716
+		},
+		"Lungau - Austria": {
+			"latitude": 47.1491046,
+			"longitude": 13.7930773
+		},
+		"Üllõ": {
+			"latitude": 47.3851041,
+			"longitude": 19.3456911
+		},
+		"Péteri": {
+			"latitude": 47.3880659,
+			"longitude": 19.4107817
+		},
+		"Kistarcsa": {
+			"latitude": 47.5447322,
+			"longitude": 19.2636378
+		},
+		"Szarvaskõ / Eger": {
+			"latitude": 47.9797969,
+			"longitude": 20.342203
+		},
+		"Albertfalu": {
+			"latitude": 45.6976783,
+			"longitude": 18.7406149
+		},
+		"Velence - Magyarország": {
+			"latitude": 47.2353177,
+			"longitude": 18.6605263
+		},
+		"Budapest X.": {
+			"latitude": -31.3958145,
+			"longitude": -64.496779
+		},
+		"Zirc": {
+			"latitude": 47.2613795,
+			"longitude": 17.8718188
+		},
+		"St. Johann im Saggautal/Leibnitz": {
+			"latitude": 46.7021679,
+			"longitude": 15.4001519
+		},
+		"Remschnigg": {
+			"latitude": 46.6596917,
+			"longitude": 15.4291251
+		},
+		"Steinbach  -   Austria": {
+			"latitude": 47.4496252,
+			"longitude": 12.3790684
+		},
+		"Eichberg 14": {
+			"latitude": 53.6134981,
+			"longitude": 10.16718695
+		},
+		"Lepsény": {
+			"latitude": 46.9943177,
+			"longitude": 18.2443158
+		},
+		"Hetzeldorf": {
+			"latitude": 46.1574914,
+			"longitude": 24.4678798
+		},
+		"Medgyes": {
+			"latitude": 46.1649111,
+			"longitude": 24.3511266
+		},
+		"Hegybánya": {
+			"latitude": 48.43435485,
+			"longitude": 18.8473901936385
+		},
+		"Lengyelország": {
+			"latitude": 52.0977181,
+			"longitude": 19.0258159
+		},
+		"Saga  -  Austria": {
+			"latitude": 47.252793,
+			"longitude": 11.6622571
+		},
+		"Saggau": {
+			"latitude": 46.7000798,
+			"longitude": 15.3860458
+		},
+		"Kassa": {
+			"latitude": 48.7172272,
+			"longitude": 21.2496774
+		},
+		"Kassa ?": {
+			"latitude": 48.7172272,
+			"longitude": 21.2496774
+		},
+		"Cleveland/Cuyahoga": {
+			"latitude": 41.5051613,
+			"longitude": -81.6934446
+		},
+		"Parma/Cuyahoga": {
+			"latitude": 41.3822398,
+			"longitude": -81.7355692
+		},
+		"Visk": {
+			"latitude": 48.0463001,
+			"longitude": 23.42903
+		},
+		"Winterbury": {
+			"latitude": 39.762097,
+			"longitude": -75.6603903
+		},
+		"Huszt": {
+			"latitude": 48.1764917,
+			"longitude": 23.291166
+		},
+		"Mosonszentandrás": {
+			"latitude": 47.7841321,
+			"longitude": 16.9415
+		},
+		"Erdõd": {
+			"latitude": 45.524931,
+			"longitude": 19.0612618
+		},
+		"Gyõr": {
+			"latitude": 47.687609,
+			"longitude": 17.6346815
+		},
+		"Szatmár-Németi": {
+			"latitude": 47.8005657,
+			"longitude": 22.874753397349
+		},
+		"Kokad (Bihar-m)": {
+			"latitude": 47.4054635,
+			"longitude": 21.9313839
+		},
+		"Marcali": {
+			"latitude": 46.5833484,
+			"longitude": 17.4123002
+		},
+		"Bucsa": {
+			"latitude": 47.2042482,
+			"longitude": 20.9967301
+		},
+		"Csíksomlyó": {
+			"latitude": 46.3783639,
+			"longitude": 25.8217892
+		},
+		"Bécs / Oberdöbling": {
+			"latitude": 48.24478215,
+			"longitude": 16.3442035320382
+		},
+		"Jászkarajenô": {
+			"latitude": 47.0537807,
+			"longitude": 20.0683316
+		},
+		"Wien V.": {
+			"latitude": 59.7573272,
+			"longitude": 18.7985191
+		},
+		"Cuyahoga County, Ohio, USA": {
+			"latitude": 41.4301347,
+			"longitude": -81.6905558
+		}
+	}
+}

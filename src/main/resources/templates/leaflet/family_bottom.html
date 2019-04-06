@@ -1,0 +1,55 @@
+	var json = JSON.parse(jsonStr);
+
+	var markers = L.layerGroup();
+	
+	console.log(json); // this will show the info it in firebug console
+	var testlayer = L.geoJson(json, {
+		onEachFeature: function (feature, layer) {
+    		layer.bindPopup('<h1>'+feature.properties.name+'</h1><p>' + feature.properties.event + ' ' + feature.properties.epoch+'</p><br /><a href="'+feature.properties.link+'">Link</a>');
+			if (feature.properties.image != null) {
+				var myIcon = L.icon({
+					iconUrl: feature.properties.image,
+					iconSize: [25, ],
+					iconAnchor: [12, 18],
+					popupAnchor: [0, -15],
+					shadowUrl: feature.properties.shadow,
+					shadowSize: [33, ],
+					shadowAnchor: [15, 22]
+				});
+				layer.setIcon(myIcon);
+			}
+			else {
+				var myIcon = L.icon({
+					iconUrl: 'ferfi-1.jpg',
+					iconSize: [25, ],
+					iconAnchor: [12, 18],
+					popupAnchor: [0, -15],
+					shadowUrl: feature.properties.shadow,
+					shadowSize: [33, ],
+					shadowAnchor: [15, 22]
+				});
+				layer.setIcon(myIcon);
+			}
+			markers.addLayer(layer);
+    	}
+  	});
+	
+	L.markerClusterGroup.layerSupport({
+		maxClusterRadius: 2,
+		zoomToBoundsOnClick: true,
+		spiderfyDistanceMultiplier: 1.5
+	}).addTo(mymap).checkIn(markers);
+	
+	var sliderControl = L.control.sliderControl({
+		position: "topright", 
+		layer: markers, 
+		range: true, 
+		timeAttribute: "epoch", 
+		alwaysShowDate: true, 
+		showAllOnStart: true});
+	mymap.addControl(sliderControl);
+	sliderControl.startSlider();
+
+</script>
+</body>
+</html>

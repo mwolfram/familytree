@@ -33,6 +33,8 @@ public class Tools {
 	
 	public static Double degreesMinutesSecondsToDecimalCoordinate(String dms) {
 		System.out.println("GPS coordinate from [" + dms + "]");
+		
+		dms = dms.replace("  ", " "); // XXX pfui
 		Direction direction = Direction.fromString(dms.split(" ")[0].trim());
 		
 		String degreesStr = dms.split(" ")[1].split("°")[0].trim();

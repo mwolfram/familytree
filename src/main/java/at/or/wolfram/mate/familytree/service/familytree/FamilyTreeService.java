@@ -24,7 +24,7 @@ public class FamilyTreeService {
 		this.crawler = new Crawler(baseUrl, locationLookupService);
 		
 		this.cacheFile = new File(cacheFileName);
-		if (false/*this.cacheFile.exists()*/) { // XXX
+		if (this.cacheFile.exists()) {
 			try {
 				readFromCacheFile();
 			} catch (IOException e) {

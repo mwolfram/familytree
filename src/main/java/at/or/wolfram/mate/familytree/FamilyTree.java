@@ -1,14 +1,17 @@
 package at.or.wolfram.mate.familytree;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 
+import org.apache.commons.io.FileUtils;
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.geojson.GeoJsonObject;
 
 import at.or.wolfram.mate.familytree.common.Mapper;
+import at.or.wolfram.mate.familytree.common.Tools;
 import at.or.wolfram.mate.familytree.common.geojson.GeoJson;
 import at.or.wolfram.mate.familytree.service.familytree.FamilyTreeService;
 import at.or.wolfram.mate.familytree.service.location.LocationLookupService;
@@ -28,39 +31,13 @@ public class FamilyTree {
 				new LocationLookupService(LOCATION_LOOKUP_CACHE_FILE));
 		
 		GeoJsonObject geoJson = GeoJson.fromTree(familyTreeService.getTree());
-		System.out.println("---");
-		System.out.println(Mapper.writeJson(geoJson));
-		System.out.println("---");
-	}
-	
-//	private static void generatePersonPins() throws IOException {
-//		String jsonData = FileUtils.readFileToString(new File("result.json"), Charset.forName("UTF-8"));
-//		Tree allPins = Mapper.parseJson(jsonData, Tree.class);
-//		
-//		for (Person p : allPins.getPersons()) {
-//			if (p.getBirth() != null) {
-//				
-//			}
-//			if (p.getDeath() != null) {
-//				
-//			}
-//		}
-//	}
-//	
-//	private static void generateOnePin(Double latitude, Double longitude) {
-//		FileUtils.writeStringToFile(new File("pins.txt"), "L.marker(["+loc.getLatitutde()+", "+loc.getLongitude()+"]).addTo(mymap);" + System.lineSeparator(), Charset.forName("UTF-8"), true);
-//	}
-//	
-//	private static void generatePins() throws JsonParseException, JsonMappingException, IOException {
-//		String jsonData = FileUtils.readFileToString(new File("dict.json"), Charset.forName("UTF-8"));
-//		Locations allPins = Mapper.parseJson(jsonData, Locations.class);
-//		
-//		for (Coordinates loc : allPins.getLocationToLatLon().values()) {
-//			if (loc == null) continue;
-//			if (loc.getLatitutde() == null || loc.getLongitude() == null) continue;
-//			System.out.println("L.marker(["+loc.getLatitutde()+", "+loc.getLongitude()+"]).addTo(mymap);");
-//			FileUtils.writeStringToFile(new File("pins.txt"), "L.marker(["+loc.getLatitutde()+", "+loc.getLongitude()+"]).addTo(mymap);" + System.lineSeparator(), Charset.forName("UTF-8"), true);
-//		}
-//	}
-	
+		
+		File indexHtml = new File("index.html");
+		File familyTopHtml = new File("src/main/resources/templates/leaflet/family_top.html");
+		File familyBottomHtml = new File("src/main/resources/templates/leaflet/family_bottom.html");
+		FileUtils.write(indexHtml, FileUtils.readFileToString(familyTopHtml, Tools.ENCODING), Tools.ENCODING);
+		FileUtils.write(indexHtml, "var jsonStr = '" + Mapper.writeJson(geoJson) + "'" + System.lineSeparator(), Tools.ENCODING, true);
+		FileUtils.write(indexHtml, FileUtils.readFileToString(familyBottomHtml, Tools.ENCODING), Tools.ENCODING, true);
+		System.out.println("Resultfile written.");
+	}	
 }
