@@ -1,11 +1,7 @@
 package at.or.wolfram.mate.familytree.common;
 
 import java.nio.charset.Charset;
-import java.text.NumberFormat;
-import java.text.ParseException;
-import java.util.Locale;
 
-import org.apache.log4j.Logger;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
 import org.joda.time.format.DateTimeFormatterBuilder;
@@ -14,8 +10,6 @@ import org.joda.time.format.DateTimeParser;
 public class Tools {
 
 	public static final Charset ENCODING = Charset.forName("UTF-8"); 
-	
-	private static final Logger logger = Logger.getLogger(Tools.class);
 	
 	public static int extractYear(String dateString) throws IllegalArgumentException {
 		DateTimeParser[] parsers = { 
@@ -53,8 +47,6 @@ public class Tools {
 		double decimalPart = ((minutes * 60) + seconds) / 3600.0;
 		double result = sign * (degrees + decimalPart);
 		return result;
-		
-		
 		
 		// https://stackoverflow.com/questions/8263959/how-to-convert-between-degrees-minutes-seconds-to-decimal-coordinates
 	}
