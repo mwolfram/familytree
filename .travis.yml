@@ -1,4 +1,4 @@
 language: java
 
 script:
-- mvn package
+- mvn exec:java -Dexec.mainClass="at.or.wolfram.mate.familytree.FamilyTree"  
