@@ -216,7 +216,9 @@ public class Crawler {
 		Person person = new Person();
 		
 		for (Element title : source.getAllElements("title")) {
-			person.setName(title.getContent().toString());
+			String name = title.getContent().toString();
+			logger.info("Parsing " + name);
+			person.setName(name);
 		}
 		
 		person.setSex(getSex(source));
@@ -262,8 +264,14 @@ public class Crawler {
 		for (int i = 0; i < lines.length; i++) {
 			if (lines[i].equals("GPS:") && lines.length >= i + 3) {
 				Coordinates coordinates = new Coordinates();
-				coordinates.setLatitude(Tools.degreesMinutesSecondsToDecimalCoordinate(lines[i+1]));
-				coordinates.setLongitude(Tools.degreesMinutesSecondsToDecimalCoordinate(lines[i+2]));
+				if (lines[i+1].trim().isEmpty()) { // XXX Den Graus entfernen!
+					coordinates.setLatitude(Tools.degreesMinutesSecondsToDecimalCoordinate(lines[i+2]));
+					coordinates.setLongitude(Tools.degreesMinutesSecondsToDecimalCoordinate(lines[i+3]));
+				}
+				else {
+					coordinates.setLatitude(Tools.degreesMinutesSecondsToDecimalCoordinate(lines[i+1]));
+					coordinates.setLongitude(Tools.degreesMinutesSecondsToDecimalCoordinate(lines[i+2]));
+				}
 				return coordinates;
 			}
 		}
