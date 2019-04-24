@@ -5,7 +5,18 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>familytree</name>
   
+  <parent>
+     <groupId>org.springframework.boot</groupId>
+     <artifactId>spring-boot-starter-parent</artifactId>
+     <relativePath/>
+     <version>2.1.4.RELEASE</version>
+  </parent>
+  
   <dependencies>
+    <dependency>
+    	<groupId>org.springframework.boot</groupId>
+    	<artifactId>spring-boot-starter</artifactId>
+    </dependency>
 	<dependency>
 	    <groupId>net.htmlparser.jericho</groupId>
 	    <artifactId>jericho-html</artifactId>
