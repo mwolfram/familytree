@@ -5,12 +5,16 @@ import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 import at.or.wolfram.mate.familytree.common.Mapper;
 import at.or.wolfram.mate.familytree.common.Tools;
 import at.or.wolfram.mate.familytree.model.Tree;
 import at.or.wolfram.mate.familytree.service.location.LocationLookupService;
 
+@Component
 public class FamilyTreeService {
 	
 	private final Crawler crawler;
@@ -20,7 +24,12 @@ public class FamilyTreeService {
 	private final File cacheFile;
 	private Tree tree;
 	
-	public FamilyTreeService(String baseUrl, String cacheFileName, LocationLookupService locationLookupService) {
+	@Autowired
+	public FamilyTreeService(
+			@Value("${service.familytree.baseUrl}") String baseUrl,
+			@Value("${service.familytree.cacheFileName}") String cacheFileName,
+			LocationLookupService locationLookupService) {
+		
 		this.crawler = new Crawler(baseUrl, locationLookupService);
 		
 		this.cacheFile = new File(cacheFileName);

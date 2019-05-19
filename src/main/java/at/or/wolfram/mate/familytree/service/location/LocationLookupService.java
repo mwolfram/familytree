@@ -6,12 +6,15 @@ import java.util.Map;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 import at.or.wolfram.mate.familytree.common.Mapper;
 import at.or.wolfram.mate.familytree.common.Tools;
 import at.or.wolfram.mate.familytree.model.Coordinates;
 import at.or.wolfram.mate.familytree.model.Locations;
 
+@Component
 public class LocationLookupService {
 
 	private final File cacheFile;
@@ -21,7 +24,8 @@ public class LocationLookupService {
 	
 	private static final Logger logger = Logger.getLogger(LocationLookupService.class);
 	
-	public LocationLookupService(String cacheFileName) {
+	public LocationLookupService(
+			@Value("${service.locationlookup.cacheFileName}") String cacheFileName) {
 		this.openStreetMapUtils = new OpenStreetMapUtils();
 		
 		this.cacheFile = new File(cacheFileName);

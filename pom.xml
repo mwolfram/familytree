@@ -17,6 +17,10 @@
     	<groupId>org.springframework.boot</groupId>
     	<artifactId>spring-boot-starter</artifactId>
     </dependency>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-websocket</artifactId>
+    </dependency>
 	<dependency>
 	    <groupId>net.htmlparser.jericho</groupId>
 	    <artifactId>jericho-html</artifactId>
@@ -26,8 +30,6 @@
 	<dependency>
 	    <groupId>org.projectlombok</groupId>
 	    <artifactId>lombok</artifactId>
-	    <version>1.18.4</version>
-	    <scope>provided</scope>
 	</dependency>
 	<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
 	<dependency>
@@ -45,13 +47,11 @@
 	<dependency>
 	    <groupId>com.fasterxml.jackson.core</groupId>
 	    <artifactId>jackson-core</artifactId>
-	    <version>2.9.8</version>
 	</dependency>
 	<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
 	<dependency>
 	    <groupId>com.fasterxml.jackson.core</groupId>
 	    <artifactId>jackson-databind</artifactId>
-	    <version>2.9.8</version>
 	</dependency>
 	<!-- https://mvnrepository.com/artifact/de.grundid.opendatalab/geojson-jackson -->
 	<dependency>
@@ -69,51 +69,18 @@
 	<dependency>
 	    <groupId>joda-time</groupId>
 	    <artifactId>joda-time</artifactId>
-	    <version>2.10.1</version>
+	</dependency>
+	<dependency>
+	    <groupId>commons-net</groupId>
+	    <artifactId>commons-net</artifactId>
+	    <version>3.6</version>
+	</dependency>
+	<dependency> 
+	    <groupId>org.mockftpserver</groupId> 
+	    <artifactId>MockFtpServer</artifactId> 
+	    <version>2.7.1</version> 
+	    <scope>test</scope> 
 	</dependency>
   </dependencies>
-  
-  <!-- Deployment of build artifacts
-  <distributionManagement>
-    <repository>
-      <id>ftp-world4you</id>
-      <url>ftp://ftp48.world4you.com/testfolder</url>
-    </repository>
-  </distributionManagement>
-  -->
-  
-  <build>
-    <extensions>
-      <!-- Enabling the use of FTP -->
-      <extension>
-        <groupId>org.apache.maven.wagon</groupId>
-        <artifactId>wagon-ftp</artifactId>
-      </extension>
-    </extensions>
-  
-	  <plugins>
-	      <plugin>
-	        <groupId>org.codehaus.mojo</groupId>
-	        <artifactId>wagon-maven-plugin</artifactId>
-	        <version>2.0.0</version>
-	        <executions>
-	          <execution>
-	            <id>upload-family</id>
-	            <phase>install</phase>
-	            <goals>
-	              <goal>upload</goal>
-	            </goals>
-	            <configuration>
-	              <serverId>ftp-world4you</serverId>
-	              <fromDir></fromDir>
-	              <includes>index.html</includes>
-	              <url>ftp://ftp48.world4you.com</url>
-	              <toDir>terkep</toDir>
-	            </configuration>
-	          </execution>
-	        </executions>
-	      </plugin>
-	    </plugins>
-    </build>
   
 </project>
