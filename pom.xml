@@ -81,6 +81,14 @@
     </extensions>
   
 	  <plugins>
+		   <plugin>
+	        <groupId>org.apache.maven.plugins</groupId>
+	        <artifactId>maven-compiler-plugin</artifactId>
+	        <configuration>
+	            <source>1.6</source>
+	            <target>1.6</target>
+	        </configuration>
+	      </plugin>
 	      <plugin>
 	        <groupId>org.codehaus.mojo</groupId>
 	        <artifactId>wagon-maven-plugin</artifactId>
@@ -97,7 +105,7 @@
 	              <fromDir></fromDir>
 	              <includes>index.html</includes>
 	              <url>ftp://ftp48.world4you.com</url>
-	              <toDir>terkep</toDir>
+	              <toDir>terkep-mate</toDir>
 	            </configuration>
 	          </execution>
 	        </executions>
