@@ -10,6 +10,7 @@ import org.apache.commons.net.PrintCommandListener;
 import org.apache.commons.net.ftp.FTPClient;
 import org.apache.commons.net.ftp.FTPReply;
 
+// from: https://www.baeldung.com/java-ftp-client
 public class FtpClient {
 	 
     private String server;
@@ -18,8 +19,13 @@ public class FtpClient {
     private String password;
     private FTPClient ftp;
  
-    // constructor // TODO continue here: https://www.baeldung.com/java-ftp-client
- 
+    public FtpClient(String server, int port, String user, String password ) {
+    	this.server = server;
+    	this.port = port;
+    	this.user = user;
+    	this.password = password;
+    }
+    
     void open() throws IOException {
         ftp = new FTPClient();
  

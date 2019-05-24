@@ -22,6 +22,14 @@ public class FamilyTreeController {
     @Autowired
     private FamilyTreeService familyTreeService;
     
+    @RequestMapping(value = "/status",
+    		method = RequestMethod.GET)
+    public 
+    @ResponseBody
+    ResponseEntity<String> status() {
+		return new ResponseEntity<>("Hello Family", HttpStatus.OK);
+    }
+    
     @RequestMapping(value = "/sync",
     		method = RequestMethod.PUT)
     public 
