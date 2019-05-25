@@ -5,10 +5,20 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.stream.Collectors;
 
 import org.apache.commons.net.PrintCommandListener;
+import org.apache.commons.net.ProtocolCommandEvent;
+import org.apache.commons.net.ProtocolCommandListener;
 import org.apache.commons.net.ftp.FTPClient;
+import org.apache.commons.net.ftp.FTPFile;
 import org.apache.commons.net.ftp.FTPReply;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import at.or.wolfram.mate.familytree.controller.FamilyTreeController;
 
 // from: https://www.baeldung.com/java-ftp-client
 public class FtpClient {
@@ -18,6 +28,8 @@ public class FtpClient {
     private String user;
     private String password;
     private FTPClient ftp;
+    
+    private static final Logger logger = LoggerFactory.getLogger(FtpClient.class);
  
     public FtpClient(String server, int port, String user, String password ) {
     	this.server = server;
@@ -29,8 +41,18 @@ public class FtpClient {
     void open() throws IOException {
         ftp = new FTPClient();
  
-        // TODO protocol to log
-        ftp.addProtocolCommandListener(new PrintCommandListener(new PrintWriter(System.out)));
+        ftp.addProtocolCommandListener(new ProtocolCommandListener() {
+			
+			@Override
+			public void protocolReplyReceived(ProtocolCommandEvent event) {
+				logger.debug("Command received: '{}', Message: '{}'", event.getCommand(), event.getMessage());
+			}
+			
+			@Override
+			public void protocolCommandSent(ProtocolCommandEvent event) {
+				logger.debug("Command sent: '{}', Message: '{}'", event.getCommand(), event.getMessage());
+			}
+		});
  
         ftp.connect(server, port);
         int reply = ftp.getReplyCode();
@@ -49,6 +71,13 @@ public class FtpClient {
     
     void putFileToPath(File file, String path) throws IOException {
         ftp.storeFile(path, new FileInputStream(file));
+    }
+    
+    Collection<String> listFiles(String path) throws IOException {
+        FTPFile[] files = ftp.listFiles(path);
+        return Arrays.stream(files)
+          .map(FTPFile::getName)
+          .collect(Collectors.toList());
     }
     
     void close() throws IOException {
