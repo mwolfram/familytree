@@ -42,10 +42,21 @@ public class FamilyTreeService {
 		}
 		else {
 			logger.info("Cache file does not exist. Starting crawler now.");
-//			this.tree = this.crawler.crawlAncestors("per00001.htm");
-			this.tree = this.crawler.crawlAncestors("per00049.htm"); // David
+//			this.tree = this.crawler.crawlAncestors("per00001.htm"); // Mate
+//			this.tree = this.crawler.crawlAncestors("per00049.htm"); // David
+//			this.tree = this.crawler.crawlAncestors("per00034.htm"); // Csabi
+//			this.tree = this.crawler.crawlAncestors("per00096.htm"); // Krisi
+//			this.tree = this.crawler.crawlAncestors("per00039.htm"); // Toto
+//			this.tree = this.crawler.crawlAncestors("per00036.htm"); // Viki
+//			this.tree = this.crawler.crawlIndices("Wolfram", "Vágvölgyi");
+//			this.tree = this.crawler.crawlIndices("Szajkó");
+//			this.tree = this.crawler.crawlIndices("Körmendi", "Körmendy", "Körmöndi");
+//			this.tree = this.crawler.crawlIndices("Niedermayer");
+//			this.tree = this.crawler.crawlIndices("Ipsics", "Ipsits", "Illésfalvi", "Illésfalvy", "Iglódi");
+//			this.tree = this.crawler.crawlIndices("Hannig");
+			this.tree = this.crawler.crawlIndices("Timaffy");
+//			this.tree = this.crawler.crawlIndices(); // mindenki
 //			this.tree = this.crawler.crawlSelected("per00072.htm"); // ROSOS Rozina
-//			this.tree = this.crawler.crawlIndices();
 			try {
 				writeToCacheFile();
 			} catch (IOException e) {

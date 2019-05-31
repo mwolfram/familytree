@@ -46,7 +46,7 @@ public class Crawler {
 		this.locationLookupService = locationLookupService;
 	}
 	
-	public Tree crawlIndices() {
+	public Tree crawlIndices(String... whitelist) {
 		List<Person> persons = new ArrayList<Person>();
 		Tree tree = new Tree();
 		for (int i = 1; i <= 33; i++) {
@@ -62,8 +62,8 @@ public class Crawler {
 					logger.info("Retrying index " + i);
 				}
 			}
-			List<String> links = getPersonLinksFromIndexPage(source);
-			persons.addAll(processPersonPages(links));
+			List<String> links = getPersonLinksFromIndexPage(source, whitelist);
+			persons.addAll(processPersonPages(links, whitelist));
 		}
 		
 		tree.setPersons(persons);
@@ -87,7 +87,7 @@ public class Crawler {
 		return tree;
 	}
 	
-	private List<Person> processPersonPages(List<String> links) {
+	private List<Person> processPersonPages(List<String> links, String... whitelist) {
 		List<Person> persons = new ArrayList<Person>();
 		
 		for (String link : links) {
@@ -104,6 +104,14 @@ public class Crawler {
 				}
 			}
 			Person person = getPerson(personSource);
+			
+			// if whitelist exists, only permit whitelisted persons
+			if (whitelist != null && whitelist.length > 0) {
+				if (!Tools.isNameInWhitelist(person.getName(), whitelist)) {
+					continue;
+				}
+			}
+			
 			String relativeImageLink = getImageLinkFromPersonPage(personSource);
 			if (relativeImageLink != null) {
 				person.setGlobalImageLink(baseUrl + getImageLinkFromPersonPage(personSource));
@@ -169,10 +177,19 @@ public class Crawler {
 		return new ArrayList<String>(personLinks);
 	}
 	
-	private List<String> getPersonLinksFromIndexPage(Source source) {
+	private List<String> getPersonLinksFromIndexPage(Source source, String... whitelist) {
 		List<String> links = new ArrayList<String>();
 		for (Element element : source.getAllElements("A HREF")) {
 			String link = element.getAttributeValue("HREF");
+			String name = element.getContent().toString();
+			
+			// if whitelist exists, only permit whitelisted persons
+			if (whitelist != null && whitelist.length > 0) {
+				if (!Tools.isNameInWhitelist(name, whitelist)) {
+					continue;
+				}
+			}
+			
 			if (link.startsWith("per")) {
 				links.add(link);
 			}

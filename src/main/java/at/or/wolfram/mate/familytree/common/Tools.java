@@ -55,4 +55,16 @@ public class Tools {
 		return 0.0;
 	}
 	
+	public static Boolean isNameInWhitelist(String name, String[] whitelist) {
+		if (name == null) {
+			return false;
+		}
+		for (String whitelistEntry : whitelist) {
+			if (name.toLowerCase().contains(whitelistEntry.trim().toLowerCase())) {
+				return true;
+			}
+		}
+		return false;
+	}
+	
 }
