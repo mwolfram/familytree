@@ -4,12 +4,10 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.io.PrintWriter;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.stream.Collectors;
 
-import org.apache.commons.net.PrintCommandListener;
 import org.apache.commons.net.ProtocolCommandEvent;
 import org.apache.commons.net.ProtocolCommandListener;
 import org.apache.commons.net.ftp.FTPClient;
@@ -17,8 +15,6 @@ import org.apache.commons.net.ftp.FTPFile;
 import org.apache.commons.net.ftp.FTPReply;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import at.or.wolfram.mate.familytree.controller.FamilyTreeController;
 
 // from: https://www.baeldung.com/java-ftp-client
 public class FtpClient {
@@ -38,7 +34,7 @@ public class FtpClient {
     	this.password = password;
     }
     
-    void open() throws IOException {
+    public void open() throws IOException {
         ftp = new FTPClient();
  
         ftp.addProtocolCommandListener(new ProtocolCommandListener() {
@@ -64,23 +60,27 @@ public class FtpClient {
         ftp.login(user, password);
     }
  
-    void downloadFile(String source, String destination) throws IOException {
+    public void downloadFile(String source, String destination) throws IOException {
         FileOutputStream out = new FileOutputStream(destination);
         ftp.retrieveFile(source, out);
     }
     
-    void putFileToPath(File file, String path) throws IOException {
+    public void putFileToPath(File file, String path) throws IOException {
         ftp.storeFile(path, new FileInputStream(file));
     }
     
-    Collection<String> listFiles(String path) throws IOException {
+    public void deleteFileFromPath(String path) throws IOException {
+    	ftp.deleteFile(path);
+    }
+    
+    public Collection<String> listFiles(String path) throws IOException {
         FTPFile[] files = ftp.listFiles(path);
         return Arrays.stream(files)
           .map(FTPFile::getName)
           .collect(Collectors.toList());
     }
     
-    void close() throws IOException {
+    public void close() throws IOException {
         ftp.disconnect();
     }
 }
