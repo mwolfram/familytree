@@ -31,23 +31,22 @@ public class FamilyTreeRunner {
 				FAMILY_TREE_CACHE_FILE, 
 				new LocationLookupService(LOCATION_LOOKUP_CACHE_FILE));
 		
-		
 		executeIndexJob(familyTreeService, "terkep-wolfram", "Wolfram", "Vágvölgyi");
-
-		executeAncestorJob(familyTreeService, "terkep-mate", "per00001.htm"); // Mate
+		executeIndexJob(familyTreeService, "terkep-szajko", "Szajkó");
+		executeIndexJob(familyTreeService, "terkep-koermendi", "Körmendi", "Körmendy", "Körmöndi");
+		executeIndexJob(familyTreeService, "terkep-niedermay", "Niedermayer");
+		executeIndexJob(familyTreeService, "terkep-ipsics", "Ipsics", "Ipsits", "Illésfalvi", "Illésfalvy", "Iglódi");
+		executeIndexJob(familyTreeService, "terkep-hannig", "Hannig");
+		executeIndexJob(familyTreeService, "terkep-timaffy", "Timaffy");
 		
-//		this.tree = this.crawler.crawlAncestors("per00049.htm"); // David
-//		this.tree = this.crawler.crawlAncestors("per00034.htm"); // Csabi
-//		this.tree = this.crawler.crawlAncestors("per00096.htm"); // Krisi
-//		this.tree = this.crawler.crawlAncestors("per00039.htm"); // Toto
-//		this.tree = this.crawler.crawlAncestors("per00036.htm"); // Viki
-//		this.tree = this.crawler.crawlIndices("Szajkó");
-//		this.tree = this.crawler.crawlIndices("Körmendi", "Körmendy", "Körmöndi");
-//		this.tree = this.crawler.crawlIndices("Niedermayer");
-//		this.tree = this.crawler.crawlIndices("Ipsics", "Ipsits", "Illésfalvi", "Illésfalvy", "Iglódi");
-//		this.tree = this.crawler.crawlIndices("Hannig");
-//		this.tree = this.crawler.crawlIndices("Timaffy");
-//		this.tree = this.crawler.crawlIndices(); // mindenki
+		executeAncestorJob(familyTreeService, "terkep-mate", "per00001.htm");
+		executeAncestorJob(familyTreeService, "terkep-david", "per00049.htm");
+		executeAncestorJob(familyTreeService, "terkep-csaba", "per00034.htm");
+		executeAncestorJob(familyTreeService, "terkep-krisi", "per00096.htm");
+		executeAncestorJob(familyTreeService, "terkep-toto", "per00039.htm");
+		executeAncestorJob(familyTreeService, "terkep-viki", "per00036.htm");
+		
+		executeIndexJob(familyTreeService, "terkep"); // mindenki
 		
 	}
 	
