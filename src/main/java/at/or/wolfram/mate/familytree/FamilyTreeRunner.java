@@ -20,8 +20,12 @@ import at.or.wolfram.mate.familytree.service.location.LocationLookupService;
 public class FamilyTreeRunner {
 
 	private static final String BASE_URL = "http://members.chello.at/laszlowolfram/mate.web/";
+	private static final String FTP_SERVER = "ftp48.world4you.com";
 	private static final String FAMILY_TREE_CACHE_FILE = "cache/tree.json";
 	private static final String LOCATION_LOOKUP_CACHE_FILE = "cache/locations.json";
+	
+	private String ftpUser;
+	private String ftpPassword;
 	
 	public static void main(String[] args) throws MalformedURLException, IOException {
 		BasicConfigurator.configure();
@@ -31,40 +35,44 @@ public class FamilyTreeRunner {
 				FAMILY_TREE_CACHE_FILE, 
 				new LocationLookupService(LOCATION_LOOKUP_CACHE_FILE));
 		
-		executeIndexJob(familyTreeService, "terkep-wolfram", "Wolfram", "Vágvölgyi");
-		executeIndexJob(familyTreeService, "terkep-szajko", "Szajkó");
-		executeIndexJob(familyTreeService, "terkep-koermendi", "Körmendi", "Körmendy", "Körmöndi");
-		executeIndexJob(familyTreeService, "terkep-niedermay", "Niedermayer");
-		executeIndexJob(familyTreeService, "terkep-ipsics", "Ipsics", "Ipsits", "Illésfalvi", "Illésfalvy", "Iglódi");
-		executeIndexJob(familyTreeService, "terkep-hannig", "Hannig");
-		executeIndexJob(familyTreeService, "terkep-timaffy", "Timaffy");
+		FamilyTreeRunner familyTreeRunner = new FamilyTreeRunner();
+		familyTreeRunner.ftpUser = args[0];
+		familyTreeRunner.ftpPassword = args[1];
 		
-		executeAncestorJob(familyTreeService, "terkep-mate", "per00001.htm");
-		executeAncestorJob(familyTreeService, "terkep-david", "per00049.htm");
-		executeAncestorJob(familyTreeService, "terkep-csaba", "per00034.htm");
-		executeAncestorJob(familyTreeService, "terkep-krisi", "per00096.htm");
-		executeAncestorJob(familyTreeService, "terkep-toto", "per00039.htm");
-		executeAncestorJob(familyTreeService, "terkep-viki", "per00036.htm");
+		familyTreeRunner.executeIndexJob(familyTreeService, "terkep-wolfram", "Wolfram", "Vágvölgyi");
+		familyTreeRunner.executeIndexJob(familyTreeService, "terkep-szajko", "Szajkó");
+		familyTreeRunner.executeIndexJob(familyTreeService, "terkep-koermendi", "Körmendi", "Körmendy", "Körmöndi");
+		familyTreeRunner.executeIndexJob(familyTreeService, "terkep-niedermay", "Niedermayer");
+		familyTreeRunner.executeIndexJob(familyTreeService, "terkep-ipsics", "Ipsics", "Ipsits", "Illésfalvi", "Illésfalvy", "Iglódi");
+		familyTreeRunner.executeIndexJob(familyTreeService, "terkep-hannig", "Hannig");
+		familyTreeRunner.executeIndexJob(familyTreeService, "terkep-timaffy", "Timaffy");
 		
-		executeIndexJob(familyTreeService, "terkep"); // mindenki
+		familyTreeRunner.executeAncestorJob(familyTreeService, "terkep-mate", "per00001.htm");
+		familyTreeRunner.executeAncestorJob(familyTreeService, "terkep-david", "per00049.htm");
+		familyTreeRunner.executeAncestorJob(familyTreeService, "terkep-csaba", "per00034.htm");
+		familyTreeRunner.executeAncestorJob(familyTreeService, "terkep-krisi", "per00096.htm");
+		familyTreeRunner.executeAncestorJob(familyTreeService, "terkep-toto", "per00039.htm");
+		familyTreeRunner.executeAncestorJob(familyTreeService, "terkep-viki", "per00036.htm");
+		
+		familyTreeRunner.executeIndexJob(familyTreeService, "terkep"); // mindenki
 		
 	}
 	
-	private static void executeAncestorJob(FamilyTreeService familyTreeService, String targetFolder, String rootPersonLink) throws IOException {
+	private void executeAncestorJob(FamilyTreeService familyTreeService, String targetFolder, String rootPersonLink) throws IOException {
 		familyTreeService.generateAncestorTree(rootPersonLink);
 		GeoJsonObject geoJson = GeoJson.fromTree(familyTreeService.getTree());
 		generateIndexHtml(geoJson);
 		uploadToFtpServer(targetFolder);
 	}
 	
-	private static void executeIndexJob(FamilyTreeService familyTreeService, String targetFolder, String... whitelist) throws IOException {
+	private void executeIndexJob(FamilyTreeService familyTreeService, String targetFolder, String... whitelist) throws IOException {
 		familyTreeService.generateTreeByIndex(whitelist);
 		GeoJsonObject geoJson = GeoJson.fromTree(familyTreeService.getTree());
 		generateIndexHtml(geoJson);
 		uploadToFtpServer(targetFolder);
 	}
 	
-	private static void generateIndexHtml(GeoJsonObject geoJson) throws IOException {
+	private void generateIndexHtml(GeoJsonObject geoJson) throws IOException {
 		File indexHtml = new File("index.html");
 		File familyTopHtml = new File("src/main/resources/templates/leaflet/family_top.html");
 		File familyBottomHtml = new File("src/main/resources/templates/leaflet/family_bottom.html");
@@ -74,8 +82,8 @@ public class FamilyTreeRunner {
 		System.out.println("index.html written.");
 	}
 	
-	private static void uploadToFtpServer(String targetFolder) throws IOException {
-		FtpClient ftpClient = new FtpClient("ftp48.world4you.com", 21, "wolfram", "84u37");
+	private void uploadToFtpServer(String targetFolder) throws IOException {
+		FtpClient ftpClient = new FtpClient(FTP_SERVER, 21, ftpUser, ftpPassword);
 		ftpClient.open();
 		File file = new File("index.html");
 		String remotePath = "/" + targetFolder + "/index.html";
